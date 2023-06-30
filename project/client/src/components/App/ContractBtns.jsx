@@ -31,9 +31,8 @@ const CardForm = () => {
    */
    const cardGrade_num = parseInt(cardGrade);
    
-
     //chiamate allo smart contract !!!
-    await contract.methods.registerCards(cardName, cardGrade_num, cardCondition).send({ from: accounts[0] });
+    await contract.methods.registerCard(cardName, cardGrade_num, cardCondition).send({ from: accounts[0] });
     
   };
 

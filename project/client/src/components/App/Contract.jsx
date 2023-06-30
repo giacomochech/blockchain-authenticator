@@ -1,38 +1,32 @@
 import { useRef, useEffect } from "react";
+import { useState } from "react";
+import useEth from "../../contexts/EthContext/useEth";
 
 function Contract({ value }) {
-  const spanEle = useRef(null);
 
-  useEffect(() => {
-    spanEle.current.classList.add("flash");
-    const flash = setTimeout(() => {
-      spanEle.current.classList.remove("flash");
-    }, 300);
-    return () => {
-      clearTimeout(flash);
-    };
-  }, [value]);
+  const {
+    state: { contract, accounts },
+  } = useEth();
+
+  const [items, setItems] = useState([]);
+  const [newItem, setNewItem] = useState('');
+
+  const showCollection = async (e) =>  {
+
+   const cards = await contract.methods.getUserCards(accounts[0]).call({ from: accounts[0] })
+   setItems(cards)
+  };
 
   return (
-    <code>
-      {`contract SimpleStorage {
-  uint256 value = `}
-
-      <span className="secondary-color" ref={spanEle}>
-        <strong>{value}</strong>
-      </span>
-
-      {`;
-
-  function read() public view returns (uint256) {
-    return value;
-  }
-
-  function write(uint256 newValue) public {
-    value = newValue;
-  }
-}`}
-    </code>
+    <div>
+      
+      <button onClick={showCollection}>showCollection</button>
+      <ul>
+        {items.map((item, index) => (
+          <li key={index}>{item}</li>
+        ))}
+      </ul>
+    </div>
   );
 }
 
