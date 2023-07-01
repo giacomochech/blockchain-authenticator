@@ -1,22 +1,23 @@
 import { EthProvider } from "./contexts/EthContext";
-import { BrowserRouter as Router, Switch, Route, Routes, BrowserRouter } from "react-router-dom";
-import './style/App.css'
-import 'bootstrap/dist/css/bootstrap.min.css';
-import Intro from "./components/Intro/";
-import Setup from "./components/Setup";
-import Demo from "./components/Demo";
-import Footer from "./components/Footer";
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Routes,
+  BrowserRouter,
+} from "react-router-dom";
+import "./style/App.css";
+import "bootstrap/dist/css/bootstrap.min.css";
 import Navigation from "./components/Navigation";
 import Home from "./pages/Home";
 import Collection from "./pages/Collection";
 import Project from "./pages/Project";
 import Info from "./pages/Info";
 
-
 function App() {
   return (
     //<EthProvider>
-      <div className="app-wrapper">
+    <div className="app-wrapper">
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Home />} />
