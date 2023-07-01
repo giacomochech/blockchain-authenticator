@@ -29,10 +29,11 @@ const CardForm = () => {
      return;
    }
    */
-   const cardGrade_num = parseInt(cardGrade);
+
+   //const cardGrade_num = parseInt(cardGrade);  SE SI ROMPE SCOMMENTA
    
     //chiamate allo smart contract !!!
-    await contract.methods.registerCard(cardName, cardGrade_num, cardCondition).send({ from: accounts[0] });
+    await contract.methods.registerCard(cardName, cardGrade, cardCondition).send({ from: accounts[0] });
     
   };
 
