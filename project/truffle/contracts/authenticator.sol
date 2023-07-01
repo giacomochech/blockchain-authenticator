@@ -55,6 +55,7 @@ contract Authenticator {
         cardCounts[msg.sender]--; // Reduce the card count of the user from whom the card is being transferred
         cardCounts[_to]++; // Increase the card count of the user to whom the card is being transferred
         delete userCards[msg.sender][_cardIndex]; // Delete the card from the user from whom the card is being transferred
+        
         emit CardTransferred(msg.sender, _to, _cardIndex); // Emit the event to notify the transfer
     }
 
