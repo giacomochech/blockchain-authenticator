@@ -73,7 +73,7 @@ contract Authenticator {
         require(_cardIndex < userCards[msg.sender].length, "Index out of bounds");
 
         // Shift elements to the left starting from the element to be removed
-        for (uint i = _cardIndex; i < userCards[msg.sender].length - 1; i++) {
+        for (uint i = _cardIndex; i < userCards[msg.sender].length - 1; i++) {          //FORSE USA TROPPO GAS --> da approfondire
             userCards[msg.sender][i] = userCards[msg.sender][i + 1];
         }
 
