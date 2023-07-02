@@ -54,7 +54,7 @@ contract Authenticator {
         userCards[_to].push(cardToTransfer); // Push the card to the user to whom it is being transferred
         cardCounts[msg.sender]--; // Reduce the card count of the user from whom the card is being transferred
         cardCounts[_to]++; // Increase the card count of the user to whom the card is being transferred
-        delete userCards[msg.sender][_cardIndex]; // Delete the card from the user from whom the card is being transferred
+        removeElement(_cardIndex); // Delete the card from the user from whom the card is being transferred
         emit CardTransferred(msg.sender, _to, _cardIndex); // Emit the event to notify the transfer
     }
 
@@ -67,5 +67,17 @@ contract Authenticator {
     // Function to get card count of a user by address
     function getCardCount(address _user) external view returns (uint256) {
         return cardCounts[_user];
+    }
+
+    function removeElement(uint256 _cardIndex) internal {
+        require(_cardIndex < userCards[msg.sender].length, "Index out of bounds");
+
+        // Shift elements to the left starting from the element to be removed
+        for (uint i = _cardIndex; i < userCards[msg.sender].length - 1; i++) {
+            userCards[msg.sender][i] = userCards[msg.sender][i + 1];
+        }
+
+        // Resize the array by deleting the last element
+        userCards[msg.sender].pop();
     }
 }
