@@ -13,7 +13,6 @@ const Home = () => {
 
         <Container style={{ paddingTop: "10px" }}>
           <div id="Auth">
-            "
             <div className="container">
               <AuthForm />
               <hr />

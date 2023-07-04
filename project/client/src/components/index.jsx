@@ -1,5 +1,5 @@
 import { useState } from "react";
-import useEth from "../contexts/EthContext/useEth";
+import useEth from "./../contexts/EthContext/useEth";
 import Title from "./Title";
 import Contract from "./Contract";
 import ContractBtns from "./ContractBtns";
@@ -7,14 +7,14 @@ import NoticeNoArtifact from "./NoticeNoArtifact";
 import NoticeWrongNetwork from "./NoticeWrongNetwork";
 
 function Demo() {
+  
   const { state } = useEth();
-  const [value, setValue] = useState("?");
-
+  const[value, setValue] = useState("");
   const demo = (
     <>
       <div className="contract-container">
-        <Contract value={value} />
-        <ContractBtns setValue={setValue} />
+        <Contract  />
+        <ContractBtns  />
       </div>
     </>
   );
