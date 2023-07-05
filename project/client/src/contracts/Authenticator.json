@@ -794,7 +794,7 @@
                 }
               ]
             },
-            "name": "array_length_t_array$_t_struct$_Card_$4099_memory_ptr_$dyn_memory_ptr",
+            "name": "array_length_t_array$_t_struct$_Card_$4091_memory_ptr_$dyn_memory_ptr",
             "nodeType": "YulFunctionDefinition",
             "parameters": [
               {
@@ -880,7 +880,7 @@
                 }
               ]
             },
-            "name": "array_storeLengthForEncoding_t_array$_t_struct$_Card_$4099_memory_ptr_$dyn_memory_ptr_fromStack",
+            "name": "array_storeLengthForEncoding_t_array$_t_struct$_Card_$4091_memory_ptr_$dyn_memory_ptr_fromStack",
             "nodeType": "YulFunctionDefinition",
             "parameters": [
               {
@@ -963,7 +963,7 @@
                 }
               ]
             },
-            "name": "array_dataslot_t_array$_t_struct$_Card_$4099_memory_ptr_$dyn_memory_ptr",
+            "name": "array_dataslot_t_array$_t_struct$_Card_$4091_memory_ptr_$dyn_memory_ptr",
             "nodeType": "YulFunctionDefinition",
             "parameters": [
               {
@@ -2183,7 +2183,7 @@
                 }
               ]
             },
-            "name": "abi_encode_t_struct$_Card_$4099_memory_ptr_to_t_struct$_Card_$4099_memory_ptr",
+            "name": "abi_encode_t_struct$_Card_$4091_memory_ptr_to_t_struct$_Card_$4091_memory_ptr",
             "nodeType": "YulFunctionDefinition",
             "parameters": [
               {
@@ -2231,7 +2231,7 @@
                       }
                     ],
                     "functionName": {
-                      "name": "abi_encode_t_struct$_Card_$4099_memory_ptr_to_t_struct$_Card_$4099_memory_ptr",
+                      "name": "abi_encode_t_struct$_Card_$4091_memory_ptr_to_t_struct$_Card_$4091_memory_ptr",
                       "nodeType": "YulIdentifier",
                       "src": "3937:77:38"
                     },
@@ -2248,7 +2248,7 @@
                 }
               ]
             },
-            "name": "abi_encodeUpdatedPos_t_struct$_Card_$4099_memory_ptr_to_t_struct$_Card_$4099_memory_ptr",
+            "name": "abi_encodeUpdatedPos_t_struct$_Card_$4091_memory_ptr_to_t_struct$_Card_$4091_memory_ptr",
             "nodeType": "YulFunctionDefinition",
             "parameters": [
               {
@@ -2315,7 +2315,7 @@
                 }
               ]
             },
-            "name": "array_nextElement_t_array$_t_struct$_Card_$4099_memory_ptr_$dyn_memory_ptr",
+            "name": "array_nextElement_t_array$_t_struct$_Card_$4091_memory_ptr_$dyn_memory_ptr",
             "nodeType": "YulFunctionDefinition",
             "parameters": [
               {
@@ -2352,7 +2352,7 @@
                       }
                     ],
                     "functionName": {
-                      "name": "array_length_t_array$_t_struct$_Card_$4099_memory_ptr_$dyn_memory_ptr",
+                      "name": "array_length_t_array$_t_struct$_Card_$4091_memory_ptr_$dyn_memory_ptr",
                       "nodeType": "YulIdentifier",
                       "src": "4438:69:38"
                     },
@@ -2385,7 +2385,7 @@
                       }
                     ],
                     "functionName": {
-                      "name": "array_storeLengthForEncoding_t_array$_t_struct$_Card_$4099_memory_ptr_$dyn_memory_ptr_fromStack",
+                      "name": "array_storeLengthForEncoding_t_array$_t_struct$_Card_$4091_memory_ptr_$dyn_memory_ptr_fromStack",
                       "nodeType": "YulIdentifier",
                       "src": "4530:95:38"
                     },
@@ -2480,7 +2480,7 @@
                       }
                     ],
                     "functionName": {
-                      "name": "array_dataslot_t_array$_t_struct$_Card_$4099_memory_ptr_$dyn_memory_ptr",
+                      "name": "array_dataslot_t_array$_t_struct$_Card_$4091_memory_ptr_$dyn_memory_ptr",
                       "nodeType": "YulIdentifier",
                       "src": "4739:71:38"
                     },
@@ -2604,7 +2604,7 @@
                             }
                           ],
                           "functionName": {
-                            "name": "abi_encodeUpdatedPos_t_struct$_Card_$4099_memory_ptr_to_t_struct$_Card_$4099_memory_ptr",
+                            "name": "abi_encodeUpdatedPos_t_struct$_Card_$4091_memory_ptr_to_t_struct$_Card_$4091_memory_ptr",
                             "nodeType": "YulIdentifier",
                             "src": "5031:87:38"
                           },
@@ -2631,7 +2631,7 @@
                             }
                           ],
                           "functionName": {
-                            "name": "array_nextElement_t_array$_t_struct$_Card_$4099_memory_ptr_$dyn_memory_ptr",
+                            "name": "array_nextElement_t_array$_t_struct$_Card_$4091_memory_ptr_$dyn_memory_ptr",
                             "nodeType": "YulIdentifier",
                             "src": "5162:74:38"
                           },
@@ -2805,7 +2805,7 @@
                 }
               ]
             },
-            "name": "abi_encode_t_array$_t_struct$_Card_$4099_memory_ptr_$dyn_memory_ptr_to_t_array$_t_struct$_Card_$4099_memory_ptr_$dyn_memory_ptr_fromStack",
+            "name": "abi_encode_t_array$_t_struct$_Card_$4091_memory_ptr_$dyn_memory_ptr_to_t_array$_t_struct$_Card_$4091_memory_ptr_$dyn_memory_ptr_fromStack",
             "nodeType": "YulFunctionDefinition",
             "parameters": [
               {
@@ -2946,7 +2946,7 @@
                       }
                     ],
                     "functionName": {
-                      "name": "abi_encode_t_array$_t_struct$_Card_$4099_memory_ptr_$dyn_memory_ptr_to_t_array$_t_struct$_Card_$4099_memory_ptr_$dyn_memory_ptr_fromStack",
+                      "name": "abi_encode_t_array$_t_struct$_Card_$4091_memory_ptr_$dyn_memory_ptr_to_t_array$_t_struct$_Card_$4091_memory_ptr_$dyn_memory_ptr_fromStack",
                       "nodeType": "YulIdentifier",
                       "src": "5641:137:38"
                     },
@@ -2963,7 +2963,7 @@
                 }
               ]
             },
-            "name": "abi_encode_tuple_t_array$_t_struct$_Card_$4099_memory_ptr_$dyn_memory_ptr__to_t_array$_t_struct$_Card_$4099_memory_ptr_$dyn_memory_ptr__fromStack_reversed",
+            "name": "abi_encode_tuple_t_array$_t_struct$_Card_$4091_memory_ptr_$dyn_memory_ptr__to_t_array$_t_struct$_Card_$4091_memory_ptr_$dyn_memory_ptr__fromStack_reversed",
             "nodeType": "YulFunctionDefinition",
             "parameters": [
               {
@@ -11017,7 +11017,7 @@
           }
         ]
       },
-      "contents": "{\n\n    function allocate_unbounded() -> memPtr {\n        memPtr := mload(64)\n    }\n\n    function revert_error_dbdddcbe895c83990c08b3492a0e83918d802a52331272ac6fdb6a7c4aea3b1b() {\n        revert(0, 0)\n    }\n\n    function revert_error_c1322bf8034eace5e0b5c7295db60986aa89aae5e0ea0873e4689e076861a5db() {\n        revert(0, 0)\n    }\n\n    function cleanup_t_uint160(value) -> cleaned {\n        cleaned := and(value, 0xffffffffffffffffffffffffffffffffffffffff)\n    }\n\n    function cleanup_t_address(value) -> cleaned {\n        cleaned := cleanup_t_uint160(value)\n    }\n\n    function validator_revert_t_address(value) {\n        if iszero(eq(value, cleanup_t_address(value))) { revert(0, 0) }\n    }\n\n    function abi_decode_t_address(offset, end) -> value {\n        value := calldataload(offset)\n        validator_revert_t_address(value)\n    }\n\n    function abi_decode_tuple_t_address(headStart, dataEnd) -> value0 {\n        if slt(sub(dataEnd, headStart), 32) { revert_error_dbdddcbe895c83990c08b3492a0e83918d802a52331272ac6fdb6a7c4aea3b1b() }\n\n        {\n\n            let offset := 0\n\n            value0 := abi_decode_t_address(add(headStart, offset), dataEnd)\n        }\n\n    }\n\n    function array_length_t_array$_t_struct$_Card_$4099_memory_ptr_$dyn_memory_ptr(value) -> length {\n\n        length := mload(value)\n\n    }\n\n    function array_storeLengthForEncoding_t_array$_t_struct$_Card_$4099_memory_ptr_$dyn_memory_ptr_fromStack(pos, length) -> updated_pos {\n        mstore(pos, length)\n        updated_pos := add(pos, 0x20)\n    }\n\n    function array_dataslot_t_array$_t_struct$_Card_$4099_memory_ptr_$dyn_memory_ptr(ptr) -> data {\n        data := ptr\n\n        data := add(ptr, 0x20)\n\n    }\n\n    function array_length_t_string_memory_ptr(value) -> length {\n\n        length := mload(value)\n\n    }\n\n    function array_storeLengthForEncoding_t_string_memory_ptr(pos, length) -> updated_pos {\n        mstore(pos, length)\n        updated_pos := add(pos, 0x20)\n    }\n\n    function copy_memory_to_memory_with_cleanup(src, dst, length) {\n        let i := 0\n        for { } lt(i, length) { i := add(i, 32) }\n        {\n            mstore(add(dst, i), mload(add(src, i)))\n        }\n        mstore(add(dst, length), 0)\n    }\n\n    function round_up_to_mul_of_32(value) -> result {\n        result := and(add(value, 31), not(31))\n    }\n\n    function abi_encode_t_string_memory_ptr_to_t_string_memory_ptr(value, pos) -> end {\n        let length := array_length_t_string_memory_ptr(value)\n        pos := array_storeLengthForEncoding_t_string_memory_ptr(pos, length)\n        copy_memory_to_memory_with_cleanup(add(value, 0x20), pos, length)\n        end := add(pos, round_up_to_mul_of_32(length))\n    }\n\n    function cleanup_t_uint256(value) -> cleaned {\n        cleaned := value\n    }\n\n    function abi_encode_t_uint256_to_t_uint256(value, pos) {\n        mstore(pos, cleanup_t_uint256(value))\n    }\n\n    // struct Authenticator.Card -> struct Authenticator.Card\n    function abi_encode_t_struct$_Card_$4099_memory_ptr_to_t_struct$_Card_$4099_memory_ptr(value, pos)  -> end  {\n        let tail := add(pos, 0x60)\n\n        {\n            // name\n\n            let memberValue0 := mload(add(value, 0x00))\n\n            mstore(add(pos, 0x00), sub(tail, pos))\n            tail := abi_encode_t_string_memory_ptr_to_t_string_memory_ptr(memberValue0, tail)\n\n        }\n\n        {\n            // grade\n\n            let memberValue0 := mload(add(value, 0x20))\n            abi_encode_t_uint256_to_t_uint256(memberValue0, add(pos, 0x20))\n        }\n\n        {\n            // condition\n\n            let memberValue0 := mload(add(value, 0x40))\n\n            mstore(add(pos, 0x40), sub(tail, pos))\n            tail := abi_encode_t_string_memory_ptr_to_t_string_memory_ptr(memberValue0, tail)\n\n        }\n\n        end := tail\n    }\n\n    function abi_encodeUpdatedPos_t_struct$_Card_$4099_memory_ptr_to_t_struct$_Card_$4099_memory_ptr(value0, pos) -> updatedPos {\n        updatedPos := abi_encode_t_struct$_Card_$4099_memory_ptr_to_t_struct$_Card_$4099_memory_ptr(value0, pos)\n    }\n\n    function array_nextElement_t_array$_t_struct$_Card_$4099_memory_ptr_$dyn_memory_ptr(ptr) -> next {\n        next := add(ptr, 0x20)\n    }\n\n    // struct Authenticator.Card[] -> struct Authenticator.Card[]\n    function abi_encode_t_array$_t_struct$_Card_$4099_memory_ptr_$dyn_memory_ptr_to_t_array$_t_struct$_Card_$4099_memory_ptr_$dyn_memory_ptr_fromStack(value, pos)  -> end  {\n        let length := array_length_t_array$_t_struct$_Card_$4099_memory_ptr_$dyn_memory_ptr(value)\n        pos := array_storeLengthForEncoding_t_array$_t_struct$_Card_$4099_memory_ptr_$dyn_memory_ptr_fromStack(pos, length)\n        let headStart := pos\n        let tail := add(pos, mul(length, 0x20))\n        let baseRef := array_dataslot_t_array$_t_struct$_Card_$4099_memory_ptr_$dyn_memory_ptr(value)\n        let srcPtr := baseRef\n        for { let i := 0 } lt(i, length) { i := add(i, 1) }\n        {\n            mstore(pos, sub(tail, headStart))\n            let elementValue0 := mload(srcPtr)\n            tail := abi_encodeUpdatedPos_t_struct$_Card_$4099_memory_ptr_to_t_struct$_Card_$4099_memory_ptr(elementValue0, tail)\n            srcPtr := array_nextElement_t_array$_t_struct$_Card_$4099_memory_ptr_$dyn_memory_ptr(srcPtr)\n            pos := add(pos, 0x20)\n        }\n        pos := tail\n        end := pos\n    }\n\n    function abi_encode_tuple_t_array$_t_struct$_Card_$4099_memory_ptr_$dyn_memory_ptr__to_t_array$_t_struct$_Card_$4099_memory_ptr_$dyn_memory_ptr__fromStack_reversed(headStart , value0) -> tail {\n        tail := add(headStart, 32)\n\n        mstore(add(headStart, 0), sub(tail, headStart))\n        tail := abi_encode_t_array$_t_struct$_Card_$4099_memory_ptr_$dyn_memory_ptr_to_t_array$_t_struct$_Card_$4099_memory_ptr_$dyn_memory_ptr_fromStack(value0,  tail)\n\n    }\n\n    function validator_revert_t_uint256(value) {\n        if iszero(eq(value, cleanup_t_uint256(value))) { revert(0, 0) }\n    }\n\n    function abi_decode_t_uint256(offset, end) -> value {\n        value := calldataload(offset)\n        validator_revert_t_uint256(value)\n    }\n\n    function abi_decode_tuple_t_addresst_uint256(headStart, dataEnd) -> value0, value1 {\n        if slt(sub(dataEnd, headStart), 64) { revert_error_dbdddcbe895c83990c08b3492a0e83918d802a52331272ac6fdb6a7c4aea3b1b() }\n\n        {\n\n            let offset := 0\n\n            value0 := abi_decode_t_address(add(headStart, offset), dataEnd)\n        }\n\n        {\n\n            let offset := 32\n\n            value1 := abi_decode_t_uint256(add(headStart, offset), dataEnd)\n        }\n\n    }\n\n    function revert_error_1b9f4a0a5773e33b91aa01db23bf8c55fce1411167c872835e7fa00a4f17d46d() {\n        revert(0, 0)\n    }\n\n    function revert_error_987264b3b1d58a9c7f8255e93e81c77d86d6299019c33110a076957a3e06e2ae() {\n        revert(0, 0)\n    }\n\n    function panic_error_0x41() {\n        mstore(0, 35408467139433450592217433187231851964531694900788300625387963629091585785856)\n        mstore(4, 0x41)\n        revert(0, 0x24)\n    }\n\n    function finalize_allocation(memPtr, size) {\n        let newFreePtr := add(memPtr, round_up_to_mul_of_32(size))\n        // protect against overflow\n        if or(gt(newFreePtr, 0xffffffffffffffff), lt(newFreePtr, memPtr)) { panic_error_0x41() }\n        mstore(64, newFreePtr)\n    }\n\n    function allocate_memory(size) -> memPtr {\n        memPtr := allocate_unbounded()\n        finalize_allocation(memPtr, size)\n    }\n\n    function array_allocation_size_t_string_memory_ptr(length) -> size {\n        // Make sure we can allocate memory without overflow\n        if gt(length, 0xffffffffffffffff) { panic_error_0x41() }\n\n        size := round_up_to_mul_of_32(length)\n\n        // add length slot\n        size := add(size, 0x20)\n\n    }\n\n    function copy_calldata_to_memory_with_cleanup(src, dst, length) {\n        calldatacopy(dst, src, length)\n        mstore(add(dst, length), 0)\n    }\n\n    function abi_decode_available_length_t_string_memory_ptr(src, length, end) -> array {\n        array := allocate_memory(array_allocation_size_t_string_memory_ptr(length))\n        mstore(array, length)\n        let dst := add(array, 0x20)\n        if gt(add(src, length), end) { revert_error_987264b3b1d58a9c7f8255e93e81c77d86d6299019c33110a076957a3e06e2ae() }\n        copy_calldata_to_memory_with_cleanup(src, dst, length)\n    }\n\n    // string\n    function abi_decode_t_string_memory_ptr(offset, end) -> array {\n        if iszero(slt(add(offset, 0x1f), end)) { revert_error_1b9f4a0a5773e33b91aa01db23bf8c55fce1411167c872835e7fa00a4f17d46d() }\n        let length := calldataload(offset)\n        array := abi_decode_available_length_t_string_memory_ptr(add(offset, 0x20), length, end)\n    }\n\n    function abi_decode_tuple_t_string_memory_ptrt_uint256t_string_memory_ptr(headStart, dataEnd) -> value0, value1, value2 {\n        if slt(sub(dataEnd, headStart), 96) { revert_error_dbdddcbe895c83990c08b3492a0e83918d802a52331272ac6fdb6a7c4aea3b1b() }\n\n        {\n\n            let offset := calldataload(add(headStart, 0))\n            if gt(offset, 0xffffffffffffffff) { revert_error_c1322bf8034eace5e0b5c7295db60986aa89aae5e0ea0873e4689e076861a5db() }\n\n            value0 := abi_decode_t_string_memory_ptr(add(headStart, offset), dataEnd)\n        }\n\n        {\n\n            let offset := 32\n\n            value1 := abi_decode_t_uint256(add(headStart, offset), dataEnd)\n        }\n\n        {\n\n            let offset := calldataload(add(headStart, 64))\n            if gt(offset, 0xffffffffffffffff) { revert_error_c1322bf8034eace5e0b5c7295db60986aa89aae5e0ea0873e4689e076861a5db() }\n\n            value2 := abi_decode_t_string_memory_ptr(add(headStart, offset), dataEnd)\n        }\n\n    }\n\n    function abi_encode_t_uint256_to_t_uint256_fromStack(value, pos) {\n        mstore(pos, cleanup_t_uint256(value))\n    }\n\n    function abi_encode_tuple_t_uint256__to_t_uint256__fromStack_reversed(headStart , value0) -> tail {\n        tail := add(headStart, 32)\n\n        abi_encode_t_uint256_to_t_uint256_fromStack(value0,  add(headStart, 0))\n\n    }\n\n    function panic_error_0x22() {\n        mstore(0, 35408467139433450592217433187231851964531694900788300625387963629091585785856)\n        mstore(4, 0x22)\n        revert(0, 0x24)\n    }\n\n    function extract_byte_array_length(data) -> length {\n        length := div(data, 2)\n        let outOfPlaceEncoding := and(data, 1)\n        if iszero(outOfPlaceEncoding) {\n            length := and(length, 0x7f)\n        }\n\n        if eq(outOfPlaceEncoding, lt(length, 32)) {\n            panic_error_0x22()\n        }\n    }\n\n    function array_storeLengthForEncoding_t_string_memory_ptr_fromStack(pos, length) -> updated_pos {\n        mstore(pos, length)\n        updated_pos := add(pos, 0x20)\n    }\n\n    function store_literal_in_memory_77033d22a9df979ff64b7c690a116e78c401d772e72cb46fdb1891ca6623a0c2(memPtr) {\n\n        mstore(add(memPtr, 0), \"Invalid card index\")\n\n    }\n\n    function abi_encode_t_stringliteral_77033d22a9df979ff64b7c690a116e78c401d772e72cb46fdb1891ca6623a0c2_to_t_string_memory_ptr_fromStack(pos) -> end {\n        pos := array_storeLengthForEncoding_t_string_memory_ptr_fromStack(pos, 18)\n        store_literal_in_memory_77033d22a9df979ff64b7c690a116e78c401d772e72cb46fdb1891ca6623a0c2(pos)\n        end := add(pos, 32)\n    }\n\n    function abi_encode_tuple_t_stringliteral_77033d22a9df979ff64b7c690a116e78c401d772e72cb46fdb1891ca6623a0c2__to_t_string_memory_ptr__fromStack_reversed(headStart ) -> tail {\n        tail := add(headStart, 32)\n\n        mstore(add(headStart, 0), sub(tail, headStart))\n        tail := abi_encode_t_stringliteral_77033d22a9df979ff64b7c690a116e78c401d772e72cb46fdb1891ca6623a0c2_to_t_string_memory_ptr_fromStack( tail)\n\n    }\n\n    function panic_error_0x32() {\n        mstore(0, 35408467139433450592217433187231851964531694900788300625387963629091585785856)\n        mstore(4, 0x32)\n        revert(0, 0x24)\n    }\n\n    function array_dataslot_t_string_storage(ptr) -> data {\n        data := ptr\n\n        mstore(0, ptr)\n        data := keccak256(0, 0x20)\n\n    }\n\n    function divide_by_32_ceil(value) -> result {\n        result := div(add(value, 31), 32)\n    }\n\n    function shift_left_dynamic(bits, value) -> newValue {\n        newValue :=\n\n        shl(bits, value)\n\n    }\n\n    function update_byte_slice_dynamic32(value, shiftBytes, toInsert) -> result {\n        let shiftBits := mul(shiftBytes, 8)\n        let mask := shift_left_dynamic(shiftBits, 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff)\n        toInsert := shift_left_dynamic(shiftBits, toInsert)\n        value := and(value, not(mask))\n        result := or(value, and(toInsert, mask))\n    }\n\n    function identity(value) -> ret {\n        ret := value\n    }\n\n    function convert_t_uint256_to_t_uint256(value) -> converted {\n        converted := cleanup_t_uint256(identity(cleanup_t_uint256(value)))\n    }\n\n    function prepare_store_t_uint256(value) -> ret {\n        ret := value\n    }\n\n    function update_storage_value_t_uint256_to_t_uint256(slot, offset, value_0) {\n        let convertedValue_0 := convert_t_uint256_to_t_uint256(value_0)\n        sstore(slot, update_byte_slice_dynamic32(sload(slot), offset, prepare_store_t_uint256(convertedValue_0)))\n    }\n\n    function zero_value_for_split_t_uint256() -> ret {\n        ret := 0\n    }\n\n    function storage_set_to_zero_t_uint256(slot, offset) {\n        let zero_0 := zero_value_for_split_t_uint256()\n        update_storage_value_t_uint256_to_t_uint256(slot, offset, zero_0)\n    }\n\n    function clear_storage_range_t_bytes1(start, end) {\n        for {} lt(start, end) { start := add(start, 1) }\n        {\n            storage_set_to_zero_t_uint256(start, 0)\n        }\n    }\n\n    function clean_up_bytearray_end_slots_t_string_storage(array, len, startIndex) {\n\n        if gt(len, 31) {\n            let dataArea := array_dataslot_t_string_storage(array)\n            let deleteStart := add(dataArea, divide_by_32_ceil(startIndex))\n            // If we are clearing array to be short byte array, we want to clear only data starting from array data area.\n            if lt(startIndex, 32) { deleteStart := dataArea }\n            clear_storage_range_t_bytes1(deleteStart, add(dataArea, divide_by_32_ceil(len)))\n        }\n\n    }\n\n    function shift_right_unsigned_dynamic(bits, value) -> newValue {\n        newValue :=\n\n        shr(bits, value)\n\n    }\n\n    function mask_bytes_dynamic(data, bytes) -> result {\n        let mask := not(shift_right_unsigned_dynamic(mul(8, bytes), not(0)))\n        result := and(data, mask)\n    }\n    function extract_used_part_and_set_length_of_short_byte_array(data, len) -> used {\n        // we want to save only elements that are part of the array after resizing\n        // others should be set to zero\n        data := mask_bytes_dynamic(data, len)\n        used := or(data, mul(2, len))\n    }\n    function copy_byte_array_to_storage_from_t_string_memory_ptr_to_t_string_storage(slot, src) {\n\n        let newLen := array_length_t_string_memory_ptr(src)\n        // Make sure array length is sane\n        if gt(newLen, 0xffffffffffffffff) { panic_error_0x41() }\n\n        let oldLen := extract_byte_array_length(sload(slot))\n\n        // potentially truncate data\n        clean_up_bytearray_end_slots_t_string_storage(slot, oldLen, newLen)\n\n        let srcOffset := 0\n\n        srcOffset := 0x20\n\n        switch gt(newLen, 31)\n        case 1 {\n            let loopEnd := and(newLen, not(0x1f))\n\n            let dstPtr := array_dataslot_t_string_storage(slot)\n            let i := 0\n            for { } lt(i, loopEnd) { i := add(i, 0x20) } {\n                sstore(dstPtr, mload(add(src, srcOffset)))\n                dstPtr := add(dstPtr, 1)\n                srcOffset := add(srcOffset, 32)\n            }\n            if lt(loopEnd, newLen) {\n                let lastValue := mload(add(src, srcOffset))\n                sstore(dstPtr, mask_bytes_dynamic(lastValue, and(newLen, 0x1f)))\n            }\n            sstore(slot, add(mul(newLen, 2), 1))\n        }\n        default {\n            let value := 0\n            if newLen {\n                value := mload(add(src, srcOffset))\n            }\n            sstore(slot, extract_used_part_and_set_length_of_short_byte_array(value, newLen))\n        }\n    }\n\n    function panic_error_0x11() {\n        mstore(0, 35408467139433450592217433187231851964531694900788300625387963629091585785856)\n        mstore(4, 0x11)\n        revert(0, 0x24)\n    }\n\n    function decrement_t_uint256(value) -> ret {\n        value := cleanup_t_uint256(value)\n        if eq(value, 0x00) { panic_error_0x11() }\n        ret := sub(value, 1)\n    }\n\n    function increment_t_uint256(value) -> ret {\n        value := cleanup_t_uint256(value)\n        if eq(value, 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff) { panic_error_0x11() }\n        ret := add(value, 1)\n    }\n\n    function abi_encode_t_string_memory_ptr_to_t_string_memory_ptr_fromStack(value, pos) -> end {\n        let length := array_length_t_string_memory_ptr(value)\n        pos := array_storeLengthForEncoding_t_string_memory_ptr_fromStack(pos, length)\n        copy_memory_to_memory_with_cleanup(add(value, 0x20), pos, length)\n        end := add(pos, round_up_to_mul_of_32(length))\n    }\n\n    function abi_encode_tuple_t_string_memory_ptr_t_uint256_t_string_memory_ptr__to_t_string_memory_ptr_t_uint256_t_string_memory_ptr__fromStack_reversed(headStart , value2, value1, value0) -> tail {\n        tail := add(headStart, 96)\n\n        mstore(add(headStart, 0), sub(tail, headStart))\n        tail := abi_encode_t_string_memory_ptr_to_t_string_memory_ptr_fromStack(value0,  tail)\n\n        abi_encode_t_uint256_to_t_uint256_fromStack(value1,  add(headStart, 32))\n\n        mstore(add(headStart, 64), sub(tail, headStart))\n        tail := abi_encode_t_string_memory_ptr_to_t_string_memory_ptr_fromStack(value2,  tail)\n\n    }\n\n    function store_literal_in_memory_dd00b67a545791a54dd99d9c09eb42099756ea4ee2bd47188784c22234589367(memPtr) {\n\n        mstore(add(memPtr, 0), \"Index out of bounds\")\n\n    }\n\n    function abi_encode_t_stringliteral_dd00b67a545791a54dd99d9c09eb42099756ea4ee2bd47188784c22234589367_to_t_string_memory_ptr_fromStack(pos) -> end {\n        pos := array_storeLengthForEncoding_t_string_memory_ptr_fromStack(pos, 19)\n        store_literal_in_memory_dd00b67a545791a54dd99d9c09eb42099756ea4ee2bd47188784c22234589367(pos)\n        end := add(pos, 32)\n    }\n\n    function abi_encode_tuple_t_stringliteral_dd00b67a545791a54dd99d9c09eb42099756ea4ee2bd47188784c22234589367__to_t_string_memory_ptr__fromStack_reversed(headStart ) -> tail {\n        tail := add(headStart, 32)\n\n        mstore(add(headStart, 0), sub(tail, headStart))\n        tail := abi_encode_t_stringliteral_dd00b67a545791a54dd99d9c09eb42099756ea4ee2bd47188784c22234589367_to_t_string_memory_ptr_fromStack( tail)\n\n    }\n\n    function checked_sub_t_uint256(x, y) -> diff {\n        x := cleanup_t_uint256(x)\n        y := cleanup_t_uint256(y)\n        diff := sub(x, y)\n\n        if gt(diff, x) { panic_error_0x11() }\n\n    }\n\n    function checked_add_t_uint256(x, y) -> sum {\n        x := cleanup_t_uint256(x)\n        y := cleanup_t_uint256(y)\n        sum := add(x, y)\n\n        if gt(x, sum) { panic_error_0x11() }\n\n    }\n\n    function array_length_t_string_storage(value) -> length {\n\n        length := sload(value)\n\n        length := extract_byte_array_length(length)\n\n    }\n\n    function copy_byte_array_to_storage_from_t_string_storage_to_t_string_storage(slot, src) {\n        if eq(slot, src) { leave }\n\n        let newLen := array_length_t_string_storage(src)\n        // Make sure array length is sane\n        if gt(newLen, 0xffffffffffffffff) { panic_error_0x41() }\n\n        let oldLen := extract_byte_array_length(sload(slot))\n\n        // potentially truncate data\n        clean_up_bytearray_end_slots_t_string_storage(slot, oldLen, newLen)\n\n        let srcOffset := 0\n\n        switch gt(newLen, 31)\n        case 1 {\n            let loopEnd := and(newLen, not(0x1f))\n            src := array_dataslot_t_string_storage(src)\n            let dstPtr := array_dataslot_t_string_storage(slot)\n            let i := 0\n            for { } lt(i, loopEnd) { i := add(i, 0x20) } {\n                sstore(dstPtr, sload(add(src, srcOffset)))\n                dstPtr := add(dstPtr, 1)\n                srcOffset := add(srcOffset, 1)\n            }\n            if lt(loopEnd, newLen) {\n                let lastValue := sload(add(src, srcOffset))\n                sstore(dstPtr, mask_bytes_dynamic(lastValue, and(newLen, 0x1f)))\n            }\n            sstore(slot, add(mul(newLen, 2), 1))\n        }\n        default {\n            let value := 0\n            if newLen {\n                value := sload(add(src, srcOffset))\n            }\n            sstore(slot, extract_used_part_and_set_length_of_short_byte_array(value, newLen))\n        }\n    }\n\n    function panic_error_0x31() {\n        mstore(0, 35408467139433450592217433187231851964531694900788300625387963629091585785856)\n        mstore(4, 0x31)\n        revert(0, 0x24)\n    }\n\n}\n",
+      "contents": "{\n\n    function allocate_unbounded() -> memPtr {\n        memPtr := mload(64)\n    }\n\n    function revert_error_dbdddcbe895c83990c08b3492a0e83918d802a52331272ac6fdb6a7c4aea3b1b() {\n        revert(0, 0)\n    }\n\n    function revert_error_c1322bf8034eace5e0b5c7295db60986aa89aae5e0ea0873e4689e076861a5db() {\n        revert(0, 0)\n    }\n\n    function cleanup_t_uint160(value) -> cleaned {\n        cleaned := and(value, 0xffffffffffffffffffffffffffffffffffffffff)\n    }\n\n    function cleanup_t_address(value) -> cleaned {\n        cleaned := cleanup_t_uint160(value)\n    }\n\n    function validator_revert_t_address(value) {\n        if iszero(eq(value, cleanup_t_address(value))) { revert(0, 0) }\n    }\n\n    function abi_decode_t_address(offset, end) -> value {\n        value := calldataload(offset)\n        validator_revert_t_address(value)\n    }\n\n    function abi_decode_tuple_t_address(headStart, dataEnd) -> value0 {\n        if slt(sub(dataEnd, headStart), 32) { revert_error_dbdddcbe895c83990c08b3492a0e83918d802a52331272ac6fdb6a7c4aea3b1b() }\n\n        {\n\n            let offset := 0\n\n            value0 := abi_decode_t_address(add(headStart, offset), dataEnd)\n        }\n\n    }\n\n    function array_length_t_array$_t_struct$_Card_$4091_memory_ptr_$dyn_memory_ptr(value) -> length {\n\n        length := mload(value)\n\n    }\n\n    function array_storeLengthForEncoding_t_array$_t_struct$_Card_$4091_memory_ptr_$dyn_memory_ptr_fromStack(pos, length) -> updated_pos {\n        mstore(pos, length)\n        updated_pos := add(pos, 0x20)\n    }\n\n    function array_dataslot_t_array$_t_struct$_Card_$4091_memory_ptr_$dyn_memory_ptr(ptr) -> data {\n        data := ptr\n\n        data := add(ptr, 0x20)\n\n    }\n\n    function array_length_t_string_memory_ptr(value) -> length {\n\n        length := mload(value)\n\n    }\n\n    function array_storeLengthForEncoding_t_string_memory_ptr(pos, length) -> updated_pos {\n        mstore(pos, length)\n        updated_pos := add(pos, 0x20)\n    }\n\n    function copy_memory_to_memory_with_cleanup(src, dst, length) {\n        let i := 0\n        for { } lt(i, length) { i := add(i, 32) }\n        {\n            mstore(add(dst, i), mload(add(src, i)))\n        }\n        mstore(add(dst, length), 0)\n    }\n\n    function round_up_to_mul_of_32(value) -> result {\n        result := and(add(value, 31), not(31))\n    }\n\n    function abi_encode_t_string_memory_ptr_to_t_string_memory_ptr(value, pos) -> end {\n        let length := array_length_t_string_memory_ptr(value)\n        pos := array_storeLengthForEncoding_t_string_memory_ptr(pos, length)\n        copy_memory_to_memory_with_cleanup(add(value, 0x20), pos, length)\n        end := add(pos, round_up_to_mul_of_32(length))\n    }\n\n    function cleanup_t_uint256(value) -> cleaned {\n        cleaned := value\n    }\n\n    function abi_encode_t_uint256_to_t_uint256(value, pos) {\n        mstore(pos, cleanup_t_uint256(value))\n    }\n\n    // struct Authenticator.Card -> struct Authenticator.Card\n    function abi_encode_t_struct$_Card_$4091_memory_ptr_to_t_struct$_Card_$4091_memory_ptr(value, pos)  -> end  {\n        let tail := add(pos, 0x60)\n\n        {\n            // name\n\n            let memberValue0 := mload(add(value, 0x00))\n\n            mstore(add(pos, 0x00), sub(tail, pos))\n            tail := abi_encode_t_string_memory_ptr_to_t_string_memory_ptr(memberValue0, tail)\n\n        }\n\n        {\n            // grade\n\n            let memberValue0 := mload(add(value, 0x20))\n            abi_encode_t_uint256_to_t_uint256(memberValue0, add(pos, 0x20))\n        }\n\n        {\n            // condition\n\n            let memberValue0 := mload(add(value, 0x40))\n\n            mstore(add(pos, 0x40), sub(tail, pos))\n            tail := abi_encode_t_string_memory_ptr_to_t_string_memory_ptr(memberValue0, tail)\n\n        }\n\n        end := tail\n    }\n\n    function abi_encodeUpdatedPos_t_struct$_Card_$4091_memory_ptr_to_t_struct$_Card_$4091_memory_ptr(value0, pos) -> updatedPos {\n        updatedPos := abi_encode_t_struct$_Card_$4091_memory_ptr_to_t_struct$_Card_$4091_memory_ptr(value0, pos)\n    }\n\n    function array_nextElement_t_array$_t_struct$_Card_$4091_memory_ptr_$dyn_memory_ptr(ptr) -> next {\n        next := add(ptr, 0x20)\n    }\n\n    // struct Authenticator.Card[] -> struct Authenticator.Card[]\n    function abi_encode_t_array$_t_struct$_Card_$4091_memory_ptr_$dyn_memory_ptr_to_t_array$_t_struct$_Card_$4091_memory_ptr_$dyn_memory_ptr_fromStack(value, pos)  -> end  {\n        let length := array_length_t_array$_t_struct$_Card_$4091_memory_ptr_$dyn_memory_ptr(value)\n        pos := array_storeLengthForEncoding_t_array$_t_struct$_Card_$4091_memory_ptr_$dyn_memory_ptr_fromStack(pos, length)\n        let headStart := pos\n        let tail := add(pos, mul(length, 0x20))\n        let baseRef := array_dataslot_t_array$_t_struct$_Card_$4091_memory_ptr_$dyn_memory_ptr(value)\n        let srcPtr := baseRef\n        for { let i := 0 } lt(i, length) { i := add(i, 1) }\n        {\n            mstore(pos, sub(tail, headStart))\n            let elementValue0 := mload(srcPtr)\n            tail := abi_encodeUpdatedPos_t_struct$_Card_$4091_memory_ptr_to_t_struct$_Card_$4091_memory_ptr(elementValue0, tail)\n            srcPtr := array_nextElement_t_array$_t_struct$_Card_$4091_memory_ptr_$dyn_memory_ptr(srcPtr)\n            pos := add(pos, 0x20)\n        }\n        pos := tail\n        end := pos\n    }\n\n    function abi_encode_tuple_t_array$_t_struct$_Card_$4091_memory_ptr_$dyn_memory_ptr__to_t_array$_t_struct$_Card_$4091_memory_ptr_$dyn_memory_ptr__fromStack_reversed(headStart , value0) -> tail {\n        tail := add(headStart, 32)\n\n        mstore(add(headStart, 0), sub(tail, headStart))\n        tail := abi_encode_t_array$_t_struct$_Card_$4091_memory_ptr_$dyn_memory_ptr_to_t_array$_t_struct$_Card_$4091_memory_ptr_$dyn_memory_ptr_fromStack(value0,  tail)\n\n    }\n\n    function validator_revert_t_uint256(value) {\n        if iszero(eq(value, cleanup_t_uint256(value))) { revert(0, 0) }\n    }\n\n    function abi_decode_t_uint256(offset, end) -> value {\n        value := calldataload(offset)\n        validator_revert_t_uint256(value)\n    }\n\n    function abi_decode_tuple_t_addresst_uint256(headStart, dataEnd) -> value0, value1 {\n        if slt(sub(dataEnd, headStart), 64) { revert_error_dbdddcbe895c83990c08b3492a0e83918d802a52331272ac6fdb6a7c4aea3b1b() }\n\n        {\n\n            let offset := 0\n\n            value0 := abi_decode_t_address(add(headStart, offset), dataEnd)\n        }\n\n        {\n\n            let offset := 32\n\n            value1 := abi_decode_t_uint256(add(headStart, offset), dataEnd)\n        }\n\n    }\n\n    function revert_error_1b9f4a0a5773e33b91aa01db23bf8c55fce1411167c872835e7fa00a4f17d46d() {\n        revert(0, 0)\n    }\n\n    function revert_error_987264b3b1d58a9c7f8255e93e81c77d86d6299019c33110a076957a3e06e2ae() {\n        revert(0, 0)\n    }\n\n    function panic_error_0x41() {\n        mstore(0, 35408467139433450592217433187231851964531694900788300625387963629091585785856)\n        mstore(4, 0x41)\n        revert(0, 0x24)\n    }\n\n    function finalize_allocation(memPtr, size) {\n        let newFreePtr := add(memPtr, round_up_to_mul_of_32(size))\n        // protect against overflow\n        if or(gt(newFreePtr, 0xffffffffffffffff), lt(newFreePtr, memPtr)) { panic_error_0x41() }\n        mstore(64, newFreePtr)\n    }\n\n    function allocate_memory(size) -> memPtr {\n        memPtr := allocate_unbounded()\n        finalize_allocation(memPtr, size)\n    }\n\n    function array_allocation_size_t_string_memory_ptr(length) -> size {\n        // Make sure we can allocate memory without overflow\n        if gt(length, 0xffffffffffffffff) { panic_error_0x41() }\n\n        size := round_up_to_mul_of_32(length)\n\n        // add length slot\n        size := add(size, 0x20)\n\n    }\n\n    function copy_calldata_to_memory_with_cleanup(src, dst, length) {\n        calldatacopy(dst, src, length)\n        mstore(add(dst, length), 0)\n    }\n\n    function abi_decode_available_length_t_string_memory_ptr(src, length, end) -> array {\n        array := allocate_memory(array_allocation_size_t_string_memory_ptr(length))\n        mstore(array, length)\n        let dst := add(array, 0x20)\n        if gt(add(src, length), end) { revert_error_987264b3b1d58a9c7f8255e93e81c77d86d6299019c33110a076957a3e06e2ae() }\n        copy_calldata_to_memory_with_cleanup(src, dst, length)\n    }\n\n    // string\n    function abi_decode_t_string_memory_ptr(offset, end) -> array {\n        if iszero(slt(add(offset, 0x1f), end)) { revert_error_1b9f4a0a5773e33b91aa01db23bf8c55fce1411167c872835e7fa00a4f17d46d() }\n        let length := calldataload(offset)\n        array := abi_decode_available_length_t_string_memory_ptr(add(offset, 0x20), length, end)\n    }\n\n    function abi_decode_tuple_t_string_memory_ptrt_uint256t_string_memory_ptr(headStart, dataEnd) -> value0, value1, value2 {\n        if slt(sub(dataEnd, headStart), 96) { revert_error_dbdddcbe895c83990c08b3492a0e83918d802a52331272ac6fdb6a7c4aea3b1b() }\n\n        {\n\n            let offset := calldataload(add(headStart, 0))\n            if gt(offset, 0xffffffffffffffff) { revert_error_c1322bf8034eace5e0b5c7295db60986aa89aae5e0ea0873e4689e076861a5db() }\n\n            value0 := abi_decode_t_string_memory_ptr(add(headStart, offset), dataEnd)\n        }\n\n        {\n\n            let offset := 32\n\n            value1 := abi_decode_t_uint256(add(headStart, offset), dataEnd)\n        }\n\n        {\n\n            let offset := calldataload(add(headStart, 64))\n            if gt(offset, 0xffffffffffffffff) { revert_error_c1322bf8034eace5e0b5c7295db60986aa89aae5e0ea0873e4689e076861a5db() }\n\n            value2 := abi_decode_t_string_memory_ptr(add(headStart, offset), dataEnd)\n        }\n\n    }\n\n    function abi_encode_t_uint256_to_t_uint256_fromStack(value, pos) {\n        mstore(pos, cleanup_t_uint256(value))\n    }\n\n    function abi_encode_tuple_t_uint256__to_t_uint256__fromStack_reversed(headStart , value0) -> tail {\n        tail := add(headStart, 32)\n\n        abi_encode_t_uint256_to_t_uint256_fromStack(value0,  add(headStart, 0))\n\n    }\n\n    function panic_error_0x22() {\n        mstore(0, 35408467139433450592217433187231851964531694900788300625387963629091585785856)\n        mstore(4, 0x22)\n        revert(0, 0x24)\n    }\n\n    function extract_byte_array_length(data) -> length {\n        length := div(data, 2)\n        let outOfPlaceEncoding := and(data, 1)\n        if iszero(outOfPlaceEncoding) {\n            length := and(length, 0x7f)\n        }\n\n        if eq(outOfPlaceEncoding, lt(length, 32)) {\n            panic_error_0x22()\n        }\n    }\n\n    function array_storeLengthForEncoding_t_string_memory_ptr_fromStack(pos, length) -> updated_pos {\n        mstore(pos, length)\n        updated_pos := add(pos, 0x20)\n    }\n\n    function store_literal_in_memory_77033d22a9df979ff64b7c690a116e78c401d772e72cb46fdb1891ca6623a0c2(memPtr) {\n\n        mstore(add(memPtr, 0), \"Invalid card index\")\n\n    }\n\n    function abi_encode_t_stringliteral_77033d22a9df979ff64b7c690a116e78c401d772e72cb46fdb1891ca6623a0c2_to_t_string_memory_ptr_fromStack(pos) -> end {\n        pos := array_storeLengthForEncoding_t_string_memory_ptr_fromStack(pos, 18)\n        store_literal_in_memory_77033d22a9df979ff64b7c690a116e78c401d772e72cb46fdb1891ca6623a0c2(pos)\n        end := add(pos, 32)\n    }\n\n    function abi_encode_tuple_t_stringliteral_77033d22a9df979ff64b7c690a116e78c401d772e72cb46fdb1891ca6623a0c2__to_t_string_memory_ptr__fromStack_reversed(headStart ) -> tail {\n        tail := add(headStart, 32)\n\n        mstore(add(headStart, 0), sub(tail, headStart))\n        tail := abi_encode_t_stringliteral_77033d22a9df979ff64b7c690a116e78c401d772e72cb46fdb1891ca6623a0c2_to_t_string_memory_ptr_fromStack( tail)\n\n    }\n\n    function panic_error_0x32() {\n        mstore(0, 35408467139433450592217433187231851964531694900788300625387963629091585785856)\n        mstore(4, 0x32)\n        revert(0, 0x24)\n    }\n\n    function array_dataslot_t_string_storage(ptr) -> data {\n        data := ptr\n\n        mstore(0, ptr)\n        data := keccak256(0, 0x20)\n\n    }\n\n    function divide_by_32_ceil(value) -> result {\n        result := div(add(value, 31), 32)\n    }\n\n    function shift_left_dynamic(bits, value) -> newValue {\n        newValue :=\n\n        shl(bits, value)\n\n    }\n\n    function update_byte_slice_dynamic32(value, shiftBytes, toInsert) -> result {\n        let shiftBits := mul(shiftBytes, 8)\n        let mask := shift_left_dynamic(shiftBits, 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff)\n        toInsert := shift_left_dynamic(shiftBits, toInsert)\n        value := and(value, not(mask))\n        result := or(value, and(toInsert, mask))\n    }\n\n    function identity(value) -> ret {\n        ret := value\n    }\n\n    function convert_t_uint256_to_t_uint256(value) -> converted {\n        converted := cleanup_t_uint256(identity(cleanup_t_uint256(value)))\n    }\n\n    function prepare_store_t_uint256(value) -> ret {\n        ret := value\n    }\n\n    function update_storage_value_t_uint256_to_t_uint256(slot, offset, value_0) {\n        let convertedValue_0 := convert_t_uint256_to_t_uint256(value_0)\n        sstore(slot, update_byte_slice_dynamic32(sload(slot), offset, prepare_store_t_uint256(convertedValue_0)))\n    }\n\n    function zero_value_for_split_t_uint256() -> ret {\n        ret := 0\n    }\n\n    function storage_set_to_zero_t_uint256(slot, offset) {\n        let zero_0 := zero_value_for_split_t_uint256()\n        update_storage_value_t_uint256_to_t_uint256(slot, offset, zero_0)\n    }\n\n    function clear_storage_range_t_bytes1(start, end) {\n        for {} lt(start, end) { start := add(start, 1) }\n        {\n            storage_set_to_zero_t_uint256(start, 0)\n        }\n    }\n\n    function clean_up_bytearray_end_slots_t_string_storage(array, len, startIndex) {\n\n        if gt(len, 31) {\n            let dataArea := array_dataslot_t_string_storage(array)\n            let deleteStart := add(dataArea, divide_by_32_ceil(startIndex))\n            // If we are clearing array to be short byte array, we want to clear only data starting from array data area.\n            if lt(startIndex, 32) { deleteStart := dataArea }\n            clear_storage_range_t_bytes1(deleteStart, add(dataArea, divide_by_32_ceil(len)))\n        }\n\n    }\n\n    function shift_right_unsigned_dynamic(bits, value) -> newValue {\n        newValue :=\n\n        shr(bits, value)\n\n    }\n\n    function mask_bytes_dynamic(data, bytes) -> result {\n        let mask := not(shift_right_unsigned_dynamic(mul(8, bytes), not(0)))\n        result := and(data, mask)\n    }\n    function extract_used_part_and_set_length_of_short_byte_array(data, len) -> used {\n        // we want to save only elements that are part of the array after resizing\n        // others should be set to zero\n        data := mask_bytes_dynamic(data, len)\n        used := or(data, mul(2, len))\n    }\n    function copy_byte_array_to_storage_from_t_string_memory_ptr_to_t_string_storage(slot, src) {\n\n        let newLen := array_length_t_string_memory_ptr(src)\n        // Make sure array length is sane\n        if gt(newLen, 0xffffffffffffffff) { panic_error_0x41() }\n\n        let oldLen := extract_byte_array_length(sload(slot))\n\n        // potentially truncate data\n        clean_up_bytearray_end_slots_t_string_storage(slot, oldLen, newLen)\n\n        let srcOffset := 0\n\n        srcOffset := 0x20\n\n        switch gt(newLen, 31)\n        case 1 {\n            let loopEnd := and(newLen, not(0x1f))\n\n            let dstPtr := array_dataslot_t_string_storage(slot)\n            let i := 0\n            for { } lt(i, loopEnd) { i := add(i, 0x20) } {\n                sstore(dstPtr, mload(add(src, srcOffset)))\n                dstPtr := add(dstPtr, 1)\n                srcOffset := add(srcOffset, 32)\n            }\n            if lt(loopEnd, newLen) {\n                let lastValue := mload(add(src, srcOffset))\n                sstore(dstPtr, mask_bytes_dynamic(lastValue, and(newLen, 0x1f)))\n            }\n            sstore(slot, add(mul(newLen, 2), 1))\n        }\n        default {\n            let value := 0\n            if newLen {\n                value := mload(add(src, srcOffset))\n            }\n            sstore(slot, extract_used_part_and_set_length_of_short_byte_array(value, newLen))\n        }\n    }\n\n    function panic_error_0x11() {\n        mstore(0, 35408467139433450592217433187231851964531694900788300625387963629091585785856)\n        mstore(4, 0x11)\n        revert(0, 0x24)\n    }\n\n    function decrement_t_uint256(value) -> ret {\n        value := cleanup_t_uint256(value)\n        if eq(value, 0x00) { panic_error_0x11() }\n        ret := sub(value, 1)\n    }\n\n    function increment_t_uint256(value) -> ret {\n        value := cleanup_t_uint256(value)\n        if eq(value, 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff) { panic_error_0x11() }\n        ret := add(value, 1)\n    }\n\n    function abi_encode_t_string_memory_ptr_to_t_string_memory_ptr_fromStack(value, pos) -> end {\n        let length := array_length_t_string_memory_ptr(value)\n        pos := array_storeLengthForEncoding_t_string_memory_ptr_fromStack(pos, length)\n        copy_memory_to_memory_with_cleanup(add(value, 0x20), pos, length)\n        end := add(pos, round_up_to_mul_of_32(length))\n    }\n\n    function abi_encode_tuple_t_string_memory_ptr_t_uint256_t_string_memory_ptr__to_t_string_memory_ptr_t_uint256_t_string_memory_ptr__fromStack_reversed(headStart , value2, value1, value0) -> tail {\n        tail := add(headStart, 96)\n\n        mstore(add(headStart, 0), sub(tail, headStart))\n        tail := abi_encode_t_string_memory_ptr_to_t_string_memory_ptr_fromStack(value0,  tail)\n\n        abi_encode_t_uint256_to_t_uint256_fromStack(value1,  add(headStart, 32))\n\n        mstore(add(headStart, 64), sub(tail, headStart))\n        tail := abi_encode_t_string_memory_ptr_to_t_string_memory_ptr_fromStack(value2,  tail)\n\n    }\n\n    function store_literal_in_memory_dd00b67a545791a54dd99d9c09eb42099756ea4ee2bd47188784c22234589367(memPtr) {\n\n        mstore(add(memPtr, 0), \"Index out of bounds\")\n\n    }\n\n    function abi_encode_t_stringliteral_dd00b67a545791a54dd99d9c09eb42099756ea4ee2bd47188784c22234589367_to_t_string_memory_ptr_fromStack(pos) -> end {\n        pos := array_storeLengthForEncoding_t_string_memory_ptr_fromStack(pos, 19)\n        store_literal_in_memory_dd00b67a545791a54dd99d9c09eb42099756ea4ee2bd47188784c22234589367(pos)\n        end := add(pos, 32)\n    }\n\n    function abi_encode_tuple_t_stringliteral_dd00b67a545791a54dd99d9c09eb42099756ea4ee2bd47188784c22234589367__to_t_string_memory_ptr__fromStack_reversed(headStart ) -> tail {\n        tail := add(headStart, 32)\n\n        mstore(add(headStart, 0), sub(tail, headStart))\n        tail := abi_encode_t_stringliteral_dd00b67a545791a54dd99d9c09eb42099756ea4ee2bd47188784c22234589367_to_t_string_memory_ptr_fromStack( tail)\n\n    }\n\n    function checked_sub_t_uint256(x, y) -> diff {\n        x := cleanup_t_uint256(x)\n        y := cleanup_t_uint256(y)\n        diff := sub(x, y)\n\n        if gt(diff, x) { panic_error_0x11() }\n\n    }\n\n    function checked_add_t_uint256(x, y) -> sum {\n        x := cleanup_t_uint256(x)\n        y := cleanup_t_uint256(y)\n        sum := add(x, y)\n\n        if gt(x, sum) { panic_error_0x11() }\n\n    }\n\n    function array_length_t_string_storage(value) -> length {\n\n        length := sload(value)\n\n        length := extract_byte_array_length(length)\n\n    }\n\n    function copy_byte_array_to_storage_from_t_string_storage_to_t_string_storage(slot, src) {\n        if eq(slot, src) { leave }\n\n        let newLen := array_length_t_string_storage(src)\n        // Make sure array length is sane\n        if gt(newLen, 0xffffffffffffffff) { panic_error_0x41() }\n\n        let oldLen := extract_byte_array_length(sload(slot))\n\n        // potentially truncate data\n        clean_up_bytearray_end_slots_t_string_storage(slot, oldLen, newLen)\n\n        let srcOffset := 0\n\n        switch gt(newLen, 31)\n        case 1 {\n            let loopEnd := and(newLen, not(0x1f))\n            src := array_dataslot_t_string_storage(src)\n            let dstPtr := array_dataslot_t_string_storage(slot)\n            let i := 0\n            for { } lt(i, loopEnd) { i := add(i, 0x20) } {\n                sstore(dstPtr, sload(add(src, srcOffset)))\n                dstPtr := add(dstPtr, 1)\n                srcOffset := add(srcOffset, 1)\n            }\n            if lt(loopEnd, newLen) {\n                let lastValue := sload(add(src, srcOffset))\n                sstore(dstPtr, mask_bytes_dynamic(lastValue, and(newLen, 0x1f)))\n            }\n            sstore(slot, add(mul(newLen, 2), 1))\n        }\n        default {\n            let value := 0\n            if newLen {\n                value := sload(add(src, srcOffset))\n            }\n            sstore(slot, extract_used_part_and_set_length_of_short_byte_array(value, newLen))\n        }\n    }\n\n    function panic_error_0x31() {\n        mstore(0, 35408467139433450592217433187231851964531694900788300625387963629091585785856)\n        mstore(4, 0x31)\n        revert(0, 0x24)\n    }\n\n}\n",
       "id": 38,
       "language": "Yul",
       "name": "#utility.yul"
@@ -11031,15 +11031,15 @@
     "absolutePath": "project:/contracts/authenticator.sol",
     "exportedSymbols": {
       "Authenticator": [
-        4311
+        4303
       ]
     },
-    "id": 4312,
+    "id": 4304,
     "license": "MIT",
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 4092,
+        "id": 4084,
         "literals": [
           "solidity",
           ">=",
@@ -11059,9 +11059,9 @@
         "contractDependencies": [],
         "contractKind": "contract",
         "fullyImplemented": true,
-        "id": 4311,
+        "id": 4303,
         "linearizedBaseContracts": [
-          4311
+          4303
         ],
         "name": "Authenticator",
         "nameLocation": "78:13:20",
@@ -11069,16 +11069,16 @@
         "nodes": [
           {
             "canonicalName": "Authenticator.Card",
-            "id": 4099,
+            "id": 4091,
             "members": [
               {
                 "constant": false,
-                "id": 4094,
+                "id": 4086,
                 "mutability": "mutable",
                 "name": "name",
                 "nameLocation": "129:4:20",
                 "nodeType": "VariableDeclaration",
-                "scope": 4099,
+                "scope": 4091,
                 "src": "122:11:20",
                 "stateVariable": false,
                 "storageLocation": "default",
@@ -11087,7 +11087,7 @@
                   "typeString": "string"
                 },
                 "typeName": {
-                  "id": 4093,
+                  "id": 4085,
                   "name": "string",
                   "nodeType": "ElementaryTypeName",
                   "src": "122:6:20",
@@ -11100,12 +11100,12 @@
               },
               {
                 "constant": false,
-                "id": 4096,
+                "id": 4088,
                 "mutability": "mutable",
                 "name": "grade",
                 "nameLocation": "152:5:20",
                 "nodeType": "VariableDeclaration",
-                "scope": 4099,
+                "scope": 4091,
                 "src": "144:13:20",
                 "stateVariable": false,
                 "storageLocation": "default",
@@ -11114,7 +11114,7 @@
                   "typeString": "uint256"
                 },
                 "typeName": {
-                  "id": 4095,
+                  "id": 4087,
                   "name": "uint256",
                   "nodeType": "ElementaryTypeName",
                   "src": "144:7:20",
@@ -11127,12 +11127,12 @@
               },
               {
                 "constant": false,
-                "id": 4098,
+                "id": 4090,
                 "mutability": "mutable",
                 "name": "condition",
                 "nameLocation": "175:9:20",
                 "nodeType": "VariableDeclaration",
-                "scope": 4099,
+                "scope": 4091,
                 "src": "168:16:20",
                 "stateVariable": false,
                 "storageLocation": "default",
@@ -11141,7 +11141,7 @@
                   "typeString": "string"
                 },
                 "typeName": {
-                  "id": 4097,
+                  "id": 4089,
                   "name": "string",
                   "nodeType": "ElementaryTypeName",
                   "src": "168:6:20",
@@ -11156,31 +11156,31 @@
             "name": "Card",
             "nameLocation": "106:4:20",
             "nodeType": "StructDefinition",
-            "scope": 4311,
+            "scope": 4303,
             "src": "99:121:20",
             "visibility": "public"
           },
           {
             "constant": false,
-            "id": 4105,
+            "id": 4097,
             "mutability": "mutable",
             "name": "userCards",
             "nameLocation": "263:9:20",
             "nodeType": "VariableDeclaration",
-            "scope": 4311,
+            "scope": 4303,
             "src": "228:44:20",
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
-              "typeIdentifier": "t_mapping$_t_address_$_t_array$_t_struct$_Card_$4099_storage_$dyn_storage_$",
+              "typeIdentifier": "t_mapping$_t_address_$_t_array$_t_struct$_Card_$4091_storage_$dyn_storage_$",
               "typeString": "mapping(address => struct Authenticator.Card[])"
             },
             "typeName": {
-              "id": 4104,
+              "id": 4096,
               "keyName": "",
               "keyNameLocation": "-1:-1:-1",
               "keyType": {
-                "id": 4100,
+                "id": 4092,
                 "name": "address",
                 "nodeType": "ElementaryTypeName",
                 "src": "236:7:20",
@@ -11192,37 +11192,37 @@
               "nodeType": "Mapping",
               "src": "228:26:20",
               "typeDescriptions": {
-                "typeIdentifier": "t_mapping$_t_address_$_t_array$_t_struct$_Card_$4099_storage_$dyn_storage_$",
+                "typeIdentifier": "t_mapping$_t_address_$_t_array$_t_struct$_Card_$4091_storage_$dyn_storage_$",
                 "typeString": "mapping(address => struct Authenticator.Card[])"
               },
               "valueName": "",
               "valueNameLocation": "-1:-1:-1",
               "valueType": {
                 "baseType": {
-                  "id": 4102,
+                  "id": 4094,
                   "nodeType": "UserDefinedTypeName",
                   "pathNode": {
-                    "id": 4101,
+                    "id": 4093,
                     "name": "Card",
                     "nameLocations": [
                       "247:4:20"
                     ],
                     "nodeType": "IdentifierPath",
-                    "referencedDeclaration": 4099,
+                    "referencedDeclaration": 4091,
                     "src": "247:4:20"
                   },
-                  "referencedDeclaration": 4099,
+                  "referencedDeclaration": 4091,
                   "src": "247:4:20",
                   "typeDescriptions": {
-                    "typeIdentifier": "t_struct$_Card_$4099_storage_ptr",
+                    "typeIdentifier": "t_struct$_Card_$4091_storage_ptr",
                     "typeString": "struct Authenticator.Card"
                   }
                 },
-                "id": 4103,
+                "id": 4095,
                 "nodeType": "ArrayTypeName",
                 "src": "247:6:20",
                 "typeDescriptions": {
-                  "typeIdentifier": "t_array$_t_struct$_Card_$4099_storage_$dyn_storage_ptr",
+                  "typeIdentifier": "t_array$_t_struct$_Card_$4091_storage_$dyn_storage_ptr",
                   "typeString": "struct Authenticator.Card[]"
                 }
               }
@@ -11231,12 +11231,12 @@
           },
           {
             "constant": false,
-            "id": 4109,
+            "id": 4101,
             "mutability": "mutable",
             "name": "cardCounts",
             "nameLocation": "358:10:20",
             "nodeType": "VariableDeclaration",
-            "scope": 4311,
+            "scope": 4303,
             "src": "322:46:20",
             "stateVariable": true,
             "storageLocation": "default",
@@ -11245,11 +11245,11 @@
               "typeString": "mapping(address => uint256)"
             },
             "typeName": {
-              "id": 4108,
+              "id": 4100,
               "keyName": "",
               "keyNameLocation": "-1:-1:-1",
               "keyType": {
-                "id": 4106,
+                "id": 4098,
                 "name": "address",
                 "nodeType": "ElementaryTypeName",
                 "src": "330:7:20",
@@ -11267,7 +11267,7 @@
               "valueName": "",
               "valueNameLocation": "-1:-1:-1",
               "valueType": {
-                "id": 4107,
+                "id": 4099,
                 "name": "uint256",
                 "nodeType": "ElementaryTypeName",
                 "src": "341:7:20",
@@ -11282,23 +11282,23 @@
           {
             "anonymous": false,
             "eventSelector": "d5ed51683b2822693297735ede880846194bea029d405788e45a05e66b6d9696",
-            "id": 4119,
+            "id": 4111,
             "name": "CardRegistered",
             "nameLocation": "857:14:20",
             "nodeType": "EventDefinition",
             "parameters": {
-              "id": 4118,
+              "id": 4110,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 4111,
+                  "id": 4103,
                   "indexed": true,
                   "mutability": "mutable",
                   "name": "user",
                   "nameLocation": "898:4:20",
                   "nodeType": "VariableDeclaration",
-                  "scope": 4119,
+                  "scope": 4111,
                   "src": "882:20:20",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -11307,7 +11307,7 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 4110,
+                    "id": 4102,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
                     "src": "882:7:20",
@@ -11321,13 +11321,13 @@
                 },
                 {
                   "constant": false,
-                  "id": 4113,
+                  "id": 4105,
                   "indexed": false,
                   "mutability": "mutable",
                   "name": "name",
                   "nameLocation": "920:4:20",
                   "nodeType": "VariableDeclaration",
-                  "scope": 4119,
+                  "scope": 4111,
                   "src": "913:11:20",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -11336,7 +11336,7 @@
                     "typeString": "string"
                   },
                   "typeName": {
-                    "id": 4112,
+                    "id": 4104,
                     "name": "string",
                     "nodeType": "ElementaryTypeName",
                     "src": "913:6:20",
@@ -11349,13 +11349,13 @@
                 },
                 {
                   "constant": false,
-                  "id": 4115,
+                  "id": 4107,
                   "indexed": false,
                   "mutability": "mutable",
                   "name": "grade",
                   "nameLocation": "943:5:20",
                   "nodeType": "VariableDeclaration",
-                  "scope": 4119,
+                  "scope": 4111,
                   "src": "935:13:20",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -11364,7 +11364,7 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 4114,
+                    "id": 4106,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
                     "src": "935:7:20",
@@ -11377,13 +11377,13 @@
                 },
                 {
                   "constant": false,
-                  "id": 4117,
+                  "id": 4109,
                   "indexed": false,
                   "mutability": "mutable",
                   "name": "condition",
                   "nameLocation": "966:9:20",
                   "nodeType": "VariableDeclaration",
-                  "scope": 4119,
+                  "scope": 4111,
                   "src": "959:16:20",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -11392,7 +11392,7 @@
                     "typeString": "string"
                   },
                   "typeName": {
-                    "id": 4116,
+                    "id": 4108,
                     "name": "string",
                     "nodeType": "ElementaryTypeName",
                     "src": "959:6:20",
@@ -11411,23 +11411,23 @@
           {
             "anonymous": false,
             "eventSelector": "08c7dc9c65cfe0a446c6b662ec2e35c1966d49c8c50f8a4b78a7e2e0c68217c4",
-            "id": 4127,
+            "id": 4119,
             "name": "CardTransferred",
             "nameLocation": "1048:15:20",
             "nodeType": "EventDefinition",
             "parameters": {
-              "id": 4126,
+              "id": 4118,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 4121,
+                  "id": 4113,
                   "indexed": true,
                   "mutability": "mutable",
                   "name": "from",
                   "nameLocation": "1090:4:20",
                   "nodeType": "VariableDeclaration",
-                  "scope": 4127,
+                  "scope": 4119,
                   "src": "1074:20:20",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -11436,7 +11436,7 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 4120,
+                    "id": 4112,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
                     "src": "1074:7:20",
@@ -11450,13 +11450,13 @@
                 },
                 {
                   "constant": false,
-                  "id": 4123,
+                  "id": 4115,
                   "indexed": true,
                   "mutability": "mutable",
                   "name": "to",
                   "nameLocation": "1121:2:20",
                   "nodeType": "VariableDeclaration",
-                  "scope": 4127,
+                  "scope": 4119,
                   "src": "1105:18:20",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -11465,7 +11465,7 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 4122,
+                    "id": 4114,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
                     "src": "1105:7:20",
@@ -11479,13 +11479,13 @@
                 },
                 {
                   "constant": false,
-                  "id": 4125,
+                  "id": 4117,
                   "indexed": false,
                   "mutability": "mutable",
                   "name": "cardIndex",
                   "nameLocation": "1142:9:20",
                   "nodeType": "VariableDeclaration",
-                  "scope": 4127,
+                  "scope": 4119,
                   "src": "1134:17:20",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -11494,7 +11494,7 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 4124,
+                    "id": 4116,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
                     "src": "1134:7:20",
@@ -11512,62 +11512,62 @@
           },
           {
             "body": {
-              "id": 4167,
+              "id": 4159,
               "nodeType": "Block",
               "src": "1417:222:20",
               "statements": [
                 {
                   "assignments": [
-                    4138
+                    4130
                   ],
                   "declarations": [
                     {
                       "constant": false,
-                      "id": 4138,
+                      "id": 4130,
                       "mutability": "mutable",
                       "name": "newCard",
                       "nameLocation": "1440:7:20",
                       "nodeType": "VariableDeclaration",
-                      "scope": 4167,
+                      "scope": 4159,
                       "src": "1428:19:20",
                       "stateVariable": false,
                       "storageLocation": "memory",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_struct$_Card_$4099_memory_ptr",
+                        "typeIdentifier": "t_struct$_Card_$4091_memory_ptr",
                         "typeString": "struct Authenticator.Card"
                       },
                       "typeName": {
-                        "id": 4137,
+                        "id": 4129,
                         "nodeType": "UserDefinedTypeName",
                         "pathNode": {
-                          "id": 4136,
+                          "id": 4128,
                           "name": "Card",
                           "nameLocations": [
                             "1428:4:20"
                           ],
                           "nodeType": "IdentifierPath",
-                          "referencedDeclaration": 4099,
+                          "referencedDeclaration": 4091,
                           "src": "1428:4:20"
                         },
-                        "referencedDeclaration": 4099,
+                        "referencedDeclaration": 4091,
                         "src": "1428:4:20",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_struct$_Card_$4099_storage_ptr",
+                          "typeIdentifier": "t_struct$_Card_$4091_storage_ptr",
                           "typeString": "struct Authenticator.Card"
                         }
                       },
                       "visibility": "internal"
                     }
                   ],
-                  "id": 4144,
+                  "id": 4136,
                   "initialValue": {
                     "arguments": [
                       {
-                        "id": 4140,
+                        "id": 4132,
                         "name": "_name",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 4129,
+                        "referencedDeclaration": 4121,
                         "src": "1455:5:20",
                         "typeDescriptions": {
                           "typeIdentifier": "t_string_memory_ptr",
@@ -11575,11 +11575,11 @@
                         }
                       },
                       {
-                        "id": 4141,
+                        "id": 4133,
                         "name": "_grade",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 4131,
+                        "referencedDeclaration": 4123,
                         "src": "1462:6:20",
                         "typeDescriptions": {
                           "typeIdentifier": "t_uint256",
@@ -11587,11 +11587,11 @@
                         }
                       },
                       {
-                        "id": 4142,
+                        "id": 4134,
                         "name": "_condition",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 4133,
+                        "referencedDeclaration": 4125,
                         "src": "1470:10:20",
                         "typeDescriptions": {
                           "typeIdentifier": "t_string_memory_ptr",
@@ -11614,18 +11614,18 @@
                           "typeString": "string memory"
                         }
                       ],
-                      "id": 4139,
+                      "id": 4131,
                       "name": "Card",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 4099,
+                      "referencedDeclaration": 4091,
                       "src": "1450:4:20",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_type$_t_struct$_Card_$4099_storage_ptr_$",
+                        "typeIdentifier": "t_type$_t_struct$_Card_$4091_storage_ptr_$",
                         "typeString": "type(struct Authenticator.Card storage pointer)"
                       }
                     },
-                    "id": 4143,
+                    "id": 4135,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -11637,7 +11637,7 @@
                     "src": "1450:31:20",
                     "tryCall": false,
                     "typeDescriptions": {
-                      "typeIdentifier": "t_struct$_Card_$4099_memory_ptr",
+                      "typeIdentifier": "t_struct$_Card_$4091_memory_ptr",
                       "typeString": "struct Authenticator.Card memory"
                     }
                   },
@@ -11648,14 +11648,14 @@
                   "expression": {
                     "arguments": [
                       {
-                        "id": 4150,
+                        "id": 4142,
                         "name": "newCard",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 4138,
+                        "referencedDeclaration": 4130,
                         "src": "1519:7:20",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_struct$_Card_$4099_memory_ptr",
+                          "typeIdentifier": "t_struct$_Card_$4091_memory_ptr",
                           "typeString": "struct Authenticator.Card memory"
                         }
                       }
@@ -11663,27 +11663,27 @@
                     "expression": {
                       "argumentTypes": [
                         {
-                          "typeIdentifier": "t_struct$_Card_$4099_memory_ptr",
+                          "typeIdentifier": "t_struct$_Card_$4091_memory_ptr",
                           "typeString": "struct Authenticator.Card memory"
                         }
                       ],
                       "expression": {
                         "baseExpression": {
-                          "id": 4145,
+                          "id": 4137,
                           "name": "userCards",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 4105,
+                          "referencedDeclaration": 4097,
                           "src": "1492:9:20",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_mapping$_t_address_$_t_array$_t_struct$_Card_$4099_storage_$dyn_storage_$",
+                            "typeIdentifier": "t_mapping$_t_address_$_t_array$_t_struct$_Card_$4091_storage_$dyn_storage_$",
                             "typeString": "mapping(address => struct Authenticator.Card storage ref[] storage ref)"
                           }
                         },
-                        "id": 4148,
+                        "id": 4140,
                         "indexExpression": {
                           "expression": {
-                            "id": 4146,
+                            "id": 4138,
                             "name": "msg",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
@@ -11694,7 +11694,7 @@
                               "typeString": "msg"
                             }
                           },
-                          "id": 4147,
+                          "id": 4139,
                           "isConstant": false,
                           "isLValue": false,
                           "isPure": false,
@@ -11715,11 +11715,11 @@
                         "nodeType": "IndexAccess",
                         "src": "1492:21:20",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_array$_t_struct$_Card_$4099_storage_$dyn_storage",
+                          "typeIdentifier": "t_array$_t_struct$_Card_$4091_storage_$dyn_storage",
                           "typeString": "struct Authenticator.Card storage ref[] storage ref"
                         }
                       },
-                      "id": 4149,
+                      "id": 4141,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": false,
@@ -11729,11 +11729,11 @@
                       "nodeType": "MemberAccess",
                       "src": "1492:26:20",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_function_arraypush_nonpayable$_t_array$_t_struct$_Card_$4099_storage_$dyn_storage_ptr_$_t_struct$_Card_$4099_storage_$returns$__$attached_to$_t_array$_t_struct$_Card_$4099_storage_$dyn_storage_ptr_$",
+                        "typeIdentifier": "t_function_arraypush_nonpayable$_t_array$_t_struct$_Card_$4091_storage_$dyn_storage_ptr_$_t_struct$_Card_$4091_storage_$returns$__$attached_to$_t_array$_t_struct$_Card_$4091_storage_$dyn_storage_ptr_$",
                         "typeString": "function (struct Authenticator.Card storage ref[] storage pointer,struct Authenticator.Card storage ref)"
                       }
                     },
-                    "id": 4151,
+                    "id": 4143,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -11749,13 +11749,13 @@
                       "typeString": "tuple()"
                     }
                   },
-                  "id": 4152,
+                  "id": 4144,
                   "nodeType": "ExpressionStatement",
                   "src": "1492:35:20"
                 },
                 {
                   "expression": {
-                    "id": 4157,
+                    "id": 4149,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -11766,21 +11766,21 @@
                     "src": "1538:24:20",
                     "subExpression": {
                       "baseExpression": {
-                        "id": 4153,
+                        "id": 4145,
                         "name": "cardCounts",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 4109,
+                        "referencedDeclaration": 4101,
                         "src": "1538:10:20",
                         "typeDescriptions": {
                           "typeIdentifier": "t_mapping$_t_address_$_t_uint256_$",
                           "typeString": "mapping(address => uint256)"
                         }
                       },
-                      "id": 4156,
+                      "id": 4148,
                       "indexExpression": {
                         "expression": {
-                          "id": 4154,
+                          "id": 4146,
                           "name": "msg",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
@@ -11791,7 +11791,7 @@
                             "typeString": "msg"
                           }
                         },
-                        "id": 4155,
+                        "id": 4147,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": false,
@@ -11821,7 +11821,7 @@
                       "typeString": "uint256"
                     }
                   },
-                  "id": 4158,
+                  "id": 4150,
                   "nodeType": "ExpressionStatement",
                   "src": "1538:24:20"
                 },
@@ -11830,7 +11830,7 @@
                     "arguments": [
                       {
                         "expression": {
-                          "id": 4160,
+                          "id": 4152,
                           "name": "msg",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
@@ -11841,7 +11841,7 @@
                             "typeString": "msg"
                           }
                         },
-                        "id": 4161,
+                        "id": 4153,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": false,
@@ -11856,11 +11856,11 @@
                         }
                       },
                       {
-                        "id": 4162,
+                        "id": 4154,
                         "name": "_name",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 4129,
+                        "referencedDeclaration": 4121,
                         "src": "1605:5:20",
                         "typeDescriptions": {
                           "typeIdentifier": "t_string_memory_ptr",
@@ -11868,11 +11868,11 @@
                         }
                       },
                       {
-                        "id": 4163,
+                        "id": 4155,
                         "name": "_grade",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 4131,
+                        "referencedDeclaration": 4123,
                         "src": "1612:6:20",
                         "typeDescriptions": {
                           "typeIdentifier": "t_uint256",
@@ -11880,11 +11880,11 @@
                         }
                       },
                       {
-                        "id": 4164,
+                        "id": 4156,
                         "name": "_condition",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 4133,
+                        "referencedDeclaration": 4125,
                         "src": "1620:10:20",
                         "typeDescriptions": {
                           "typeIdentifier": "t_string_memory_ptr",
@@ -11911,18 +11911,18 @@
                           "typeString": "string memory"
                         }
                       ],
-                      "id": 4159,
+                      "id": 4151,
                       "name": "CardRegistered",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 4119,
+                      "referencedDeclaration": 4111,
                       "src": "1578:14:20",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_event_nonpayable$_t_address_$_t_string_memory_ptr_$_t_uint256_$_t_string_memory_ptr_$returns$__$",
                         "typeString": "function (address,string memory,uint256,string memory)"
                       }
                     },
-                    "id": 4165,
+                    "id": 4157,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -11938,14 +11938,14 @@
                       "typeString": "tuple()"
                     }
                   },
-                  "id": 4166,
+                  "id": 4158,
                   "nodeType": "EmitStatement",
                   "src": "1573:58:20"
                 }
               ]
             },
             "functionSelector": "b931f047",
-            "id": 4168,
+            "id": 4160,
             "implemented": true,
             "kind": "function",
             "modifiers": [],
@@ -11953,17 +11953,17 @@
             "nameLocation": "1298:12:20",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 4134,
+              "id": 4126,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 4129,
+                  "id": 4121,
                   "mutability": "mutable",
                   "name": "_name",
                   "nameLocation": "1335:5:20",
                   "nodeType": "VariableDeclaration",
-                  "scope": 4168,
+                  "scope": 4160,
                   "src": "1321:19:20",
                   "stateVariable": false,
                   "storageLocation": "memory",
@@ -11972,7 +11972,7 @@
                     "typeString": "string"
                   },
                   "typeName": {
-                    "id": 4128,
+                    "id": 4120,
                     "name": "string",
                     "nodeType": "ElementaryTypeName",
                     "src": "1321:6:20",
@@ -11985,12 +11985,12 @@
                 },
                 {
                   "constant": false,
-                  "id": 4131,
+                  "id": 4123,
                   "mutability": "mutable",
                   "name": "_grade",
                   "nameLocation": "1359:6:20",
                   "nodeType": "VariableDeclaration",
-                  "scope": 4168,
+                  "scope": 4160,
                   "src": "1351:14:20",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -11999,7 +11999,7 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 4130,
+                    "id": 4122,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
                     "src": "1351:7:20",
@@ -12012,12 +12012,12 @@
                 },
                 {
                   "constant": false,
-                  "id": 4133,
+                  "id": 4125,
                   "mutability": "mutable",
                   "name": "_condition",
                   "nameLocation": "1390:10:20",
                   "nodeType": "VariableDeclaration",
-                  "scope": 4168,
+                  "scope": 4160,
                   "src": "1376:24:20",
                   "stateVariable": false,
                   "storageLocation": "memory",
@@ -12026,7 +12026,7 @@
                     "typeString": "string"
                   },
                   "typeName": {
-                    "id": 4132,
+                    "id": 4124,
                     "name": "string",
                     "nodeType": "ElementaryTypeName",
                     "src": "1376:6:20",
@@ -12041,12 +12041,12 @@
               "src": "1310:97:20"
             },
             "returnParameters": {
-              "id": 4135,
+              "id": 4127,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "1417:0:20"
             },
-            "scope": 4311,
+            "scope": 4303,
             "src": "1289:350:20",
             "stateMutability": "nonpayable",
             "virtual": false,
@@ -12054,7 +12054,7 @@
           },
           {
             "body": {
-              "id": 4225,
+              "id": 4217,
               "nodeType": "Block",
               "src": "1772:865:20",
               "statements": [
@@ -12066,17 +12066,17 @@
                           "typeIdentifier": "t_uint256",
                           "typeString": "uint256"
                         },
-                        "id": 4182,
+                        "id": 4174,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": false,
                         "lValueRequested": false,
                         "leftExpression": {
-                          "id": 4176,
+                          "id": 4168,
                           "name": "_cardIndex",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 4172,
+                          "referencedDeclaration": 4164,
                           "src": "1907:10:20",
                           "typeDescriptions": {
                             "typeIdentifier": "t_uint256",
@@ -12088,21 +12088,21 @@
                         "rightExpression": {
                           "expression": {
                             "baseExpression": {
-                              "id": 4177,
+                              "id": 4169,
                               "name": "userCards",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 4105,
+                              "referencedDeclaration": 4097,
                               "src": "1920:9:20",
                               "typeDescriptions": {
-                                "typeIdentifier": "t_mapping$_t_address_$_t_array$_t_struct$_Card_$4099_storage_$dyn_storage_$",
+                                "typeIdentifier": "t_mapping$_t_address_$_t_array$_t_struct$_Card_$4091_storage_$dyn_storage_$",
                                 "typeString": "mapping(address => struct Authenticator.Card storage ref[] storage ref)"
                               }
                             },
-                            "id": 4180,
+                            "id": 4172,
                             "indexExpression": {
                               "expression": {
-                                "id": 4178,
+                                "id": 4170,
                                 "name": "msg",
                                 "nodeType": "Identifier",
                                 "overloadedDeclarations": [],
@@ -12113,7 +12113,7 @@
                                   "typeString": "msg"
                                 }
                               },
-                              "id": 4179,
+                              "id": 4171,
                               "isConstant": false,
                               "isLValue": false,
                               "isPure": false,
@@ -12134,11 +12134,11 @@
                             "nodeType": "IndexAccess",
                             "src": "1920:21:20",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_array$_t_struct$_Card_$4099_storage_$dyn_storage",
+                              "typeIdentifier": "t_array$_t_struct$_Card_$4091_storage_$dyn_storage",
                               "typeString": "struct Authenticator.Card storage ref[] storage ref"
                             }
                           },
-                          "id": 4181,
+                          "id": 4173,
                           "isConstant": false,
                           "isLValue": false,
                           "isPure": false,
@@ -12160,7 +12160,7 @@
                       },
                       {
                         "hexValue": "496e76616c6964206361726420696e646578",
-                        "id": 4183,
+                        "id": 4175,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": true,
@@ -12186,7 +12186,7 @@
                           "typeString": "literal_string \"Invalid card index\""
                         }
                       ],
-                      "id": 4175,
+                      "id": 4167,
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
@@ -12200,7 +12200,7 @@
                         "typeString": "function (bool,string memory) pure"
                       }
                     },
-                    "id": 4184,
+                    "id": 4176,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -12216,72 +12216,72 @@
                       "typeString": "tuple()"
                     }
                   },
-                  "id": 4185,
+                  "id": 4177,
                   "nodeType": "ExpressionStatement",
                   "src": "1783:211:20"
                 },
                 {
                   "assignments": [
-                    4188
+                    4180
                   ],
                   "declarations": [
                     {
                       "constant": false,
-                      "id": 4188,
+                      "id": 4180,
                       "mutability": "mutable",
                       "name": "cardToTransfer",
                       "nameLocation": "2017:14:20",
                       "nodeType": "VariableDeclaration",
-                      "scope": 4225,
+                      "scope": 4217,
                       "src": "2005:26:20",
                       "stateVariable": false,
                       "storageLocation": "memory",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_struct$_Card_$4099_memory_ptr",
+                        "typeIdentifier": "t_struct$_Card_$4091_memory_ptr",
                         "typeString": "struct Authenticator.Card"
                       },
                       "typeName": {
-                        "id": 4187,
+                        "id": 4179,
                         "nodeType": "UserDefinedTypeName",
                         "pathNode": {
-                          "id": 4186,
+                          "id": 4178,
                           "name": "Card",
                           "nameLocations": [
                             "2005:4:20"
                           ],
                           "nodeType": "IdentifierPath",
-                          "referencedDeclaration": 4099,
+                          "referencedDeclaration": 4091,
                           "src": "2005:4:20"
                         },
-                        "referencedDeclaration": 4099,
+                        "referencedDeclaration": 4091,
                         "src": "2005:4:20",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_struct$_Card_$4099_storage_ptr",
+                          "typeIdentifier": "t_struct$_Card_$4091_storage_ptr",
                           "typeString": "struct Authenticator.Card"
                         }
                       },
                       "visibility": "internal"
                     }
                   ],
-                  "id": 4195,
+                  "id": 4187,
                   "initialValue": {
                     "baseExpression": {
                       "baseExpression": {
-                        "id": 4189,
+                        "id": 4181,
                         "name": "userCards",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 4105,
+                        "referencedDeclaration": 4097,
                         "src": "2034:9:20",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_mapping$_t_address_$_t_array$_t_struct$_Card_$4099_storage_$dyn_storage_$",
+                          "typeIdentifier": "t_mapping$_t_address_$_t_array$_t_struct$_Card_$4091_storage_$dyn_storage_$",
                           "typeString": "mapping(address => struct Authenticator.Card storage ref[] storage ref)"
                         }
                       },
-                      "id": 4192,
+                      "id": 4184,
                       "indexExpression": {
                         "expression": {
-                          "id": 4190,
+                          "id": 4182,
                           "name": "msg",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
@@ -12292,7 +12292,7 @@
                             "typeString": "msg"
                           }
                         },
-                        "id": 4191,
+                        "id": 4183,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": false,
@@ -12313,17 +12313,17 @@
                       "nodeType": "IndexAccess",
                       "src": "2034:21:20",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_array$_t_struct$_Card_$4099_storage_$dyn_storage",
+                        "typeIdentifier": "t_array$_t_struct$_Card_$4091_storage_$dyn_storage",
                         "typeString": "struct Authenticator.Card storage ref[] storage ref"
                       }
                     },
-                    "id": 4194,
+                    "id": 4186,
                     "indexExpression": {
-                      "id": 4193,
+                      "id": 4185,
                       "name": "_cardIndex",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 4172,
+                      "referencedDeclaration": 4164,
                       "src": "2056:10:20",
                       "typeDescriptions": {
                         "typeIdentifier": "t_uint256",
@@ -12337,7 +12337,7 @@
                     "nodeType": "IndexAccess",
                     "src": "2034:33:20",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_struct$_Card_$4099_storage",
+                      "typeIdentifier": "t_struct$_Card_$4091_storage",
                       "typeString": "struct Authenticator.Card storage ref"
                     }
                   },
@@ -12348,14 +12348,14 @@
                   "expression": {
                     "arguments": [
                       {
-                        "id": 4200,
+                        "id": 4192,
                         "name": "cardToTransfer",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 4188,
+                        "referencedDeclaration": 4180,
                         "src": "2126:14:20",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_struct$_Card_$4099_memory_ptr",
+                          "typeIdentifier": "t_struct$_Card_$4091_memory_ptr",
                           "typeString": "struct Authenticator.Card memory"
                         }
                       }
@@ -12363,30 +12363,30 @@
                     "expression": {
                       "argumentTypes": [
                         {
-                          "typeIdentifier": "t_struct$_Card_$4099_memory_ptr",
+                          "typeIdentifier": "t_struct$_Card_$4091_memory_ptr",
                           "typeString": "struct Authenticator.Card memory"
                         }
                       ],
                       "expression": {
                         "baseExpression": {
-                          "id": 4196,
+                          "id": 4188,
                           "name": "userCards",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 4105,
+                          "referencedDeclaration": 4097,
                           "src": "2106:9:20",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_mapping$_t_address_$_t_array$_t_struct$_Card_$4099_storage_$dyn_storage_$",
+                            "typeIdentifier": "t_mapping$_t_address_$_t_array$_t_struct$_Card_$4091_storage_$dyn_storage_$",
                             "typeString": "mapping(address => struct Authenticator.Card storage ref[] storage ref)"
                           }
                         },
-                        "id": 4198,
+                        "id": 4190,
                         "indexExpression": {
-                          "id": 4197,
+                          "id": 4189,
                           "name": "_to",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 4170,
+                          "referencedDeclaration": 4162,
                           "src": "2116:3:20",
                           "typeDescriptions": {
                             "typeIdentifier": "t_address",
@@ -12400,11 +12400,11 @@
                         "nodeType": "IndexAccess",
                         "src": "2106:14:20",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_array$_t_struct$_Card_$4099_storage_$dyn_storage",
+                          "typeIdentifier": "t_array$_t_struct$_Card_$4091_storage_$dyn_storage",
                           "typeString": "struct Authenticator.Card storage ref[] storage ref"
                         }
                       },
-                      "id": 4199,
+                      "id": 4191,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": false,
@@ -12414,11 +12414,11 @@
                       "nodeType": "MemberAccess",
                       "src": "2106:19:20",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_function_arraypush_nonpayable$_t_array$_t_struct$_Card_$4099_storage_$dyn_storage_ptr_$_t_struct$_Card_$4099_storage_$returns$__$attached_to$_t_array$_t_struct$_Card_$4099_storage_$dyn_storage_ptr_$",
+                        "typeIdentifier": "t_function_arraypush_nonpayable$_t_array$_t_struct$_Card_$4091_storage_$dyn_storage_ptr_$_t_struct$_Card_$4091_storage_$returns$__$attached_to$_t_array$_t_struct$_Card_$4091_storage_$dyn_storage_ptr_$",
                         "typeString": "function (struct Authenticator.Card storage ref[] storage pointer,struct Authenticator.Card storage ref)"
                       }
                     },
-                    "id": 4201,
+                    "id": 4193,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -12434,13 +12434,13 @@
                       "typeString": "tuple()"
                     }
                   },
-                  "id": 4202,
+                  "id": 4194,
                   "nodeType": "ExpressionStatement",
                   "src": "2106:35:20"
                 },
                 {
                   "expression": {
-                    "id": 4207,
+                    "id": 4199,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -12451,21 +12451,21 @@
                     "src": "2213:24:20",
                     "subExpression": {
                       "baseExpression": {
-                        "id": 4203,
+                        "id": 4195,
                         "name": "cardCounts",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 4109,
+                        "referencedDeclaration": 4101,
                         "src": "2213:10:20",
                         "typeDescriptions": {
                           "typeIdentifier": "t_mapping$_t_address_$_t_uint256_$",
                           "typeString": "mapping(address => uint256)"
                         }
                       },
-                      "id": 4206,
+                      "id": 4198,
                       "indexExpression": {
                         "expression": {
-                          "id": 4204,
+                          "id": 4196,
                           "name": "msg",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
@@ -12476,7 +12476,7 @@
                             "typeString": "msg"
                           }
                         },
-                        "id": 4205,
+                        "id": 4197,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": false,
@@ -12506,13 +12506,13 @@
                       "typeString": "uint256"
                     }
                   },
-                  "id": 4208,
+                  "id": 4200,
                   "nodeType": "ExpressionStatement",
                   "src": "2213:24:20"
                 },
                 {
                   "expression": {
-                    "id": 4212,
+                    "id": 4204,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -12523,24 +12523,24 @@
                     "src": "2325:17:20",
                     "subExpression": {
                       "baseExpression": {
-                        "id": 4209,
+                        "id": 4201,
                         "name": "cardCounts",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 4109,
+                        "referencedDeclaration": 4101,
                         "src": "2325:10:20",
                         "typeDescriptions": {
                           "typeIdentifier": "t_mapping$_t_address_$_t_uint256_$",
                           "typeString": "mapping(address => uint256)"
                         }
                       },
-                      "id": 4211,
+                      "id": 4203,
                       "indexExpression": {
-                        "id": 4210,
+                        "id": 4202,
                         "name": "_to",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 4170,
+                        "referencedDeclaration": 4162,
                         "src": "2336:3:20",
                         "typeDescriptions": {
                           "typeIdentifier": "t_address",
@@ -12563,7 +12563,7 @@
                       "typeString": "uint256"
                     }
                   },
-                  "id": 4213,
+                  "id": 4205,
                   "nodeType": "ExpressionStatement",
                   "src": "2325:17:20"
                 },
@@ -12571,11 +12571,11 @@
                   "expression": {
                     "arguments": [
                       {
-                        "id": 4215,
+                        "id": 4207,
                         "name": "_cardIndex",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 4172,
+                        "referencedDeclaration": 4164,
                         "src": "2444:10:20",
                         "typeDescriptions": {
                           "typeIdentifier": "t_uint256",
@@ -12590,18 +12590,18 @@
                           "typeString": "uint256"
                         }
                       ],
-                      "id": 4214,
+                      "id": 4206,
                       "name": "removeElement",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 4310,
+                      "referencedDeclaration": 4302,
                       "src": "2430:13:20",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_nonpayable$_t_uint256_$returns$__$",
                         "typeString": "function (uint256)"
                       }
                     },
-                    "id": 4216,
+                    "id": 4208,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -12617,7 +12617,7 @@
                       "typeString": "tuple()"
                     }
                   },
-                  "id": 4217,
+                  "id": 4209,
                   "nodeType": "ExpressionStatement",
                   "src": "2430:25:20"
                 },
@@ -12626,7 +12626,7 @@
                     "arguments": [
                       {
                         "expression": {
-                          "id": 4219,
+                          "id": 4211,
                           "name": "msg",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
@@ -12637,7 +12637,7 @@
                             "typeString": "msg"
                           }
                         },
-                        "id": 4220,
+                        "id": 4212,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": false,
@@ -12652,11 +12652,11 @@
                         }
                       },
                       {
-                        "id": 4221,
+                        "id": 4213,
                         "name": "_to",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 4170,
+                        "referencedDeclaration": 4162,
                         "src": "2572:3:20",
                         "typeDescriptions": {
                           "typeIdentifier": "t_address",
@@ -12664,11 +12664,11 @@
                         }
                       },
                       {
-                        "id": 4222,
+                        "id": 4214,
                         "name": "_cardIndex",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 4172,
+                        "referencedDeclaration": 4164,
                         "src": "2577:10:20",
                         "typeDescriptions": {
                           "typeIdentifier": "t_uint256",
@@ -12691,18 +12691,18 @@
                           "typeString": "uint256"
                         }
                       ],
-                      "id": 4218,
+                      "id": 4210,
                       "name": "CardTransferred",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 4127,
+                      "referencedDeclaration": 4119,
                       "src": "2544:15:20",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_event_nonpayable$_t_address_$_t_address_$_t_uint256_$returns$__$",
                         "typeString": "function (address,address,uint256)"
                       }
                     },
-                    "id": 4223,
+                    "id": 4215,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -12718,14 +12718,14 @@
                       "typeString": "tuple()"
                     }
                   },
-                  "id": 4224,
+                  "id": 4216,
                   "nodeType": "EmitStatement",
                   "src": "2539:49:20"
                 }
               ]
             },
             "functionSelector": "9b81a359",
-            "id": 4226,
+            "id": 4218,
             "implemented": true,
             "kind": "function",
             "modifiers": [],
@@ -12733,17 +12733,17 @@
             "nameLocation": "1717:12:20",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 4173,
+              "id": 4165,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 4170,
+                  "id": 4162,
                   "mutability": "mutable",
                   "name": "_to",
                   "nameLocation": "1738:3:20",
                   "nodeType": "VariableDeclaration",
-                  "scope": 4226,
+                  "scope": 4218,
                   "src": "1730:11:20",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -12752,7 +12752,7 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 4169,
+                    "id": 4161,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
                     "src": "1730:7:20",
@@ -12766,12 +12766,12 @@
                 },
                 {
                   "constant": false,
-                  "id": 4172,
+                  "id": 4164,
                   "mutability": "mutable",
                   "name": "_cardIndex",
                   "nameLocation": "1751:10:20",
                   "nodeType": "VariableDeclaration",
-                  "scope": 4226,
+                  "scope": 4218,
                   "src": "1743:18:20",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -12780,7 +12780,7 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 4171,
+                    "id": 4163,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
                     "src": "1743:7:20",
@@ -12795,12 +12795,12 @@
               "src": "1729:33:20"
             },
             "returnParameters": {
-              "id": 4174,
+              "id": 4166,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "1772:0:20"
             },
-            "scope": 4311,
+            "scope": 4303,
             "src": "1708:929:20",
             "stateMutability": "nonpayable",
             "virtual": false,
@@ -12808,31 +12808,31 @@
           },
           {
             "body": {
-              "id": 4239,
+              "id": 4231,
               "nodeType": "Block",
               "src": "2775:126:20",
               "statements": [
                 {
                   "expression": {
                     "baseExpression": {
-                      "id": 4235,
+                      "id": 4227,
                       "name": "userCards",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 4105,
+                      "referencedDeclaration": 4097,
                       "src": "2877:9:20",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_mapping$_t_address_$_t_array$_t_struct$_Card_$4099_storage_$dyn_storage_$",
+                        "typeIdentifier": "t_mapping$_t_address_$_t_array$_t_struct$_Card_$4091_storage_$dyn_storage_$",
                         "typeString": "mapping(address => struct Authenticator.Card storage ref[] storage ref)"
                       }
                     },
-                    "id": 4237,
+                    "id": 4229,
                     "indexExpression": {
-                      "id": 4236,
+                      "id": 4228,
                       "name": "_user",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 4228,
+                      "referencedDeclaration": 4220,
                       "src": "2887:5:20",
                       "typeDescriptions": {
                         "typeIdentifier": "t_address",
@@ -12846,19 +12846,19 @@
                     "nodeType": "IndexAccess",
                     "src": "2877:16:20",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_array$_t_struct$_Card_$4099_storage_$dyn_storage",
+                      "typeIdentifier": "t_array$_t_struct$_Card_$4091_storage_$dyn_storage",
                       "typeString": "struct Authenticator.Card storage ref[] storage ref"
                     }
                   },
-                  "functionReturnParameters": 4234,
-                  "id": 4238,
+                  "functionReturnParameters": 4226,
+                  "id": 4230,
                   "nodeType": "Return",
                   "src": "2870:23:20"
                 }
               ]
             },
             "functionSelector": "88d9f40d",
-            "id": 4240,
+            "id": 4232,
             "implemented": true,
             "kind": "function",
             "modifiers": [],
@@ -12866,17 +12866,17 @@
             "nameLocation": "2709:12:20",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 4229,
+              "id": 4221,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 4228,
+                  "id": 4220,
                   "mutability": "mutable",
                   "name": "_user",
                   "nameLocation": "2730:5:20",
                   "nodeType": "VariableDeclaration",
-                  "scope": 4240,
+                  "scope": 4232,
                   "src": "2722:13:20",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -12885,7 +12885,7 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 4227,
+                    "id": 4219,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
                     "src": "2722:7:20",
@@ -12901,50 +12901,50 @@
               "src": "2721:15:20"
             },
             "returnParameters": {
-              "id": 4234,
+              "id": 4226,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 4233,
+                  "id": 4225,
                   "mutability": "mutable",
                   "name": "",
                   "nameLocation": "-1:-1:-1",
                   "nodeType": "VariableDeclaration",
-                  "scope": 4240,
+                  "scope": 4232,
                   "src": "2760:13:20",
                   "stateVariable": false,
                   "storageLocation": "memory",
                   "typeDescriptions": {
-                    "typeIdentifier": "t_array$_t_struct$_Card_$4099_memory_ptr_$dyn_memory_ptr",
+                    "typeIdentifier": "t_array$_t_struct$_Card_$4091_memory_ptr_$dyn_memory_ptr",
                     "typeString": "struct Authenticator.Card[]"
                   },
                   "typeName": {
                     "baseType": {
-                      "id": 4231,
+                      "id": 4223,
                       "nodeType": "UserDefinedTypeName",
                       "pathNode": {
-                        "id": 4230,
+                        "id": 4222,
                         "name": "Card",
                         "nameLocations": [
                           "2760:4:20"
                         ],
                         "nodeType": "IdentifierPath",
-                        "referencedDeclaration": 4099,
+                        "referencedDeclaration": 4091,
                         "src": "2760:4:20"
                       },
-                      "referencedDeclaration": 4099,
+                      "referencedDeclaration": 4091,
                       "src": "2760:4:20",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_struct$_Card_$4099_storage_ptr",
+                        "typeIdentifier": "t_struct$_Card_$4091_storage_ptr",
                         "typeString": "struct Authenticator.Card"
                       }
                     },
-                    "id": 4232,
+                    "id": 4224,
                     "nodeType": "ArrayTypeName",
                     "src": "2760:6:20",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_array$_t_struct$_Card_$4099_storage_$dyn_storage_ptr",
+                      "typeIdentifier": "t_array$_t_struct$_Card_$4091_storage_$dyn_storage_ptr",
                       "typeString": "struct Authenticator.Card[]"
                     }
                   },
@@ -12953,7 +12953,7 @@
               ],
               "src": "2759:15:20"
             },
-            "scope": 4311,
+            "scope": 4303,
             "src": "2700:201:20",
             "stateMutability": "view",
             "virtual": false,
@@ -12961,31 +12961,31 @@
           },
           {
             "body": {
-              "id": 4251,
+              "id": 4243,
               "nodeType": "Block",
               "src": "3034:43:20",
               "statements": [
                 {
                   "expression": {
                     "baseExpression": {
-                      "id": 4247,
+                      "id": 4239,
                       "name": "cardCounts",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 4109,
+                      "referencedDeclaration": 4101,
                       "src": "3052:10:20",
                       "typeDescriptions": {
                         "typeIdentifier": "t_mapping$_t_address_$_t_uint256_$",
                         "typeString": "mapping(address => uint256)"
                       }
                     },
-                    "id": 4249,
+                    "id": 4241,
                     "indexExpression": {
-                      "id": 4248,
+                      "id": 4240,
                       "name": "_user",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 4242,
+                      "referencedDeclaration": 4234,
                       "src": "3063:5:20",
                       "typeDescriptions": {
                         "typeIdentifier": "t_address",
@@ -13003,15 +13003,15 @@
                       "typeString": "uint256"
                     }
                   },
-                  "functionReturnParameters": 4246,
-                  "id": 4250,
+                  "functionReturnParameters": 4238,
+                  "id": 4242,
                   "nodeType": "Return",
                   "src": "3045:24:20"
                 }
               ]
             },
             "functionSelector": "dce0b586",
-            "id": 4252,
+            "id": 4244,
             "implemented": true,
             "kind": "function",
             "modifiers": [],
@@ -13019,17 +13019,17 @@
             "nameLocation": "2974:12:20",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 4243,
+              "id": 4235,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 4242,
+                  "id": 4234,
                   "mutability": "mutable",
                   "name": "_user",
                   "nameLocation": "2995:5:20",
                   "nodeType": "VariableDeclaration",
-                  "scope": 4252,
+                  "scope": 4244,
                   "src": "2987:13:20",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -13038,7 +13038,7 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 4241,
+                    "id": 4233,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
                     "src": "2987:7:20",
@@ -13054,17 +13054,17 @@
               "src": "2986:15:20"
             },
             "returnParameters": {
-              "id": 4246,
+              "id": 4238,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 4245,
+                  "id": 4237,
                   "mutability": "mutable",
                   "name": "",
                   "nameLocation": "-1:-1:-1",
                   "nodeType": "VariableDeclaration",
-                  "scope": 4252,
+                  "scope": 4244,
                   "src": "3025:7:20",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -13073,7 +13073,7 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 4244,
+                    "id": 4236,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
                     "src": "3025:7:20",
@@ -13087,7 +13087,7 @@
               ],
               "src": "3024:9:20"
             },
-            "scope": 4311,
+            "scope": 4303,
             "src": "2965:112:20",
             "stateMutability": "view",
             "virtual": false,
@@ -13095,7 +13095,7 @@
           },
           {
             "body": {
-              "id": 4309,
+              "id": 4301,
               "nodeType": "Block",
               "src": "3137:484:20",
               "statements": [
@@ -13107,17 +13107,17 @@
                           "typeIdentifier": "t_uint256",
                           "typeString": "uint256"
                         },
-                        "id": 4264,
+                        "id": 4256,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": false,
                         "lValueRequested": false,
                         "leftExpression": {
-                          "id": 4258,
+                          "id": 4250,
                           "name": "_cardIndex",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 4254,
+                          "referencedDeclaration": 4246,
                           "src": "3156:10:20",
                           "typeDescriptions": {
                             "typeIdentifier": "t_uint256",
@@ -13129,21 +13129,21 @@
                         "rightExpression": {
                           "expression": {
                             "baseExpression": {
-                              "id": 4259,
+                              "id": 4251,
                               "name": "userCards",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 4105,
+                              "referencedDeclaration": 4097,
                               "src": "3169:9:20",
                               "typeDescriptions": {
-                                "typeIdentifier": "t_mapping$_t_address_$_t_array$_t_struct$_Card_$4099_storage_$dyn_storage_$",
+                                "typeIdentifier": "t_mapping$_t_address_$_t_array$_t_struct$_Card_$4091_storage_$dyn_storage_$",
                                 "typeString": "mapping(address => struct Authenticator.Card storage ref[] storage ref)"
                               }
                             },
-                            "id": 4262,
+                            "id": 4254,
                             "indexExpression": {
                               "expression": {
-                                "id": 4260,
+                                "id": 4252,
                                 "name": "msg",
                                 "nodeType": "Identifier",
                                 "overloadedDeclarations": [],
@@ -13154,7 +13154,7 @@
                                   "typeString": "msg"
                                 }
                               },
-                              "id": 4261,
+                              "id": 4253,
                               "isConstant": false,
                               "isLValue": false,
                               "isPure": false,
@@ -13175,11 +13175,11 @@
                             "nodeType": "IndexAccess",
                             "src": "3169:21:20",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_array$_t_struct$_Card_$4099_storage_$dyn_storage",
+                              "typeIdentifier": "t_array$_t_struct$_Card_$4091_storage_$dyn_storage",
                               "typeString": "struct Authenticator.Card storage ref[] storage ref"
                             }
                           },
-                          "id": 4263,
+                          "id": 4255,
                           "isConstant": false,
                           "isLValue": false,
                           "isPure": false,
@@ -13201,7 +13201,7 @@
                       },
                       {
                         "hexValue": "496e646578206f7574206f6620626f756e6473",
-                        "id": 4265,
+                        "id": 4257,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": true,
@@ -13227,7 +13227,7 @@
                           "typeString": "literal_string \"Index out of bounds\""
                         }
                       ],
-                      "id": 4257,
+                      "id": 4249,
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
@@ -13241,7 +13241,7 @@
                         "typeString": "function (bool,string memory) pure"
                       }
                     },
-                    "id": 4266,
+                    "id": 4258,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -13257,19 +13257,19 @@
                       "typeString": "tuple()"
                     }
                   },
-                  "id": 4267,
+                  "id": 4259,
                   "nodeType": "ExpressionStatement",
                   "src": "3148:73:20"
                 },
                 {
                   "body": {
-                    "id": 4300,
+                    "id": 4292,
                     "nodeType": "Block",
                     "src": "3382:134:20",
                     "statements": [
                       {
                         "expression": {
-                          "id": 4298,
+                          "id": 4290,
                           "isConstant": false,
                           "isLValue": false,
                           "isPure": false,
@@ -13277,21 +13277,21 @@
                           "leftHandSide": {
                             "baseExpression": {
                               "baseExpression": {
-                                "id": 4284,
+                                "id": 4276,
                                 "name": "userCards",
                                 "nodeType": "Identifier",
                                 "overloadedDeclarations": [],
-                                "referencedDeclaration": 4105,
+                                "referencedDeclaration": 4097,
                                 "src": "3449:9:20",
                                 "typeDescriptions": {
-                                  "typeIdentifier": "t_mapping$_t_address_$_t_array$_t_struct$_Card_$4099_storage_$dyn_storage_$",
+                                  "typeIdentifier": "t_mapping$_t_address_$_t_array$_t_struct$_Card_$4091_storage_$dyn_storage_$",
                                   "typeString": "mapping(address => struct Authenticator.Card storage ref[] storage ref)"
                                 }
                               },
-                              "id": 4288,
+                              "id": 4280,
                               "indexExpression": {
                                 "expression": {
-                                  "id": 4285,
+                                  "id": 4277,
                                   "name": "msg",
                                   "nodeType": "Identifier",
                                   "overloadedDeclarations": [],
@@ -13302,7 +13302,7 @@
                                     "typeString": "msg"
                                   }
                                 },
-                                "id": 4286,
+                                "id": 4278,
                                 "isConstant": false,
                                 "isLValue": false,
                                 "isPure": false,
@@ -13323,17 +13323,17 @@
                               "nodeType": "IndexAccess",
                               "src": "3449:21:20",
                               "typeDescriptions": {
-                                "typeIdentifier": "t_array$_t_struct$_Card_$4099_storage_$dyn_storage",
+                                "typeIdentifier": "t_array$_t_struct$_Card_$4091_storage_$dyn_storage",
                                 "typeString": "struct Authenticator.Card storage ref[] storage ref"
                               }
                             },
-                            "id": 4289,
+                            "id": 4281,
                             "indexExpression": {
-                              "id": 4287,
+                              "id": 4279,
                               "name": "i",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 4269,
+                              "referencedDeclaration": 4261,
                               "src": "3471:1:20",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_uint256",
@@ -13347,7 +13347,7 @@
                             "nodeType": "IndexAccess",
                             "src": "3449:24:20",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_struct$_Card_$4099_storage",
+                              "typeIdentifier": "t_struct$_Card_$4091_storage",
                               "typeString": "struct Authenticator.Card storage ref"
                             }
                           },
@@ -13356,21 +13356,21 @@
                           "rightHandSide": {
                             "baseExpression": {
                               "baseExpression": {
-                                "id": 4290,
+                                "id": 4282,
                                 "name": "userCards",
                                 "nodeType": "Identifier",
                                 "overloadedDeclarations": [],
-                                "referencedDeclaration": 4105,
+                                "referencedDeclaration": 4097,
                                 "src": "3476:9:20",
                                 "typeDescriptions": {
-                                  "typeIdentifier": "t_mapping$_t_address_$_t_array$_t_struct$_Card_$4099_storage_$dyn_storage_$",
+                                  "typeIdentifier": "t_mapping$_t_address_$_t_array$_t_struct$_Card_$4091_storage_$dyn_storage_$",
                                   "typeString": "mapping(address => struct Authenticator.Card storage ref[] storage ref)"
                                 }
                               },
-                              "id": 4293,
+                              "id": 4285,
                               "indexExpression": {
                                 "expression": {
-                                  "id": 4291,
+                                  "id": 4283,
                                   "name": "msg",
                                   "nodeType": "Identifier",
                                   "overloadedDeclarations": [],
@@ -13381,7 +13381,7 @@
                                     "typeString": "msg"
                                   }
                                 },
-                                "id": 4292,
+                                "id": 4284,
                                 "isConstant": false,
                                 "isLValue": false,
                                 "isPure": false,
@@ -13402,27 +13402,27 @@
                               "nodeType": "IndexAccess",
                               "src": "3476:21:20",
                               "typeDescriptions": {
-                                "typeIdentifier": "t_array$_t_struct$_Card_$4099_storage_$dyn_storage",
+                                "typeIdentifier": "t_array$_t_struct$_Card_$4091_storage_$dyn_storage",
                                 "typeString": "struct Authenticator.Card storage ref[] storage ref"
                               }
                             },
-                            "id": 4297,
+                            "id": 4289,
                             "indexExpression": {
                               "commonType": {
                                 "typeIdentifier": "t_uint256",
                                 "typeString": "uint256"
                               },
-                              "id": 4296,
+                              "id": 4288,
                               "isConstant": false,
                               "isLValue": false,
                               "isPure": false,
                               "lValueRequested": false,
                               "leftExpression": {
-                                "id": 4294,
+                                "id": 4286,
                                 "name": "i",
                                 "nodeType": "Identifier",
                                 "overloadedDeclarations": [],
-                                "referencedDeclaration": 4269,
+                                "referencedDeclaration": 4261,
                                 "src": "3498:1:20",
                                 "typeDescriptions": {
                                   "typeIdentifier": "t_uint256",
@@ -13433,7 +13433,7 @@
                               "operator": "+",
                               "rightExpression": {
                                 "hexValue": "31",
-                                "id": 4295,
+                                "id": 4287,
                                 "isConstant": false,
                                 "isLValue": false,
                                 "isPure": true,
@@ -13460,17 +13460,17 @@
                             "nodeType": "IndexAccess",
                             "src": "3476:28:20",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_struct$_Card_$4099_storage",
+                              "typeIdentifier": "t_struct$_Card_$4091_storage",
                               "typeString": "struct Authenticator.Card storage ref"
                             }
                           },
                           "src": "3449:55:20",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_struct$_Card_$4099_storage",
+                            "typeIdentifier": "t_struct$_Card_$4091_storage",
                             "typeString": "struct Authenticator.Card storage ref"
                           }
                         },
-                        "id": 4299,
+                        "id": 4291,
                         "nodeType": "ExpressionStatement",
                         "src": "3449:55:20"
                       }
@@ -13481,17 +13481,17 @@
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
                     },
-                    "id": 4280,
+                    "id": 4272,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
                     "lValueRequested": false,
                     "leftExpression": {
-                      "id": 4272,
+                      "id": 4264,
                       "name": "i",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 4269,
+                      "referencedDeclaration": 4261,
                       "src": "3339:1:20",
                       "typeDescriptions": {
                         "typeIdentifier": "t_uint256",
@@ -13505,7 +13505,7 @@
                         "typeIdentifier": "t_uint256",
                         "typeString": "uint256"
                       },
-                      "id": 4279,
+                      "id": 4271,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": false,
@@ -13513,21 +13513,21 @@
                       "leftExpression": {
                         "expression": {
                           "baseExpression": {
-                            "id": 4273,
+                            "id": 4265,
                             "name": "userCards",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 4105,
+                            "referencedDeclaration": 4097,
                             "src": "3343:9:20",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_mapping$_t_address_$_t_array$_t_struct$_Card_$4099_storage_$dyn_storage_$",
+                              "typeIdentifier": "t_mapping$_t_address_$_t_array$_t_struct$_Card_$4091_storage_$dyn_storage_$",
                               "typeString": "mapping(address => struct Authenticator.Card storage ref[] storage ref)"
                             }
                           },
-                          "id": 4276,
+                          "id": 4268,
                           "indexExpression": {
                             "expression": {
-                              "id": 4274,
+                              "id": 4266,
                               "name": "msg",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
@@ -13538,7 +13538,7 @@
                                 "typeString": "msg"
                               }
                             },
-                            "id": 4275,
+                            "id": 4267,
                             "isConstant": false,
                             "isLValue": false,
                             "isPure": false,
@@ -13559,11 +13559,11 @@
                           "nodeType": "IndexAccess",
                           "src": "3343:21:20",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_array$_t_struct$_Card_$4099_storage_$dyn_storage",
+                            "typeIdentifier": "t_array$_t_struct$_Card_$4091_storage_$dyn_storage",
                             "typeString": "struct Authenticator.Card storage ref[] storage ref"
                           }
                         },
-                        "id": 4277,
+                        "id": 4269,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": false,
@@ -13581,7 +13581,7 @@
                       "operator": "-",
                       "rightExpression": {
                         "hexValue": "31",
-                        "id": 4278,
+                        "id": 4270,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": true,
@@ -13607,20 +13607,20 @@
                       "typeString": "bool"
                     }
                   },
-                  "id": 4301,
+                  "id": 4293,
                   "initializationExpression": {
                     "assignments": [
-                      4269
+                      4261
                     ],
                     "declarations": [
                       {
                         "constant": false,
-                        "id": 4269,
+                        "id": 4261,
                         "mutability": "mutable",
                         "name": "i",
                         "nameLocation": "3323:1:20",
                         "nodeType": "VariableDeclaration",
-                        "scope": 4301,
+                        "scope": 4293,
                         "src": "3318:6:20",
                         "stateVariable": false,
                         "storageLocation": "default",
@@ -13629,7 +13629,7 @@
                           "typeString": "uint256"
                         },
                         "typeName": {
-                          "id": 4268,
+                          "id": 4260,
                           "name": "uint",
                           "nodeType": "ElementaryTypeName",
                           "src": "3318:4:20",
@@ -13641,13 +13641,13 @@
                         "visibility": "internal"
                       }
                     ],
-                    "id": 4271,
+                    "id": 4263,
                     "initialValue": {
-                      "id": 4270,
+                      "id": 4262,
                       "name": "_cardIndex",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 4254,
+                      "referencedDeclaration": 4246,
                       "src": "3327:10:20",
                       "typeDescriptions": {
                         "typeIdentifier": "t_uint256",
@@ -13659,7 +13659,7 @@
                   },
                   "loopExpression": {
                     "expression": {
-                      "id": 4282,
+                      "id": 4274,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": false,
@@ -13669,11 +13669,11 @@
                       "prefix": false,
                       "src": "3377:3:20",
                       "subExpression": {
-                        "id": 4281,
+                        "id": 4273,
                         "name": "i",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 4269,
+                        "referencedDeclaration": 4261,
                         "src": "3377:1:20",
                         "typeDescriptions": {
                           "typeIdentifier": "t_uint256",
@@ -13685,7 +13685,7 @@
                         "typeString": "uint256"
                       }
                     },
-                    "id": 4283,
+                    "id": 4275,
                     "nodeType": "ExpressionStatement",
                     "src": "3377:3:20"
                   },
@@ -13699,21 +13699,21 @@
                       "argumentTypes": [],
                       "expression": {
                         "baseExpression": {
-                          "id": 4302,
+                          "id": 4294,
                           "name": "userCards",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 4105,
+                          "referencedDeclaration": 4097,
                           "src": "3586:9:20",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_mapping$_t_address_$_t_array$_t_struct$_Card_$4099_storage_$dyn_storage_$",
+                            "typeIdentifier": "t_mapping$_t_address_$_t_array$_t_struct$_Card_$4091_storage_$dyn_storage_$",
                             "typeString": "mapping(address => struct Authenticator.Card storage ref[] storage ref)"
                           }
                         },
-                        "id": 4305,
+                        "id": 4297,
                         "indexExpression": {
                           "expression": {
-                            "id": 4303,
+                            "id": 4295,
                             "name": "msg",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
@@ -13724,7 +13724,7 @@
                               "typeString": "msg"
                             }
                           },
-                          "id": 4304,
+                          "id": 4296,
                           "isConstant": false,
                           "isLValue": false,
                           "isPure": false,
@@ -13745,11 +13745,11 @@
                         "nodeType": "IndexAccess",
                         "src": "3586:21:20",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_array$_t_struct$_Card_$4099_storage_$dyn_storage",
+                          "typeIdentifier": "t_array$_t_struct$_Card_$4091_storage_$dyn_storage",
                           "typeString": "struct Authenticator.Card storage ref[] storage ref"
                         }
                       },
-                      "id": 4306,
+                      "id": 4298,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": false,
@@ -13759,11 +13759,11 @@
                       "nodeType": "MemberAccess",
                       "src": "3586:25:20",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_function_arraypop_nonpayable$_t_array$_t_struct$_Card_$4099_storage_$dyn_storage_ptr_$returns$__$attached_to$_t_array$_t_struct$_Card_$4099_storage_$dyn_storage_ptr_$",
+                        "typeIdentifier": "t_function_arraypop_nonpayable$_t_array$_t_struct$_Card_$4091_storage_$dyn_storage_ptr_$returns$__$attached_to$_t_array$_t_struct$_Card_$4091_storage_$dyn_storage_ptr_$",
                         "typeString": "function (struct Authenticator.Card storage ref[] storage pointer)"
                       }
                     },
-                    "id": 4307,
+                    "id": 4299,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -13779,13 +13779,13 @@
                       "typeString": "tuple()"
                     }
                   },
-                  "id": 4308,
+                  "id": 4300,
                   "nodeType": "ExpressionStatement",
                   "src": "3586:27:20"
                 }
               ]
             },
-            "id": 4310,
+            "id": 4302,
             "implemented": true,
             "kind": "function",
             "modifiers": [],
@@ -13793,17 +13793,17 @@
             "nameLocation": "3094:13:20",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 4255,
+              "id": 4247,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 4254,
+                  "id": 4246,
                   "mutability": "mutable",
                   "name": "_cardIndex",
                   "nameLocation": "3116:10:20",
                   "nodeType": "VariableDeclaration",
-                  "scope": 4310,
+                  "scope": 4302,
                   "src": "3108:18:20",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -13812,7 +13812,7 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 4253,
+                    "id": 4245,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
                     "src": "3108:7:20",
@@ -13827,19 +13827,19 @@
               "src": "3107:20:20"
             },
             "returnParameters": {
-              "id": 4256,
+              "id": 4248,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "3137:0:20"
             },
-            "scope": 4311,
+            "scope": 4303,
             "src": "3085:536:20",
             "stateMutability": "nonpayable",
             "virtual": false,
             "visibility": "internal"
           }
         ],
-        "scope": 4312,
+        "scope": 4304,
         "src": "69:3555:20",
         "usedErrors": []
       }
@@ -13910,10 +13910,22 @@
       "links": {},
       "address": "0xF12b5dd4EAD5F743C6BaA640B0216200e89B60Da",
       "transactionHash": "0xef19dca57b63fa6c202bdea1fb2337c0b9b25233b20c07b10417f7c820b854cd"
+    },
+    "1688544789984": {
+      "events": {},
+      "links": {},
+      "address": "0xF12b5dd4EAD5F743C6BaA640B0216200e89B60Da",
+      "transactionHash": "0xef19dca57b63fa6c202bdea1fb2337c0b9b25233b20c07b10417f7c820b854cd"
+    },
+    "1688551544696": {
+      "events": {},
+      "links": {},
+      "address": "0xF12b5dd4EAD5F743C6BaA640B0216200e89B60Da",
+      "transactionHash": "0xef19dca57b63fa6c202bdea1fb2337c0b9b25233b20c07b10417f7c820b854cd"
     }
   },
   "schemaVersion": "3.4.14",
-  "updatedAt": "2023-07-04T20:13:09.469Z",
+  "updatedAt": "2023-07-05T10:05:50.579Z",
   "networkType": "ethereum",
   "devdoc": {
     "kind": "dev",

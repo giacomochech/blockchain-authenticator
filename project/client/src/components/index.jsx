@@ -1,6 +1,5 @@
 import { useState } from "react";
 import useEth from "./../contexts/EthContext/useEth";
-import Title from "./Title";
 import Contract from "./Contract";
 import ContractBtns from "./ContractBtns";
 import NoticeNoArtifact from "./NoticeNoArtifact";

@@ -16,7 +16,7 @@ import Info from "./pages/Info";
 
 function App() {
   return (
-    //<EthProvider>
+    <EthProvider>
     <div className="app-wrapper">
       <BrowserRouter>
         <Routes>
@@ -27,7 +27,7 @@ function App() {
         </Routes>
       </BrowserRouter>
     </div>
-    //</EthProvider>
+    </EthProvider>
   );
 }
 

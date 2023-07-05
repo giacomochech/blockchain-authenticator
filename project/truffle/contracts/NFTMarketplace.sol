@@ -61,7 +61,7 @@ contract NFTCollectible is ERC721URIStorage {
 
    //Top level function when creating a token for the first time
    function createToken(string memory tokenURI, uint256 price) public payable returns (uint256) {
-      require(msg.value == listPrice, "Send enough ether to list");
+      //require(msg.value == listPrice, "Send enough ether to list"); DA SISTEMARE, è un controllo importante!!
       require(price > 0, "Make sure the price is not negative");
 
       _tokenIDs.increment();

@@ -16,14 +16,14 @@ export default function SellNFT () {
 
     async function disableButton() {
         const listButton = document.getElementById("list-button")
-        listButton.disabled = true
+        listButton.disabled = true;
         listButton.style.backgroundColor = "grey";
         listButton.style.opacity = 0.3;
     }
 
     async function enableButton() {
         const listButton = document.getElementById("list-button")
-        listButton.disabled = false
+        listButton.disabled = false;
         listButton.style.backgroundColor = "#A500FF";
         listButton.style.opacity = 1;
     }
@@ -35,12 +35,12 @@ export default function SellNFT () {
         try {
             //upload the file to IPFS
             disableButton();
-            updateMessage("Uploading image.. please dont click anything!")
+            updateMessage("Uploading image.. please dont click anything!");
             const response = await uploadFileToIPFS(file);
             if(response.success === true) {
                 enableButton();
-                updateMessage("")
-                console.log("Uploaded image to Pinata: ", response.pinataURL)
+                updateMessage("");
+                console.log("Uploaded image to Pinata: ", response.pinataURL);
                 setFileURL(response.pinataURL);
             }
         }
@@ -55,7 +55,7 @@ export default function SellNFT () {
         //Make sure that none of the fields are empty
         if( !name || !grade || !description || !price || !fileURL)
         {
-            updateMessage("Please fill all the fields!")
+            updateMessage("Please fill all the fields!");
             return -1;
         }
 
@@ -67,12 +67,12 @@ export default function SellNFT () {
             //upload the metadata JSON to IPFS
             const response = await uploadJSONToIPFS(nftJSON);
             if(response.success === true){
-                console.log("Successfully uploaded JSON to Pinata: ", response)
+                console.log("Successfully uploaded JSON to Pinata: ", response);
                 return response.pinataURL;
             }
         }
         catch(e) {
-            console.log("error uploading JSON metadata:", e)
+            console.log("error uploading JSON metadata:", e);
         }
     }
 
@@ -89,20 +89,20 @@ export default function SellNFT () {
             const signer = provider.getSigner();
             */
             disableButton();
-            updateMessage("Uploading NFT(takes 5 mins).. please dont click anything!")
+            updateMessage("Uploading NFT(takes 5 mins).. please dont click anything!");
 
             /*Pull the deployed contract instance
             let contract = new ethers.Contract(Marketplace.address, Marketplace.abi, signer)
             */
 
             //message the params to be sent to the create NFT request
-            const price = ethers.utils.parseUnits(formParams.price, 'ether')
-            let listingPrice = await contract.getListPrice()
-            listingPrice = listingPrice.toString()
+            const price = ethers.utils.parseUnits(formParams.price, 'ether');
+            let listingPrice = await contract.methods.getListPrice().call({ from: accounts[0] });
+            listingPrice = listingPrice.toString();
 
             //actually create the NFT
-            let transaction = await contract.createToken(metadataURL, price, { value: listingPrice })
-            await transaction.wait()
+            let transaction = await contract.methods.createToken(metadataURL, price).send({ from: accounts[0] });
+            await transaction.wait();
 
             alert("Successfully listed your NFT!");
             enableButton();
@@ -111,11 +111,11 @@ export default function SellNFT () {
             //window.location.replace("/") ***TODO: redirect to the main page
         }
         catch(e) {
-            alert( "Upload error"+e )
+            alert( "Upload error"+e );
         }
     }
 
-    console.log("Working", process.env);
+    //console.log("Working", process.env);
     return (
         <div className="">
         <Navbar></Navbar>
@@ -126,11 +126,15 @@ export default function SellNFT () {
                     <label className="block text-purple-500 text-sm font-bold mb-2" htmlFor="name">NFT Name</label>
                     <input className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="name" type="text" placeholder="Axie#4563" onChange={e => updateFormParams({...formParams, name: e.target.value})} value={formParams.name}></input>
                 </div>
+                <div className="mb-5">
+                    <label className="block text-purple-500 text-sm font-bold mb-2" htmlFor="name">Gradation</label>
+                    <input className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="grade" type="text" placeholder="1-10" onChange={e => updateFormParams({...formParams, grade: e.target.value})} value={formParams.grade}></input>
+                </div>
                 <div className="mb-6">
                     <label className="block text-purple-500 text-sm font-bold mb-2" htmlFor="description">NFT Description</label>
                     <textarea className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" cols="40" rows="5" id="description" type="text" placeholder="Axie Infinity Collection" value={formParams.description} onChange={e => updateFormParams({...formParams, description: e.target.value})}></textarea>
                 </div>
-                <div className="mb-6">
+                <div className="mb-7">
                     <label className="block text-purple-500 text-sm font-bold mb-2" htmlFor="price">Price (in ETH)</label>
                     <input className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" type="number" placeholder="Min 0.01 ETH" step="0.01" value={formParams.price} onChange={e => updateFormParams({...formParams, price: e.target.value})}></input>
                 </div>
