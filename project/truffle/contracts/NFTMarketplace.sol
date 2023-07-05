@@ -27,6 +27,15 @@ contract NFTCollectible is ERC721URIStorage {
       bool currentlyListed;
    }
 
+    //the event emitted when a token is successfully listed
+    event TokenListedSuccess (
+        uint256 indexed tokenId,
+        address owner,
+        address seller,
+        uint256 price,
+        bool currentlyListed
+    );
+
    mapping(uint256 => ListedToken) private idToListedToken; //create a mapping between the id (incremental) and the associated data of the token (listed Token struct)
    
    constructor() ERC721("NFTCollectible","NFTC") {
@@ -60,10 +69,8 @@ contract NFTCollectible is ERC721URIStorage {
    //CORE FUNCTIONS
 
    //Top level function when creating a token for the first time
-   function createToken(string memory tokenURI, uint256 price) public payable returns (uint256) {
-      //require(msg.value == listPrice, "Send enough ether to list"); DA SISTEMARE, è un controllo importante!!
-      require(price > 0, "Make sure the price is not negative");
-
+   function createToken(string memory tokenURI, uint256 price) public payable returns (uint) {
+      
       _tokenIDs.increment();
       uint256 currentTokenId = _tokenIDs.current();
       _safeMint(msg.sender, currentTokenId);
@@ -77,8 +84,19 @@ contract NFTCollectible is ERC721URIStorage {
    //Helps create the object of type ListedToken for the NFT and update the idToListedToken mapping
    function createListedToken(uint256 tokenID, uint256 price) private {
 
+      require(msg.value == listPrice, "Hopefully sending the correct price");
+        //Just sanity check
+      require(price > 0, "Make sure the price isn't negative");
       idToListedToken[tokenID] = ListedToken(tokenID, payable(address(this)), payable(msg.sender), price,true);
       _transfer(msg.sender, address(this), tokenID);
+
+      emit TokenListedSuccess(
+            tokenID,
+            address(this),
+            msg.sender,
+            price,
+            true
+        );
    }
 
    //Get all the NFTs currently listed for sale on the marketplace --> DA MODIFICARE

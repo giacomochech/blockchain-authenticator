@@ -1,5 +1,6 @@
 import Navbar from "./Navigation";
 import { useState } from "react";
+import { ethers } from "ethers";
 import { uploadFileToIPFS, uploadJSONToIPFS } from "../pinata";
 import useEth from "../contexts/EthContext/useEth";
 
@@ -84,24 +85,27 @@ export default function SellNFT () {
             const metadataURL = await uploadMetadataToIPFS();
             if(metadataURL === -1)
                 return;
-            /*After adding your Hardhat network to your metamask, this code will get providers and signers
+            /*
+            After adding your Hardhat network to your metamask, this code will get providers and signers
             const provider = new ethers.providers.Web3Provider(window.ethereum);
             const signer = provider.getSigner();
             */
+           
             disableButton();
             updateMessage("Uploading NFT(takes 5 mins).. please dont click anything!");
 
-            /*Pull the deployed contract instance
+            /*
+            Pull the deployed contract instance
             let contract = new ethers.Contract(Marketplace.address, Marketplace.abi, signer)
             */
 
             //message the params to be sent to the create NFT request
-            const price = ethers.utils.parseUnits(formParams.price, 'ether');
+            const price = ethers.parseUnits(formParams.price, 'ether');
             let listingPrice = await contract.methods.getListPrice().call({ from: accounts[0] });
             listingPrice = listingPrice.toString();
 
             //actually create the NFT
-            let transaction = await contract.methods.createToken(metadataURL, price).send({ from: accounts[0] });
+            let transaction = await contract.methods.createToken(metadataURL, price).send({ from: accounts[0], value: listingPrice });
             await transaction.wait();
 
             alert("Successfully listed your NFT!");
@@ -111,7 +115,7 @@ export default function SellNFT () {
             //window.location.replace("/") ***TODO: redirect to the main page
         }
         catch(e) {
-            alert( "Upload error"+e );
+            alert( "Upload error"+ e );
         }
     }
 

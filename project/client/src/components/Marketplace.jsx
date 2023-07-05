@@ -48,21 +48,21 @@ async function getAllNFTs() {
     // //Pull the deployed contract instance
     // let contract = new ethers.Contract(MarketplaceJSON.address, MarketplaceJSON.abi, signer)
     
-    //create an NFT Token
+   
     let transaction = await contract.methods.getAllNFTs().call({ from: accounts[0] });
 
     //Fetch all the details of every NFT from the contract and display
     const items = await Promise.all(transaction.map(async i => {
-        var tokenURI = await contract.methods.tokenURI(i.tokenId).call();
+        var tokenURI = await contract.methods.tokenURI(i.tokenId).call({ from: accounts[0] });
         console.log("getting this tokenUri", tokenURI);
         tokenURI = GetIpfsUrlFromPinata(tokenURI);
         let meta = await axios.get(tokenURI);
         meta = meta.data;
 
-        let price = ethers.utils.formatUnits(i.price.toString(), 'ether');
+        let price = ethers.formatUnits(i.price.toString(), 'ether');
         let item = {
             price,
-            tokenId: i.tokenId.toNumber(),
+            tokenId: i.tokenId.toString(),
             seller: i.seller,
             owner: i.owner,
             image: meta.image,
