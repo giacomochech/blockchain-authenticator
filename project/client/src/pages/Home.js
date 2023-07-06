@@ -1,32 +1,19 @@
 import React from "react";
 import Navigation from "../components/Navigation.js";
 import { Container, Alert, Row, Col } from "react-bootstrap"; //component
-import gradingImage from "../media/grading.jpg";
-import AuthForm from "../components";
-import { EthProvider } from "../contexts/EthContext";
+import Search from "../components/Home.jsx";
 
-const Home = () => {
+const Collection = () => {
   return (
     <>
-      <EthProvider>
-        <Navigation />
+      <Navigation />
 
-        <Container style={{ paddingTop: "10px" }}>
-          <div id="Auth">
-            <div className="container">
-              <AuthForm />
-              <hr />
-            </div>
-          </div>
-          <img
-            src={gradingImage}
-            alt="image"
-            style={{ width: "1300px", paddingTop: "50px", paddingLeft: "0px" }}
-          />
-        </Container>
-      </EthProvider>
+      <Container style={{ paddingTop: "10px" }}>
+        {/* <Row>Collection</Row> */}
+        <Search />
+      </Container>
     </>
   );
 };
 
-export default Home;
+export default Collection;
