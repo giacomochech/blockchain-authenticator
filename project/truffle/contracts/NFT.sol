@@ -2,11 +2,40 @@
 pragma solidity ^0.8.0;
 
 //import "hardhat/console.sol";
-import "@openzeppelin/contracts/utils/Counters.sol";
-import "@openzeppelin/contracts/token/ERC721/extensions/ERC721URIStorage.sol";
-import "@openzeppelin/contracts/token/ERC721/ERC721.sol";
+import "./../node_modules/@openzeppelin/contracts/utils/Counters.sol";
+import "./../node_modules/@openzeppelin/contracts/token/ERC721/extensions/ERC721URIStorage.sol";
+import "./../node_modules/@openzeppelin/contracts/token/ERC721/ERC721.sol";
 
 contract NFTMarketplace is ERC721URIStorage {
+    struct Card {
+        string name;
+        uint256 grade;
+        string condition;
+        // Other variables
+    }
+
+    mapping(address => Card[]) private userCards; // Mapping to register cards for each user
+    mapping(address => uint256) private cardCounts; // Mapping to keep track of card counts for each user
+
+    // Event works as a log to keep track of all the transactions that happened in the contract
+    // These logs are stored on blockchain and are accessible using address of the contract till the contract
+    // is present on the blockchain. An event generated is not accessible from within contracts,
+    // not even the one which have created and emitted them.
+
+    // Event to notify when a card is registered
+    event CardRegistered(
+        address indexed user,
+        string name,
+        uint256 grade,
+        string condition
+    );
+
+    // Event to notify when a card is transferred
+    event CardTransferred(
+        address indexed from,
+        address indexed to,
+        uint256 cardIndex
+    );
     using Counters for Counters.Counter;
     //_tokenIds variable has the most recent minted tokenId
     Counters.Counter private _tokenIds;
@@ -60,11 +89,9 @@ contract NFTMarketplace is ERC721URIStorage {
         return idToListedToken[currentTokenId];
     }
 
-    function getListedTokenForId(uint256 tokenId)
-        public
-        view
-        returns (ListedToken memory)
-    {
+    function getListedTokenForId(
+        uint256 tokenId
+    ) public view returns (ListedToken memory) {
         return idToListedToken[tokenId];
     }
 
@@ -73,11 +100,10 @@ contract NFTMarketplace is ERC721URIStorage {
     }
 
     //The first time a token is created, it is listed here
-    function createToken(string memory tokenURI, uint256 price)
-        public
-        payable
-        returns (uint256)
-    {
+    function createToken(
+        string memory tokenURI,
+        uint256 price
+    ) public payable returns (uint256) {
         //Increment the tokenId counter, which is keeping track of the number of minted NFTs
         _tokenIds.increment();
         uint256 newTokenId = _tokenIds.current();
@@ -193,5 +219,58 @@ contract NFTMarketplace is ERC721URIStorage {
         payable(owner).transfer(listPrice);
         //Transfer the proceeds from the sale to the seller of the NFT
         payable(seller).transfer(msg.value);
+    }
+
+    // Function to register a card for a user, external means that this function can be called from outside the contract
+    function registerCard(
+        string memory _name,
+        uint256 _grade,
+        string memory _condition
+    ) external {
+        Card memory newCard = Card(_name, _grade, _condition);
+        userCards[msg.sender].push(newCard);
+        cardCounts[msg.sender]++;
+        emit CardRegistered(msg.sender, _name, _grade, _condition);
+    }
+
+    // Function to transfer a card from one user to another
+    function transferCard(address _to, uint256 _cardIndex) external {
+        require( // require is used to validate the inputs to the function and throw error if the condition is not met
+            _cardIndex < userCards[msg.sender].length,
+            "Invalid card index"
+        );
+        Card memory cardToTransfer = userCards[msg.sender][_cardIndex]; // Get the card to transfer
+        userCards[_to].push(cardToTransfer); // Push the card to the user to whom it is being transferred
+        cardCounts[msg.sender]--; // Reduce the card count of the user from whom the card is being transferred
+        cardCounts[_to]++; // Increase the card count of the user to whom the card is being transferred
+        removeElement(_cardIndex); // Delete the card from the user from whom the card is being transferred
+        emit CardTransferred(msg.sender, _to, _cardIndex); // Emit the event to notify the transfer
+    }
+
+    // Function to get all cards of a user by address
+    function getUserCards(address _user) external view returns (Card[] memory) {
+        // view means that this function will not modify the state of the contract
+        return userCards[_user];
+    }
+
+    // Function to get card count of a user by address
+    function getCardCount(address _user) external view returns (uint256) {
+        return cardCounts[_user];
+    }
+
+    function removeElement(uint256 _cardIndex) internal {
+        require(
+            _cardIndex < userCards[msg.sender].length,
+            "Index out of bounds"
+        );
+
+        // Shift elements to the left starting from the element to be removed
+        for (uint i = _cardIndex; i < userCards[msg.sender].length - 1; i++) {
+            //FORSE USA TROPPO GAS --> da approfondire
+            userCards[msg.sender][i] = userCards[msg.sender][i + 1];
+        }
+
+        // Resize the array by deleting the last element
+        userCards[msg.sender].pop();
     }
 }

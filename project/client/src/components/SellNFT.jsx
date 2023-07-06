@@ -1,8 +1,10 @@
 import Navbar from "./Navigation";
+import React, { useEffect } from "react";
 import { useState } from "react";
 import { ethers } from "ethers";
-import { uploadFileToIPFS, uploadJSONToIPFS } from "../pinata";
+import { uploadFileToIPFS, uploadJSONToIPFS } from "./pinata";
 import useEth from "../contexts/EthContext/useEth";
+import { useParams } from "react-router-dom";
 
 export default function SellNFT() {
   const [formParams, updateFormParams] = useState({
@@ -11,6 +13,10 @@ export default function SellNFT() {
     grade: "",
     price: "",
   });
+  const params = useParams();
+  const tokenId = params.tokenId;
+  const [tokenIdd, setTokenIdd] = useState("");
+  const [recipientAddress, setRecipientAddress] = useState("");
   const [fileURL, setFileURL] = useState(null); //This is the URL of the image uploaded to IPFS
   const {
     state: { contract, accounts },
@@ -89,11 +95,10 @@ export default function SellNFT() {
     try {
       const metadataURL = await uploadMetadataToIPFS();
       if (metadataURL === -1) return;
-      /*
-            After adding your Hardhat network to your metamask, this code will get providers and signers
-            const provider = new ethers.providers.Web3Provider(window.ethereum);
-            const signer = provider.getSigner();
-            */
+
+      //After adding your Hardhat network to your metamask, this code will get providers and signers
+      //const provider = new ethers.providers.Web3Provider(web3.currentProvider);
+      //const signer = provider.getSigner();
 
       disableButton();
       updateMessage(
@@ -125,6 +130,20 @@ export default function SellNFT() {
       //window.location.replace("/") ***TODO: redirect to the main page
     } catch (e) {
       alert("Upload error" + e);
+    }
+  }
+
+  async function sellNFT(tokenId, address) {
+    // funzione per trasferire l'nft a un altro utente
+
+    try {
+      let transaction = await contract.methods
+        .transferToken(tokenId, address)
+        .send({ from: accounts[0] });
+      //await transaction.wait();
+      alert("Successfully transfer your NFT!");
+    } catch (e) {
+      alert("Transfer error" + e);
     }
   }
 
@@ -230,6 +249,31 @@ export default function SellNFT() {
             List NFT
           </button>
         </form>
+
+        <div>
+          <h3>Sell NFT</h3>
+          <form onSubmit={sellNFT(tokenId, recipientAddress)}>
+            {/* <label>
+              Token ID:
+              <input
+                type="number"
+                value={tokenId}
+                onChange={(e) => setTokenId(e.target.value)}
+              />
+            </label> */}
+            <br />
+            <label>
+              Recipient Address:
+              <input
+                type="text"
+                value={recipientAddress}
+                onChange={(e) => setRecipientAddress(e.target.value)}
+              />
+            </label>
+            <br />
+            <button type="submit">Sell NFT</button>
+          </form>
+        </div>
       </div>
     </div>
   );

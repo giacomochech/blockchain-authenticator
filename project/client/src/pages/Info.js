@@ -10,9 +10,9 @@ const Info = () => {
 
       <Container style={{ paddingTop: "10px" }}>
         <Row>NFTMarketplace</Row>
-      <div>
-        <Marketplace />
-      </div>
+        <div>
+          <Marketplace />
+        </div>
       </Container>
     </>
   );
