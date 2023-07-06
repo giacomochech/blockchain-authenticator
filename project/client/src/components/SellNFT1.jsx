@@ -7,8 +7,8 @@ import useEth from "../contexts/EthContext/useEth";
 export default function SellNFT() {
   const [formParams, updateFormParams] = useState({
     name: "",
-    description: "",
     grade: "",
+    description: "",
     price: "",
   });
   const [fileURL, setFileURL] = useState(null); //This is the URL of the image uploaded to IPFS
@@ -121,7 +121,7 @@ export default function SellNFT() {
       alert("Successfully listed your NFT!");
       enableButton();
       updateMessage("");
-      updateFormParams({ name: "", description: "", price: "" });
+      updateFormParams({ name: "", grade: "", description: "", price: "" });
       //window.location.replace("/") ***TODO: redirect to the main page
     } catch (e) {
       alert("Upload error" + e);

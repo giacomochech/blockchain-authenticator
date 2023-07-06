@@ -6,10 +6,9 @@ import SellNFT from "../components/SellNFT1.jsx";
 const Project = () => {
   return (
     <>
-
       <Container style={{ paddingTop: "10px" }}>
         <Row>Project</Row>
-        <SellNFT/>
+        <SellNFT />
       </Container>
     </>
   );
