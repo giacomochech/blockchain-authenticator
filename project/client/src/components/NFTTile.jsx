@@ -1,5 +1,5 @@
 //import axie from "../tile.jpeg";
-import { BrowserRouter as Router, Link } from "react-router-dom";
+//import { BrowserRouter as Router, Link } from "react-router-dom";
 import { GetIpfsUrlFromPinata } from "../pinata.js";
 
 function NFTTile(data) {
@@ -15,7 +15,7 @@ function NFTTile(data) {
       <img
         src={IPFSUrl}
         alt=""
-        className="w-2 h-2 rounded-lg object-cover"
+        className="w-full h-48 md:h-72 rounded-t-lg object-cover"
         crossOrigin="anonymous"
       />
       <div className="text-white w-full p-2 bg-gradient-to-t from-[#454545] to-transparent rounded-lg pt-5 -mt-20">

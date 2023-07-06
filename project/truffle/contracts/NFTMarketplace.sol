@@ -5,11 +5,12 @@ import "./../node_modules/@openzeppelin/contracts/token/ERC721/ERC721.sol"; //TO
 import "./../node_modules/@openzeppelin/contracts/token/ERC721//extensions/ERC721URIStorage.sol"; //TODO: magari si può chiamare in maniera più carina
 import "./../node_modules/@openzeppelin/contracts/utils/Counters.sol";
 
-contract NFTCollectible is ERC721URIStorage {
+contract NFTMarketplace is ERC721URIStorage {
     struct Card {
         string name;
         uint256 grade;
         string condition;
+        uint256 cardCode;
         // Other variables
     }
 
@@ -20,7 +21,8 @@ contract NFTCollectible is ERC721URIStorage {
         address indexed user,
         string name,
         uint256 grade,
-        string condition
+        string condition,
+        uint256 cardCode
     );
 
     event CardTransferred(
@@ -155,12 +157,13 @@ contract NFTCollectible is ERC721URIStorage {
     function registerCard(
         string memory _name,
         uint256 _grade,
-        string memory _condition
+        string memory _condition,
+        uint256 _cardCode
     ) external {
-        Card memory newCard = Card(_name, _grade, _condition);
+        Card memory newCard = Card(_name, _grade, _condition, _cardCode);
         userCards[msg.sender].push(newCard);
         cardCounts[msg.sender]++;
-        emit CardRegistered(msg.sender, _name, _grade, _condition);
+        emit CardRegistered(msg.sender, _name, _grade, _condition, _cardCode);
     }
 
     //Helps create the object of type ListedToken for the NFT and update the idToListedToken mapping

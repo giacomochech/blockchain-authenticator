@@ -9,6 +9,7 @@ const CardForm = () => {
   const [cardName, setCardName] = useState("");
   const [cardGrade, setCardGrade] = useState("");
   const [cardCondition, setCardCondition] = useState("");
+  const [cardCode, setCardCode] = useState("");
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -17,6 +18,7 @@ const CardForm = () => {
     console.log("Card Name:", cardName);
     console.log("Card Grade:", cardGrade);
     console.log("Card Condition:", cardCondition);
+    console.log("Card Code:", cardCode);
 
     if (e.target.tagName === "INPUT") {
       return;
@@ -28,12 +30,17 @@ const CardForm = () => {
      return;
    }
    */
-    const cardGrade_num = parseInt(cardGrade);
+    const cardGrade_num = parseInt(cardGrade); //converts string to number
 
     //chiamate allo smart contract !!!
     await contract.methods
-      .registerCard(cardName, cardGrade_num, cardCondition)
+      .registerCard(cardName, cardGrade_num, cardCondition, cardCode)
       .send({ from: accounts[0] });
+  };
+
+  const generateCardCode = () => {
+    const cardCode = Math.floor(Math.random() * 10000000);
+    setCardCode(cardCode);
   };
 
   return (
@@ -62,7 +69,10 @@ const CardForm = () => {
           onChange={(e) => setCardCondition(e.target.value)}
         />
       </div>
-      <button type="submit">Submit</button>
+
+      <button onClick={generateCardCode} type="submit">
+        Submit
+      </button>
     </form>
   );
 };
