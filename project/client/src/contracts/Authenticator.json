@@ -132,8 +132,7 @@
         }
       ],
       "stateMutability": "view",
-      "type": "function",
-      "constant": true
+      "type": "function"
     },
     {
       "inputs": [
@@ -152,8 +151,7 @@
         }
       ],
       "stateMutability": "view",
-      "type": "function",
-      "constant": true
+      "type": "function"
     }
   ],
   "metadata": "{\"compiler\":{\"version\":\"0.8.18+commit.87f61d96\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"internalType\":\"address\",\"name\":\"user\",\"type\":\"address\"},{\"indexed\":false,\"internalType\":\"string\",\"name\":\"name\",\"type\":\"string\"},{\"indexed\":false,\"internalType\":\"uint256\",\"name\":\"grade\",\"type\":\"uint256\"},{\"indexed\":false,\"internalType\":\"string\",\"name\":\"condition\",\"type\":\"string\"}],\"name\":\"CardRegistered\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"internalType\":\"address\",\"name\":\"from\",\"type\":\"address\"},{\"indexed\":true,\"internalType\":\"address\",\"name\":\"to\",\"type\":\"address\"},{\"indexed\":false,\"internalType\":\"uint256\",\"name\":\"cardIndex\",\"type\":\"uint256\"}],\"name\":\"CardTransferred\",\"type\":\"event\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"_user\",\"type\":\"address\"}],\"name\":\"getCardCount\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"_user\",\"type\":\"address\"}],\"name\":\"getUserCards\",\"outputs\":[{\"components\":[{\"internalType\":\"string\",\"name\":\"name\",\"type\":\"string\"},{\"internalType\":\"uint256\",\"name\":\"grade\",\"type\":\"uint256\"},{\"internalType\":\"string\",\"name\":\"condition\",\"type\":\"string\"}],\"internalType\":\"struct Authenticator.Card[]\",\"name\":\"\",\"type\":\"tuple[]\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"string\",\"name\":\"_name\",\"type\":\"string\"},{\"internalType\":\"uint256\",\"name\":\"_grade\",\"type\":\"uint256\"},{\"internalType\":\"string\",\"name\":\"_condition\",\"type\":\"string\"}],\"name\":\"registerCard\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"_to\",\"type\":\"address\"},{\"internalType\":\"uint256\",\"name\":\"_cardIndex\",\"type\":\"uint256\"}],\"name\":\"transferCard\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"project:/contracts/authenticator.sol\":\"Authenticator\"},\"evmVersion\":\"paris\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/contracts/authenticator.sol\":{\"keccak256\":\"0x4a3434b672ac77cbe342e88a6ef1903f589091d12c47c672fc144078df9e6692\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://5f273c9035362af10aeead5d491bd620627b717c91d72a626d86751f2620ab3c\",\"dweb:/ipfs/Qmf3ZR4saHGcg17HAUCmn4p1VeMcrtcaxVh1JUzvPd47bh\"]}},\"version\":1}",
@@ -14141,8 +14139,7 @@
     }
   },
   "schemaVersion": "3.4.14",
-  "updatedAt": "2023-07-07T13:33:29.439Z",
-  "networkType": "ethereum",
+  "updatedAt": "2023-07-07T14:52:04.825Z",
   "devdoc": {
     "kind": "dev",
     "methods": {},

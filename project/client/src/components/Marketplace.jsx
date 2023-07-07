@@ -14,11 +14,6 @@ export default function Marketplace() {
   } = useEth();
   async function getAllNFTs() {
     const ethers = require("ethers");
-    // //After adding your Hardhat network to your metamask, this code will get providers and signers
-    // const provider = new ethers.providers.Web3Provider(window.ethereum);
-    // const signer = provider.getSigner();
-    // //Pull the deployed contract instance
-    // let contract = new ethers.Contract(MarketplaceJSON.address, MarketplaceJSON.abi, signer)
 
     let transaction = await contract.methods
       .getAllMyNFTs()
