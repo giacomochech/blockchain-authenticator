@@ -16,6 +16,9 @@ contract NFTMarketplace is ERC721URIStorage {
 
     mapping(address => Card[]) private userCards; // Mapping to register cards for each user
     mapping(address => uint256) private cardCounts; // Mapping to keep track of card counts for each user
+    
+    Card[] private allCards; // Array to keep track of all cards
+    uint256 private allCardsCount; // Variable to keep track of total card count
 
     event CardRegistered(
         address indexed user,
@@ -76,19 +79,14 @@ contract NFTMarketplace is ERC721URIStorage {
         return listPrice;
     }
 
-    function getLatestIdToListedToken()
-        public
-        view
-        returns (ListedToken memory)
+    function getLatestIdToListedToken() public view returns (ListedToken memory)
     {
         //memory is an instructional keyboard to create a temporary memory allocation
         uint256 currentTokenId = _tokenIDs.current();
         return idToListedToken[currentTokenId];
     }
 
-    function getListedForTokenId(
-        uint256 tokenId
-    ) public view returns (ListedToken memory) {
+    function getListedForTokenId(uint256 tokenId) public view returns (ListedToken memory) {
         return idToListedToken[tokenId];
     }
 
@@ -101,6 +99,11 @@ contract NFTMarketplace is ERC721URIStorage {
     // Function to get card count of a user by address
     function getCardCount(address _user) external view returns (uint256) {
         return cardCounts[_user];
+    }
+
+    //Function to get all cards count
+    function getAllCardsCount(address _user) external view returns (uint256) {
+        return allCardsCount;
     }
 
     // Function to transfer a card from one user to another
@@ -121,6 +124,11 @@ contract NFTMarketplace is ERC721URIStorage {
     function getUserCards(address _user) external view returns (Card[] memory) {
         // view means that this function will not modify the state of the contract
         return userCards[_user];
+    }
+
+    // Function to get all cards of a all users
+    function getAllUserCards() external view returns (Card[] memory) {
+        return allCards;
     }
 
     function removeElement(uint256 _cardIndex) internal {
@@ -154,14 +162,13 @@ contract NFTMarketplace is ERC721URIStorage {
         return currentTokenId;
     }
 
-    function registerCard(
-        string memory _name,
-        uint256 _grade,
-        string memory _condition,
-        uint256 _cardCode
-    ) external {
+    function registerCard(string memory _name, uint256 _grade, string memory _condition, uint256 _cardCode) external {
+        
         Card memory newCard = Card(_name, _grade, _condition, _cardCode);
         userCards[msg.sender].push(newCard);
+        allCards.push(newCard);
+        allCardsCount++;
+        
         cardCounts[msg.sender]++;
         emit CardRegistered(msg.sender, _name, _grade, _condition, _cardCode);
     }

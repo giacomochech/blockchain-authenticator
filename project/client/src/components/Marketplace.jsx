@@ -20,9 +20,7 @@ export default function Marketplace() {
     // //Pull the deployed contract instance
     // let contract = new ethers.Contract(MarketplaceJSON.address, MarketplaceJSON.abi, signer)
 
-    let transaction = await contract.methods
-      .getMyNFTs()
-      .call({ from: accounts[0] });
+    let transaction = await contract.methods.getAllMyNFTs().call({ from: accounts[0] });
 
     //Fetch all the details of every NFT from the contract and display
     const items = await Promise.all(
