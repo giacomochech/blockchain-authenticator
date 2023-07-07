@@ -4,16 +4,18 @@ import Contract from "./Contract";
 import ContractBtns from "./ContractBtns";
 import NoticeNoArtifact from "./NoticeNoArtifact";
 import NoticeWrongNetwork from "./NoticeWrongNetwork";
-
+import YourCollection from "./YourCollection";
+import SellNFT from "./SellNFT1";
 function Demo() {
-  
   const { state } = useEth();
-  const[value, setValue] = useState("");
+  const [value, setValue] = useState("");
   const demo = (
     <>
       <div className="contract-container">
-        <Contract  />
-        <ContractBtns  />
+        {/* <Contract  />
+        <ContractBtns  /> */}
+        <YourCollection />
+        <SellNFT />
       </div>
     </>
   );

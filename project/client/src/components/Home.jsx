@@ -109,9 +109,9 @@ function Contract({ value }) {
           }}
         >
           <ul>
-            <li>Nome: {items[cardIndex].name}</li>
-            <li>Descrizione: {items[cardIndex].condition}</li>
-            <li>Numero: {items[cardIndex].cardCode}</li>
+            <li>Name: {items[cardIndex].name}</li>
+            <li>Description: {items[cardIndex].condition}</li>
+            {/* <li>Numero: {items[cardIndex].cardCode}</li> */}
           </ul>
         </div>
       ) : (
@@ -125,9 +125,10 @@ function Contract({ value }) {
             color: "#fff",
             textAlign: "center",
             fontSize: "16px",
+            paddingTop: "80px",
           }}
         >
-          Non è originale
+          THE ITEM IS NOT AUTHENTICATED
         </div>
       )}
     </div>

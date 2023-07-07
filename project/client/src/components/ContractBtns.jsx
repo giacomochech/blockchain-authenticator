@@ -42,38 +42,63 @@ const CardForm = () => {
     const cardCode = Math.floor(Math.random() * 10000000);
     setCardCode(cardCode);
   };
-
   return (
-    <form onSubmit={handleSubmit}>
-      <div>
-        <label>Card Name:</label>
-        <input
-          type="text"
-          value={cardName}
-          onChange={(e) => setCardName(e.target.value)}
-        />
-      </div>
-      <div>
-        <label>Card Grade:</label>
-        <input
-          type="text"
-          value={cardGrade}
-          onChange={(e) => setCardGrade(e.target.value)}
-        />
-      </div>
-      <div>
-        <label>Card Condition:</label>
-        <input
-          type="text"
-          value={cardCondition}
-          onChange={(e) => setCardCondition(e.target.value)}
-        />
-      </div>
-
-      <button onClick={generateCardCode} type="submit">
-        Submit
-      </button>
-    </form>
+    <div className="flex justify-center items-center h-screen">
+      <form onSubmit={handleSubmit} className="flex flex-col items-center">
+        <div className="mb-4">
+          <label
+            htmlFor="cardName"
+            className="block text-gray-700 font-bold mb-2"
+          >
+            Card Name:
+          </label>
+          <input
+            type="text"
+            id="cardName"
+            value={cardName}
+            onChange={(e) => setCardName(e.target.value)}
+            className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+          />
+        </div>
+        <div className="mb-4">
+          <label
+            htmlFor="cardGrade"
+            className="block text-gray-700 font-bold mb-2"
+          >
+            Card Grade:
+          </label>
+          <input
+            type="text"
+            id="cardGrade"
+            value={cardGrade}
+            onChange={(e) => setCardGrade(e.target.value)}
+            className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+          />
+        </div>
+        <div className="mb-4">
+          <label
+            htmlFor="cardCondition"
+            className="block text-gray-700 font-bold mb-2"
+          >
+            Card Condition:
+          </label>
+          <input
+            type="text"
+            id="cardCondition"
+            value={cardCondition}
+            onChange={(e) => setCardCondition(e.target.value)}
+            className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+          />
+        </div>
+        <button
+          onClick={generateCardCode}
+          type="submit"
+          className="bg-purple-500 hover:bg-purple-700 text-black font-bold py-2 px-4 rounded"
+        >
+          Submit
+        </button>
+      </form>
+    </div>
   );
 };
 

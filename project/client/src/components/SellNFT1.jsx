@@ -130,14 +130,18 @@ export default function SellNFT() {
 
   //console.log("Working", process.env);
   return (
-    <div className="">
-      <Navbar></Navbar>
-      <div className="flex flex-col place-items-center mt-10" id="nftForm">
-        <form className="bg-white shadow-md rounded px-8 pt-4 pb-8 mb-4">
-          <h3 className="text-center font-bold text-purple-500 mb-8">
+    <div className="bg-gray-100 min-h-screen">
+      <header className="bg-purple-500 text-white py-4">
+        <nav className="container mx-auto flex items-center justify-between">
+          <h1 className="text-2xl font-bold">NFT Marketplace</h1>
+        </nav>
+      </header>
+      <main className="container mx-auto py-10">
+        <div className="max-w-md mx-auto bg-white shadow-md rounded px-8 py-6">
+          <h3 className=" text-purple-500 text-xl font-bold mb-6">
             Upload your NFT to the marketplace
           </h3>
-          <div className="mb-4">
+          <div className="mb-6">
             <label
               className="block text-purple-500 text-sm font-bold mb-2"
               htmlFor="name"
@@ -153,12 +157,12 @@ export default function SellNFT() {
                 updateFormParams({ ...formParams, name: e.target.value })
               }
               value={formParams.name}
-            ></input>
+            />
           </div>
-          <div className="mb-5">
+          <div className="mb-6">
             <label
               className="block text-purple-500 text-sm font-bold mb-2"
-              htmlFor="name"
+              htmlFor="grade"
             >
               Gradation
             </label>
@@ -171,7 +175,7 @@ export default function SellNFT() {
                 updateFormParams({ ...formParams, grade: e.target.value })
               }
               value={formParams.grade}
-            ></input>
+            />
           </div>
           <div className="mb-6">
             <label
@@ -191,9 +195,9 @@ export default function SellNFT() {
               onChange={(e) =>
                 updateFormParams({ ...formParams, description: e.target.value })
               }
-            ></textarea>
+            />
           </div>
-          <div className="mb-7">
+          <div className="mb-6">
             <label
               className="block text-purple-500 text-sm font-bold mb-2"
               htmlFor="price"
@@ -209,28 +213,27 @@ export default function SellNFT() {
               onChange={(e) =>
                 updateFormParams({ ...formParams, price: e.target.value })
               }
-            ></input>
+            />
           </div>
-          <div>
+          <div className="mb-6">
             <label
               className="block text-purple-500 text-sm font-bold mb-2"
               htmlFor="image"
             >
               Upload Image (&lt;500 KB)
             </label>
-            <input type={"file"} onChange={OnChangeFile}></input>
+            <input type="file" onChange={OnChangeFile} />
           </div>
-          <br></br>
-          <div className="text-red-500 text-center">{message}</div>
+          <div className="text-red-500 text-center mb-4">{message}</div>
           <button
             onClick={listNFT}
-            className="font-bold mt-10 w-full bg-purple-500 text-white rounded p-2 shadow-lg"
+            className="w-full bg-purple-500 text-black rounded p-2 shadow-lg font-bold"
             id="list-button"
           >
             List NFT
           </button>
-        </form>
-      </div>
+        </div>
+      </main>
     </div>
   );
 }

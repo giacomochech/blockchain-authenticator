@@ -207,29 +207,30 @@ contract NFTMarketplace is ERC721URIStorage {
 
     //Get all the NFTs currently listed for sale on the marketplace --> DA MODIFICARE
     function getAllNFTs() public view returns (ListedToken[] memory) {
-        uint nftCount = _tokenIDs.current();
+        uint256 nftCount = _tokenIDs.current();
         ListedToken[] memory tokens = new ListedToken[](nftCount);
-
-        uint currentIndex = 0;
-
-        for (uint i = 0; i < nftCount; i++) {
-            uint currentId = i + 1;
+        uint256 currentIndex = 0;
+        uint256 currentId;
+        //at the moment currentlyListed is true for all, if it becomes false in the future we will
+        //filter out currentlyListed == false over here
+        for (uint256 i = 0; i < nftCount; i++) {
+            currentId = i + 1;
             ListedToken storage currentItem = idToListedToken[currentId];
             tokens[currentIndex] = currentItem;
             currentIndex += 1;
         }
-
+        //the array 'tokens' has the list of all NFTs in the marketplace
         return tokens;
     }
 
-    //Get all the NFTs of the user on the marketplace --> DA MODIFICARE
-    function getAllMyNFTs() public view returns (ListedToken[] memory) {
-        uint totalItemCount = _tokenIDs.current();
-        uint itemCount = 0;
-        uint currentIndex = 0;
-        uint currentId;
+    //Returns all the NFTs that the current user is owner or seller in
+    function getMyNFTs() public view returns (ListedToken[] memory) {
+        uint256 totalItemCount = _tokenIDs.current();
+        uint256 itemCount = 0;
+        uint256 currentIndex = 0;
+        uint256 currentId;
         //Important to get a count of all the NFTs that belong to the user before we can make an array for them
-        for (uint i = 0; i < totalItemCount; i++) {
+        for (uint256 i = 0; i < totalItemCount; i++) {
             if (
                 idToListedToken[i + 1].owner == msg.sender ||
                 idToListedToken[i + 1].seller == msg.sender
@@ -240,7 +241,7 @@ contract NFTMarketplace is ERC721URIStorage {
 
         //Once you have the count of relevant NFTs, create an array then store all the NFTs in it
         ListedToken[] memory items = new ListedToken[](itemCount);
-        for (uint i = 0; i < totalItemCount; i++) {
+        for (uint256 i = 0; i < totalItemCount; i++) {
             if (
                 idToListedToken[i + 1].owner == msg.sender ||
                 idToListedToken[i + 1].seller == msg.sender
@@ -254,9 +255,9 @@ contract NFTMarketplace is ERC721URIStorage {
         return items;
     }
 
-    //The function that executes the sale on the marketplace --> DA MODIFICARE
+    //Sell NFT to other address
     function executeSale(uint256 tokenId) public payable {
-        uint price = idToListedToken[tokenId].price;
+        uint256 price = idToListedToken[tokenId].price;
         address seller = idToListedToken[tokenId].seller;
         require(
             msg.value == price,
@@ -266,7 +267,7 @@ contract NFTMarketplace is ERC721URIStorage {
         //update the details of the token
         idToListedToken[tokenId].currentlyListed = true;
         idToListedToken[tokenId].seller = payable(msg.sender);
-        //_itemsSold.increment();
+        _itemsSold.increment();
 
         //Actually transfer the token to the new owner
         _transfer(address(this), msg.sender, tokenId);

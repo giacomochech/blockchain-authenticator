@@ -16,7 +16,7 @@ export default function Marketplace() {
     const ethers = require("ethers");
 
     let transaction = await contract.methods
-      .getAllMyNFTs()
+      .getAllNFTs()
       .call({ from: accounts[0] });
 
     //Fetch all the details of every NFT from the contract and display

@@ -28,14 +28,14 @@ const Navigation = (props) => {
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ms-auto">
-              <Nav.Link style={{ width: "300px", marginTop: "-6px" }}>
+              {/* <Nav.Link style={{ width: "300px", marginTop: "-6px" }}>
                 <Select
                   placeholder="Select Option"
                   //   value={options.find((obj) => obj.value === props.sensor)}
                   //   options={options}
                   //   onChange={HandleSensorChange}
                 />
-              </Nav.Link>
+              </Nav.Link> */}
               <Link to="/collection" style={{ textDecoration: "none" }}>
                 <Nav.Link href="#Collection">Your Collection</Nav.Link>
               </Link>
@@ -43,7 +43,7 @@ const Navigation = (props) => {
                 <Nav.Link href="#Project">Grading Area</Nav.Link>
               </Link>
               <Link to="/Info" style={{ textDecoration: "none" }}>
-                <Nav.Link href="#Info">Info</Nav.Link>
+                <Nav.Link href="#Info">NFTs</Nav.Link>
               </Link>
             </Nav>
           </Navbar.Collapse>

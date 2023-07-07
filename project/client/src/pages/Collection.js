@@ -4,6 +4,9 @@ import { Container, Alert, Row, Col } from "react-bootstrap"; //component
 import gradingImage from "../media/grading.jpg";
 import AuthForm from "../components";
 import { EthProvider } from "../contexts/EthContext";
+import SellNFT from "../components/SellNFT1.jsx";
+import YourCollection from "../components/YourCollection.jsx";
+import TransferCard from "../components/TransferCard.jsx";
 
 const Home = () => {
   return (
@@ -11,12 +14,14 @@ const Home = () => {
       <EthProvider>
         <Navigation />
 
-        <Container style={{ paddingTop: "10px" }}>
+        <Container>
           <div id="Auth">
-            <div className="container">
-              <AuthForm />
-              <hr />
+            <div className="d-flex justify-content-between">
+              <SellNFT />
+              <YourCollection />
             </div>
+            <hr />
+            <TransferCard />
           </div>
           {/* <img
             src={gradingImage}

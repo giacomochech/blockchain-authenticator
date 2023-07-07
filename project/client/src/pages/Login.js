@@ -8,7 +8,7 @@ const Info = () => {
     <>
       <Navigation />
 
-      <Container style={{ paddingTop: "10px" }}>
+      <Container style={{ paddingTop: "100px" }}>
         <div>
           <Login />
         </div>

@@ -58,38 +58,67 @@ function CLogin() {
   };
 
   return (
-    <div className="container">
-      <div className="app-wrapper">
-        <div>
-          <h2 className="title">Login</h2>
+    <div
+      className="flex justify-center items-center h-screen bg-gray-100"
+      style={{ alignItems: "center", paddingLeft: "20rem" }}
+    >
+      <div className="w-50 h-55 bg-white rounded-full flex justify-center items-center shadow-lg">
+        <div className="max-w-md w-full p-8">
+          <h2 className="text-2xl text-center font-bold mb-8">Login</h2>
+          <form>
+            <div className="mb-6 text-center">
+              <label
+                className="block text-gray-700 text-sm font-bold mb-2"
+                htmlFor="uname"
+              >
+                Username
+              </label>
+              <div className="flex justify-end" style={{ paddingLeft: "1rem" }}>
+                <input
+                  className="appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                  type="text"
+                  id="uname"
+                  name="uname"
+                  placeholder="Username"
+                />
+                {renderErrorMessage("uname")}
+              </div>
+            </div>
+            <div className="mb-6 text-center" style={{ marginTop: "1rem" }}>
+              <label
+                className="block text-gray-700 text-sm font-bold mb-2"
+                htmlFor="pass"
+              >
+                Password
+              </label>
+              <div className="flex justify-end" style={{ paddingLeft: "1rem" }}>
+                <input
+                  className="appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                  type="password"
+                  id="pass"
+                  name="pass"
+                  placeholder="Password"
+                />
+                {renderErrorMessage("pass")}
+              </div>
+            </div>
+            <div
+              style={{
+                display: "flex",
+                flexDirection: "column",
+                alignItems: "center",
+                marginTop: "1rem",
+              }}
+            >
+              <button
+                className="bg-purple-500 hover:bg-purple-700 text-black font-bold py-2 px-4 rounded w-full text-center"
+                onClick={handleSubmit}
+              >
+                Login
+              </button>
+            </div>
+          </form>
         </div>
-        <form className="form-wrapper">
-          <div className="uname">
-            <label className="label">Username</label>
-            <input
-              className="input"
-              type="text"
-              name="uname"
-              placeholder="Username"
-            />
-            {renderErrorMessage("uname")}
-          </div>
-          <div className="pass">
-            <label className="label">Password</label>
-            <input
-              className="input"
-              type="password"
-              name="pass"
-              placeholder="Password"
-            />
-            {renderErrorMessage("pass")}
-          </div>
-          <div>
-            <button className="submit" onClick={handleSubmit}>
-              Login
-            </button>
-          </div>
-        </form>
       </div>
     </div>
   );
