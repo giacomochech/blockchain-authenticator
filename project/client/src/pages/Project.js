@@ -7,7 +7,6 @@ const Project = () => {
   return (
     <>
       <Container style={{ paddingTop: "10px" }}>
-        <Row>Project</Row>
         <SellNFT />
       </Container>
     </>

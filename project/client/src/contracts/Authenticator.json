@@ -794,7 +794,7 @@
                 }
               ]
             },
-            "name": "array_length_t_array$_t_struct$_Card_$753_memory_ptr_$dyn_memory_ptr",
+            "name": "array_length_t_array$_t_struct$_Card_$786_memory_ptr_$dyn_memory_ptr",
             "nodeType": "YulFunctionDefinition",
             "parameters": [
               {
@@ -880,7 +880,7 @@
                 }
               ]
             },
-            "name": "array_storeLengthForEncoding_t_array$_t_struct$_Card_$753_memory_ptr_$dyn_memory_ptr_fromStack",
+            "name": "array_storeLengthForEncoding_t_array$_t_struct$_Card_$786_memory_ptr_$dyn_memory_ptr_fromStack",
             "nodeType": "YulFunctionDefinition",
             "parameters": [
               {
@@ -963,7 +963,7 @@
                 }
               ]
             },
-            "name": "array_dataslot_t_array$_t_struct$_Card_$753_memory_ptr_$dyn_memory_ptr",
+            "name": "array_dataslot_t_array$_t_struct$_Card_$786_memory_ptr_$dyn_memory_ptr",
             "nodeType": "YulFunctionDefinition",
             "parameters": [
               {
@@ -2183,7 +2183,7 @@
                 }
               ]
             },
-            "name": "abi_encode_t_struct$_Card_$753_memory_ptr_to_t_struct$_Card_$753_memory_ptr",
+            "name": "abi_encode_t_struct$_Card_$786_memory_ptr_to_t_struct$_Card_$786_memory_ptr",
             "nodeType": "YulFunctionDefinition",
             "parameters": [
               {
@@ -2231,7 +2231,7 @@
                       }
                     ],
                     "functionName": {
-                      "name": "abi_encode_t_struct$_Card_$753_memory_ptr_to_t_struct$_Card_$753_memory_ptr",
+                      "name": "abi_encode_t_struct$_Card_$786_memory_ptr_to_t_struct$_Card_$786_memory_ptr",
                       "nodeType": "YulIdentifier",
                       "src": "3930:75:18"
                     },
@@ -2248,7 +2248,7 @@
                 }
               ]
             },
-            "name": "abi_encodeUpdatedPos_t_struct$_Card_$753_memory_ptr_to_t_struct$_Card_$753_memory_ptr",
+            "name": "abi_encodeUpdatedPos_t_struct$_Card_$786_memory_ptr_to_t_struct$_Card_$786_memory_ptr",
             "nodeType": "YulFunctionDefinition",
             "parameters": [
               {
@@ -2315,7 +2315,7 @@
                 }
               ]
             },
-            "name": "array_nextElement_t_array$_t_struct$_Card_$753_memory_ptr_$dyn_memory_ptr",
+            "name": "array_nextElement_t_array$_t_struct$_Card_$786_memory_ptr_$dyn_memory_ptr",
             "nodeType": "YulFunctionDefinition",
             "parameters": [
               {
@@ -2352,7 +2352,7 @@
                       }
                     ],
                     "functionName": {
-                      "name": "array_length_t_array$_t_struct$_Card_$753_memory_ptr_$dyn_memory_ptr",
+                      "name": "array_length_t_array$_t_struct$_Card_$786_memory_ptr_$dyn_memory_ptr",
                       "nodeType": "YulIdentifier",
                       "src": "4426:68:18"
                     },
@@ -2385,7 +2385,7 @@
                       }
                     ],
                     "functionName": {
-                      "name": "array_storeLengthForEncoding_t_array$_t_struct$_Card_$753_memory_ptr_$dyn_memory_ptr_fromStack",
+                      "name": "array_storeLengthForEncoding_t_array$_t_struct$_Card_$786_memory_ptr_$dyn_memory_ptr_fromStack",
                       "nodeType": "YulIdentifier",
                       "src": "4517:94:18"
                     },
@@ -2480,7 +2480,7 @@
                       }
                     ],
                     "functionName": {
-                      "name": "array_dataslot_t_array$_t_struct$_Card_$753_memory_ptr_$dyn_memory_ptr",
+                      "name": "array_dataslot_t_array$_t_struct$_Card_$786_memory_ptr_$dyn_memory_ptr",
                       "nodeType": "YulIdentifier",
                       "src": "4725:70:18"
                     },
@@ -2604,7 +2604,7 @@
                             }
                           ],
                           "functionName": {
-                            "name": "abi_encodeUpdatedPos_t_struct$_Card_$753_memory_ptr_to_t_struct$_Card_$753_memory_ptr",
+                            "name": "abi_encodeUpdatedPos_t_struct$_Card_$786_memory_ptr_to_t_struct$_Card_$786_memory_ptr",
                             "nodeType": "YulIdentifier",
                             "src": "5016:85:18"
                           },
@@ -2631,7 +2631,7 @@
                             }
                           ],
                           "functionName": {
-                            "name": "array_nextElement_t_array$_t_struct$_Card_$753_memory_ptr_$dyn_memory_ptr",
+                            "name": "array_nextElement_t_array$_t_struct$_Card_$786_memory_ptr_$dyn_memory_ptr",
                             "nodeType": "YulIdentifier",
                             "src": "5145:73:18"
                           },
@@ -2805,7 +2805,7 @@
                 }
               ]
             },
-            "name": "abi_encode_t_array$_t_struct$_Card_$753_memory_ptr_$dyn_memory_ptr_to_t_array$_t_struct$_Card_$753_memory_ptr_$dyn_memory_ptr_fromStack",
+            "name": "abi_encode_t_array$_t_struct$_Card_$786_memory_ptr_$dyn_memory_ptr_to_t_array$_t_struct$_Card_$786_memory_ptr_$dyn_memory_ptr_fromStack",
             "nodeType": "YulFunctionDefinition",
             "parameters": [
               {
@@ -2946,7 +2946,7 @@
                       }
                     ],
                     "functionName": {
-                      "name": "abi_encode_t_array$_t_struct$_Card_$753_memory_ptr_$dyn_memory_ptr_to_t_array$_t_struct$_Card_$753_memory_ptr_$dyn_memory_ptr_fromStack",
+                      "name": "abi_encode_t_array$_t_struct$_Card_$786_memory_ptr_$dyn_memory_ptr_to_t_array$_t_struct$_Card_$786_memory_ptr_$dyn_memory_ptr_fromStack",
                       "nodeType": "YulIdentifier",
                       "src": "5621:135:18"
                     },
@@ -2963,7 +2963,7 @@
                 }
               ]
             },
-            "name": "abi_encode_tuple_t_array$_t_struct$_Card_$753_memory_ptr_$dyn_memory_ptr__to_t_array$_t_struct$_Card_$753_memory_ptr_$dyn_memory_ptr__fromStack_reversed",
+            "name": "abi_encode_tuple_t_array$_t_struct$_Card_$786_memory_ptr_$dyn_memory_ptr__to_t_array$_t_struct$_Card_$786_memory_ptr_$dyn_memory_ptr__fromStack_reversed",
             "nodeType": "YulFunctionDefinition",
             "parameters": [
               {
@@ -11017,7 +11017,7 @@
           }
         ]
       },
-      "contents": "{\n\n    function allocate_unbounded() -> memPtr {\n        memPtr := mload(64)\n    }\n\n    function revert_error_dbdddcbe895c83990c08b3492a0e83918d802a52331272ac6fdb6a7c4aea3b1b() {\n        revert(0, 0)\n    }\n\n    function revert_error_c1322bf8034eace5e0b5c7295db60986aa89aae5e0ea0873e4689e076861a5db() {\n        revert(0, 0)\n    }\n\n    function cleanup_t_uint160(value) -> cleaned {\n        cleaned := and(value, 0xffffffffffffffffffffffffffffffffffffffff)\n    }\n\n    function cleanup_t_address(value) -> cleaned {\n        cleaned := cleanup_t_uint160(value)\n    }\n\n    function validator_revert_t_address(value) {\n        if iszero(eq(value, cleanup_t_address(value))) { revert(0, 0) }\n    }\n\n    function abi_decode_t_address(offset, end) -> value {\n        value := calldataload(offset)\n        validator_revert_t_address(value)\n    }\n\n    function abi_decode_tuple_t_address(headStart, dataEnd) -> value0 {\n        if slt(sub(dataEnd, headStart), 32) { revert_error_dbdddcbe895c83990c08b3492a0e83918d802a52331272ac6fdb6a7c4aea3b1b() }\n\n        {\n\n            let offset := 0\n\n            value0 := abi_decode_t_address(add(headStart, offset), dataEnd)\n        }\n\n    }\n\n    function array_length_t_array$_t_struct$_Card_$753_memory_ptr_$dyn_memory_ptr(value) -> length {\n\n        length := mload(value)\n\n    }\n\n    function array_storeLengthForEncoding_t_array$_t_struct$_Card_$753_memory_ptr_$dyn_memory_ptr_fromStack(pos, length) -> updated_pos {\n        mstore(pos, length)\n        updated_pos := add(pos, 0x20)\n    }\n\n    function array_dataslot_t_array$_t_struct$_Card_$753_memory_ptr_$dyn_memory_ptr(ptr) -> data {\n        data := ptr\n\n        data := add(ptr, 0x20)\n\n    }\n\n    function array_length_t_string_memory_ptr(value) -> length {\n\n        length := mload(value)\n\n    }\n\n    function array_storeLengthForEncoding_t_string_memory_ptr(pos, length) -> updated_pos {\n        mstore(pos, length)\n        updated_pos := add(pos, 0x20)\n    }\n\n    function copy_memory_to_memory_with_cleanup(src, dst, length) {\n        let i := 0\n        for { } lt(i, length) { i := add(i, 32) }\n        {\n            mstore(add(dst, i), mload(add(src, i)))\n        }\n        mstore(add(dst, length), 0)\n    }\n\n    function round_up_to_mul_of_32(value) -> result {\n        result := and(add(value, 31), not(31))\n    }\n\n    function abi_encode_t_string_memory_ptr_to_t_string_memory_ptr(value, pos) -> end {\n        let length := array_length_t_string_memory_ptr(value)\n        pos := array_storeLengthForEncoding_t_string_memory_ptr(pos, length)\n        copy_memory_to_memory_with_cleanup(add(value, 0x20), pos, length)\n        end := add(pos, round_up_to_mul_of_32(length))\n    }\n\n    function cleanup_t_uint256(value) -> cleaned {\n        cleaned := value\n    }\n\n    function abi_encode_t_uint256_to_t_uint256(value, pos) {\n        mstore(pos, cleanup_t_uint256(value))\n    }\n\n    // struct Authenticator.Card -> struct Authenticator.Card\n    function abi_encode_t_struct$_Card_$753_memory_ptr_to_t_struct$_Card_$753_memory_ptr(value, pos)  -> end  {\n        let tail := add(pos, 0x60)\n\n        {\n            // name\n\n            let memberValue0 := mload(add(value, 0x00))\n\n            mstore(add(pos, 0x00), sub(tail, pos))\n            tail := abi_encode_t_string_memory_ptr_to_t_string_memory_ptr(memberValue0, tail)\n\n        }\n\n        {\n            // grade\n\n            let memberValue0 := mload(add(value, 0x20))\n            abi_encode_t_uint256_to_t_uint256(memberValue0, add(pos, 0x20))\n        }\n\n        {\n            // condition\n\n            let memberValue0 := mload(add(value, 0x40))\n\n            mstore(add(pos, 0x40), sub(tail, pos))\n            tail := abi_encode_t_string_memory_ptr_to_t_string_memory_ptr(memberValue0, tail)\n\n        }\n\n        end := tail\n    }\n\n    function abi_encodeUpdatedPos_t_struct$_Card_$753_memory_ptr_to_t_struct$_Card_$753_memory_ptr(value0, pos) -> updatedPos {\n        updatedPos := abi_encode_t_struct$_Card_$753_memory_ptr_to_t_struct$_Card_$753_memory_ptr(value0, pos)\n    }\n\n    function array_nextElement_t_array$_t_struct$_Card_$753_memory_ptr_$dyn_memory_ptr(ptr) -> next {\n        next := add(ptr, 0x20)\n    }\n\n    // struct Authenticator.Card[] -> struct Authenticator.Card[]\n    function abi_encode_t_array$_t_struct$_Card_$753_memory_ptr_$dyn_memory_ptr_to_t_array$_t_struct$_Card_$753_memory_ptr_$dyn_memory_ptr_fromStack(value, pos)  -> end  {\n        let length := array_length_t_array$_t_struct$_Card_$753_memory_ptr_$dyn_memory_ptr(value)\n        pos := array_storeLengthForEncoding_t_array$_t_struct$_Card_$753_memory_ptr_$dyn_memory_ptr_fromStack(pos, length)\n        let headStart := pos\n        let tail := add(pos, mul(length, 0x20))\n        let baseRef := array_dataslot_t_array$_t_struct$_Card_$753_memory_ptr_$dyn_memory_ptr(value)\n        let srcPtr := baseRef\n        for { let i := 0 } lt(i, length) { i := add(i, 1) }\n        {\n            mstore(pos, sub(tail, headStart))\n            let elementValue0 := mload(srcPtr)\n            tail := abi_encodeUpdatedPos_t_struct$_Card_$753_memory_ptr_to_t_struct$_Card_$753_memory_ptr(elementValue0, tail)\n            srcPtr := array_nextElement_t_array$_t_struct$_Card_$753_memory_ptr_$dyn_memory_ptr(srcPtr)\n            pos := add(pos, 0x20)\n        }\n        pos := tail\n        end := pos\n    }\n\n    function abi_encode_tuple_t_array$_t_struct$_Card_$753_memory_ptr_$dyn_memory_ptr__to_t_array$_t_struct$_Card_$753_memory_ptr_$dyn_memory_ptr__fromStack_reversed(headStart , value0) -> tail {\n        tail := add(headStart, 32)\n\n        mstore(add(headStart, 0), sub(tail, headStart))\n        tail := abi_encode_t_array$_t_struct$_Card_$753_memory_ptr_$dyn_memory_ptr_to_t_array$_t_struct$_Card_$753_memory_ptr_$dyn_memory_ptr_fromStack(value0,  tail)\n\n    }\n\n    function validator_revert_t_uint256(value) {\n        if iszero(eq(value, cleanup_t_uint256(value))) { revert(0, 0) }\n    }\n\n    function abi_decode_t_uint256(offset, end) -> value {\n        value := calldataload(offset)\n        validator_revert_t_uint256(value)\n    }\n\n    function abi_decode_tuple_t_addresst_uint256(headStart, dataEnd) -> value0, value1 {\n        if slt(sub(dataEnd, headStart), 64) { revert_error_dbdddcbe895c83990c08b3492a0e83918d802a52331272ac6fdb6a7c4aea3b1b() }\n\n        {\n\n            let offset := 0\n\n            value0 := abi_decode_t_address(add(headStart, offset), dataEnd)\n        }\n\n        {\n\n            let offset := 32\n\n            value1 := abi_decode_t_uint256(add(headStart, offset), dataEnd)\n        }\n\n    }\n\n    function revert_error_1b9f4a0a5773e33b91aa01db23bf8c55fce1411167c872835e7fa00a4f17d46d() {\n        revert(0, 0)\n    }\n\n    function revert_error_987264b3b1d58a9c7f8255e93e81c77d86d6299019c33110a076957a3e06e2ae() {\n        revert(0, 0)\n    }\n\n    function panic_error_0x41() {\n        mstore(0, 35408467139433450592217433187231851964531694900788300625387963629091585785856)\n        mstore(4, 0x41)\n        revert(0, 0x24)\n    }\n\n    function finalize_allocation(memPtr, size) {\n        let newFreePtr := add(memPtr, round_up_to_mul_of_32(size))\n        // protect against overflow\n        if or(gt(newFreePtr, 0xffffffffffffffff), lt(newFreePtr, memPtr)) { panic_error_0x41() }\n        mstore(64, newFreePtr)\n    }\n\n    function allocate_memory(size) -> memPtr {\n        memPtr := allocate_unbounded()\n        finalize_allocation(memPtr, size)\n    }\n\n    function array_allocation_size_t_string_memory_ptr(length) -> size {\n        // Make sure we can allocate memory without overflow\n        if gt(length, 0xffffffffffffffff) { panic_error_0x41() }\n\n        size := round_up_to_mul_of_32(length)\n\n        // add length slot\n        size := add(size, 0x20)\n\n    }\n\n    function copy_calldata_to_memory_with_cleanup(src, dst, length) {\n        calldatacopy(dst, src, length)\n        mstore(add(dst, length), 0)\n    }\n\n    function abi_decode_available_length_t_string_memory_ptr(src, length, end) -> array {\n        array := allocate_memory(array_allocation_size_t_string_memory_ptr(length))\n        mstore(array, length)\n        let dst := add(array, 0x20)\n        if gt(add(src, length), end) { revert_error_987264b3b1d58a9c7f8255e93e81c77d86d6299019c33110a076957a3e06e2ae() }\n        copy_calldata_to_memory_with_cleanup(src, dst, length)\n    }\n\n    // string\n    function abi_decode_t_string_memory_ptr(offset, end) -> array {\n        if iszero(slt(add(offset, 0x1f), end)) { revert_error_1b9f4a0a5773e33b91aa01db23bf8c55fce1411167c872835e7fa00a4f17d46d() }\n        let length := calldataload(offset)\n        array := abi_decode_available_length_t_string_memory_ptr(add(offset, 0x20), length, end)\n    }\n\n    function abi_decode_tuple_t_string_memory_ptrt_uint256t_string_memory_ptr(headStart, dataEnd) -> value0, value1, value2 {\n        if slt(sub(dataEnd, headStart), 96) { revert_error_dbdddcbe895c83990c08b3492a0e83918d802a52331272ac6fdb6a7c4aea3b1b() }\n\n        {\n\n            let offset := calldataload(add(headStart, 0))\n            if gt(offset, 0xffffffffffffffff) { revert_error_c1322bf8034eace5e0b5c7295db60986aa89aae5e0ea0873e4689e076861a5db() }\n\n            value0 := abi_decode_t_string_memory_ptr(add(headStart, offset), dataEnd)\n        }\n\n        {\n\n            let offset := 32\n\n            value1 := abi_decode_t_uint256(add(headStart, offset), dataEnd)\n        }\n\n        {\n\n            let offset := calldataload(add(headStart, 64))\n            if gt(offset, 0xffffffffffffffff) { revert_error_c1322bf8034eace5e0b5c7295db60986aa89aae5e0ea0873e4689e076861a5db() }\n\n            value2 := abi_decode_t_string_memory_ptr(add(headStart, offset), dataEnd)\n        }\n\n    }\n\n    function abi_encode_t_uint256_to_t_uint256_fromStack(value, pos) {\n        mstore(pos, cleanup_t_uint256(value))\n    }\n\n    function abi_encode_tuple_t_uint256__to_t_uint256__fromStack_reversed(headStart , value0) -> tail {\n        tail := add(headStart, 32)\n\n        abi_encode_t_uint256_to_t_uint256_fromStack(value0,  add(headStart, 0))\n\n    }\n\n    function panic_error_0x22() {\n        mstore(0, 35408467139433450592217433187231851964531694900788300625387963629091585785856)\n        mstore(4, 0x22)\n        revert(0, 0x24)\n    }\n\n    function extract_byte_array_length(data) -> length {\n        length := div(data, 2)\n        let outOfPlaceEncoding := and(data, 1)\n        if iszero(outOfPlaceEncoding) {\n            length := and(length, 0x7f)\n        }\n\n        if eq(outOfPlaceEncoding, lt(length, 32)) {\n            panic_error_0x22()\n        }\n    }\n\n    function array_storeLengthForEncoding_t_string_memory_ptr_fromStack(pos, length) -> updated_pos {\n        mstore(pos, length)\n        updated_pos := add(pos, 0x20)\n    }\n\n    function store_literal_in_memory_77033d22a9df979ff64b7c690a116e78c401d772e72cb46fdb1891ca6623a0c2(memPtr) {\n\n        mstore(add(memPtr, 0), \"Invalid card index\")\n\n    }\n\n    function abi_encode_t_stringliteral_77033d22a9df979ff64b7c690a116e78c401d772e72cb46fdb1891ca6623a0c2_to_t_string_memory_ptr_fromStack(pos) -> end {\n        pos := array_storeLengthForEncoding_t_string_memory_ptr_fromStack(pos, 18)\n        store_literal_in_memory_77033d22a9df979ff64b7c690a116e78c401d772e72cb46fdb1891ca6623a0c2(pos)\n        end := add(pos, 32)\n    }\n\n    function abi_encode_tuple_t_stringliteral_77033d22a9df979ff64b7c690a116e78c401d772e72cb46fdb1891ca6623a0c2__to_t_string_memory_ptr__fromStack_reversed(headStart ) -> tail {\n        tail := add(headStart, 32)\n\n        mstore(add(headStart, 0), sub(tail, headStart))\n        tail := abi_encode_t_stringliteral_77033d22a9df979ff64b7c690a116e78c401d772e72cb46fdb1891ca6623a0c2_to_t_string_memory_ptr_fromStack( tail)\n\n    }\n\n    function panic_error_0x32() {\n        mstore(0, 35408467139433450592217433187231851964531694900788300625387963629091585785856)\n        mstore(4, 0x32)\n        revert(0, 0x24)\n    }\n\n    function array_dataslot_t_string_storage(ptr) -> data {\n        data := ptr\n\n        mstore(0, ptr)\n        data := keccak256(0, 0x20)\n\n    }\n\n    function divide_by_32_ceil(value) -> result {\n        result := div(add(value, 31), 32)\n    }\n\n    function shift_left_dynamic(bits, value) -> newValue {\n        newValue :=\n\n        shl(bits, value)\n\n    }\n\n    function update_byte_slice_dynamic32(value, shiftBytes, toInsert) -> result {\n        let shiftBits := mul(shiftBytes, 8)\n        let mask := shift_left_dynamic(shiftBits, 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff)\n        toInsert := shift_left_dynamic(shiftBits, toInsert)\n        value := and(value, not(mask))\n        result := or(value, and(toInsert, mask))\n    }\n\n    function identity(value) -> ret {\n        ret := value\n    }\n\n    function convert_t_uint256_to_t_uint256(value) -> converted {\n        converted := cleanup_t_uint256(identity(cleanup_t_uint256(value)))\n    }\n\n    function prepare_store_t_uint256(value) -> ret {\n        ret := value\n    }\n\n    function update_storage_value_t_uint256_to_t_uint256(slot, offset, value_0) {\n        let convertedValue_0 := convert_t_uint256_to_t_uint256(value_0)\n        sstore(slot, update_byte_slice_dynamic32(sload(slot), offset, prepare_store_t_uint256(convertedValue_0)))\n    }\n\n    function zero_value_for_split_t_uint256() -> ret {\n        ret := 0\n    }\n\n    function storage_set_to_zero_t_uint256(slot, offset) {\n        let zero_0 := zero_value_for_split_t_uint256()\n        update_storage_value_t_uint256_to_t_uint256(slot, offset, zero_0)\n    }\n\n    function clear_storage_range_t_bytes1(start, end) {\n        for {} lt(start, end) { start := add(start, 1) }\n        {\n            storage_set_to_zero_t_uint256(start, 0)\n        }\n    }\n\n    function clean_up_bytearray_end_slots_t_string_storage(array, len, startIndex) {\n\n        if gt(len, 31) {\n            let dataArea := array_dataslot_t_string_storage(array)\n            let deleteStart := add(dataArea, divide_by_32_ceil(startIndex))\n            // If we are clearing array to be short byte array, we want to clear only data starting from array data area.\n            if lt(startIndex, 32) { deleteStart := dataArea }\n            clear_storage_range_t_bytes1(deleteStart, add(dataArea, divide_by_32_ceil(len)))\n        }\n\n    }\n\n    function shift_right_unsigned_dynamic(bits, value) -> newValue {\n        newValue :=\n\n        shr(bits, value)\n\n    }\n\n    function mask_bytes_dynamic(data, bytes) -> result {\n        let mask := not(shift_right_unsigned_dynamic(mul(8, bytes), not(0)))\n        result := and(data, mask)\n    }\n    function extract_used_part_and_set_length_of_short_byte_array(data, len) -> used {\n        // we want to save only elements that are part of the array after resizing\n        // others should be set to zero\n        data := mask_bytes_dynamic(data, len)\n        used := or(data, mul(2, len))\n    }\n    function copy_byte_array_to_storage_from_t_string_memory_ptr_to_t_string_storage(slot, src) {\n\n        let newLen := array_length_t_string_memory_ptr(src)\n        // Make sure array length is sane\n        if gt(newLen, 0xffffffffffffffff) { panic_error_0x41() }\n\n        let oldLen := extract_byte_array_length(sload(slot))\n\n        // potentially truncate data\n        clean_up_bytearray_end_slots_t_string_storage(slot, oldLen, newLen)\n\n        let srcOffset := 0\n\n        srcOffset := 0x20\n\n        switch gt(newLen, 31)\n        case 1 {\n            let loopEnd := and(newLen, not(0x1f))\n\n            let dstPtr := array_dataslot_t_string_storage(slot)\n            let i := 0\n            for { } lt(i, loopEnd) { i := add(i, 0x20) } {\n                sstore(dstPtr, mload(add(src, srcOffset)))\n                dstPtr := add(dstPtr, 1)\n                srcOffset := add(srcOffset, 32)\n            }\n            if lt(loopEnd, newLen) {\n                let lastValue := mload(add(src, srcOffset))\n                sstore(dstPtr, mask_bytes_dynamic(lastValue, and(newLen, 0x1f)))\n            }\n            sstore(slot, add(mul(newLen, 2), 1))\n        }\n        default {\n            let value := 0\n            if newLen {\n                value := mload(add(src, srcOffset))\n            }\n            sstore(slot, extract_used_part_and_set_length_of_short_byte_array(value, newLen))\n        }\n    }\n\n    function panic_error_0x11() {\n        mstore(0, 35408467139433450592217433187231851964531694900788300625387963629091585785856)\n        mstore(4, 0x11)\n        revert(0, 0x24)\n    }\n\n    function decrement_t_uint256(value) -> ret {\n        value := cleanup_t_uint256(value)\n        if eq(value, 0x00) { panic_error_0x11() }\n        ret := sub(value, 1)\n    }\n\n    function increment_t_uint256(value) -> ret {\n        value := cleanup_t_uint256(value)\n        if eq(value, 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff) { panic_error_0x11() }\n        ret := add(value, 1)\n    }\n\n    function abi_encode_t_string_memory_ptr_to_t_string_memory_ptr_fromStack(value, pos) -> end {\n        let length := array_length_t_string_memory_ptr(value)\n        pos := array_storeLengthForEncoding_t_string_memory_ptr_fromStack(pos, length)\n        copy_memory_to_memory_with_cleanup(add(value, 0x20), pos, length)\n        end := add(pos, round_up_to_mul_of_32(length))\n    }\n\n    function abi_encode_tuple_t_string_memory_ptr_t_uint256_t_string_memory_ptr__to_t_string_memory_ptr_t_uint256_t_string_memory_ptr__fromStack_reversed(headStart , value2, value1, value0) -> tail {\n        tail := add(headStart, 96)\n\n        mstore(add(headStart, 0), sub(tail, headStart))\n        tail := abi_encode_t_string_memory_ptr_to_t_string_memory_ptr_fromStack(value0,  tail)\n\n        abi_encode_t_uint256_to_t_uint256_fromStack(value1,  add(headStart, 32))\n\n        mstore(add(headStart, 64), sub(tail, headStart))\n        tail := abi_encode_t_string_memory_ptr_to_t_string_memory_ptr_fromStack(value2,  tail)\n\n    }\n\n    function store_literal_in_memory_dd00b67a545791a54dd99d9c09eb42099756ea4ee2bd47188784c22234589367(memPtr) {\n\n        mstore(add(memPtr, 0), \"Index out of bounds\")\n\n    }\n\n    function abi_encode_t_stringliteral_dd00b67a545791a54dd99d9c09eb42099756ea4ee2bd47188784c22234589367_to_t_string_memory_ptr_fromStack(pos) -> end {\n        pos := array_storeLengthForEncoding_t_string_memory_ptr_fromStack(pos, 19)\n        store_literal_in_memory_dd00b67a545791a54dd99d9c09eb42099756ea4ee2bd47188784c22234589367(pos)\n        end := add(pos, 32)\n    }\n\n    function abi_encode_tuple_t_stringliteral_dd00b67a545791a54dd99d9c09eb42099756ea4ee2bd47188784c22234589367__to_t_string_memory_ptr__fromStack_reversed(headStart ) -> tail {\n        tail := add(headStart, 32)\n\n        mstore(add(headStart, 0), sub(tail, headStart))\n        tail := abi_encode_t_stringliteral_dd00b67a545791a54dd99d9c09eb42099756ea4ee2bd47188784c22234589367_to_t_string_memory_ptr_fromStack( tail)\n\n    }\n\n    function checked_sub_t_uint256(x, y) -> diff {\n        x := cleanup_t_uint256(x)\n        y := cleanup_t_uint256(y)\n        diff := sub(x, y)\n\n        if gt(diff, x) { panic_error_0x11() }\n\n    }\n\n    function checked_add_t_uint256(x, y) -> sum {\n        x := cleanup_t_uint256(x)\n        y := cleanup_t_uint256(y)\n        sum := add(x, y)\n\n        if gt(x, sum) { panic_error_0x11() }\n\n    }\n\n    function array_length_t_string_storage(value) -> length {\n\n        length := sload(value)\n\n        length := extract_byte_array_length(length)\n\n    }\n\n    function copy_byte_array_to_storage_from_t_string_storage_to_t_string_storage(slot, src) {\n        if eq(slot, src) { leave }\n\n        let newLen := array_length_t_string_storage(src)\n        // Make sure array length is sane\n        if gt(newLen, 0xffffffffffffffff) { panic_error_0x41() }\n\n        let oldLen := extract_byte_array_length(sload(slot))\n\n        // potentially truncate data\n        clean_up_bytearray_end_slots_t_string_storage(slot, oldLen, newLen)\n\n        let srcOffset := 0\n\n        switch gt(newLen, 31)\n        case 1 {\n            let loopEnd := and(newLen, not(0x1f))\n            src := array_dataslot_t_string_storage(src)\n            let dstPtr := array_dataslot_t_string_storage(slot)\n            let i := 0\n            for { } lt(i, loopEnd) { i := add(i, 0x20) } {\n                sstore(dstPtr, sload(add(src, srcOffset)))\n                dstPtr := add(dstPtr, 1)\n                srcOffset := add(srcOffset, 1)\n            }\n            if lt(loopEnd, newLen) {\n                let lastValue := sload(add(src, srcOffset))\n                sstore(dstPtr, mask_bytes_dynamic(lastValue, and(newLen, 0x1f)))\n            }\n            sstore(slot, add(mul(newLen, 2), 1))\n        }\n        default {\n            let value := 0\n            if newLen {\n                value := sload(add(src, srcOffset))\n            }\n            sstore(slot, extract_used_part_and_set_length_of_short_byte_array(value, newLen))\n        }\n    }\n\n    function panic_error_0x31() {\n        mstore(0, 35408467139433450592217433187231851964531694900788300625387963629091585785856)\n        mstore(4, 0x31)\n        revert(0, 0x24)\n    }\n\n}\n",
+      "contents": "{\n\n    function allocate_unbounded() -> memPtr {\n        memPtr := mload(64)\n    }\n\n    function revert_error_dbdddcbe895c83990c08b3492a0e83918d802a52331272ac6fdb6a7c4aea3b1b() {\n        revert(0, 0)\n    }\n\n    function revert_error_c1322bf8034eace5e0b5c7295db60986aa89aae5e0ea0873e4689e076861a5db() {\n        revert(0, 0)\n    }\n\n    function cleanup_t_uint160(value) -> cleaned {\n        cleaned := and(value, 0xffffffffffffffffffffffffffffffffffffffff)\n    }\n\n    function cleanup_t_address(value) -> cleaned {\n        cleaned := cleanup_t_uint160(value)\n    }\n\n    function validator_revert_t_address(value) {\n        if iszero(eq(value, cleanup_t_address(value))) { revert(0, 0) }\n    }\n\n    function abi_decode_t_address(offset, end) -> value {\n        value := calldataload(offset)\n        validator_revert_t_address(value)\n    }\n\n    function abi_decode_tuple_t_address(headStart, dataEnd) -> value0 {\n        if slt(sub(dataEnd, headStart), 32) { revert_error_dbdddcbe895c83990c08b3492a0e83918d802a52331272ac6fdb6a7c4aea3b1b() }\n\n        {\n\n            let offset := 0\n\n            value0 := abi_decode_t_address(add(headStart, offset), dataEnd)\n        }\n\n    }\n\n    function array_length_t_array$_t_struct$_Card_$786_memory_ptr_$dyn_memory_ptr(value) -> length {\n\n        length := mload(value)\n\n    }\n\n    function array_storeLengthForEncoding_t_array$_t_struct$_Card_$786_memory_ptr_$dyn_memory_ptr_fromStack(pos, length) -> updated_pos {\n        mstore(pos, length)\n        updated_pos := add(pos, 0x20)\n    }\n\n    function array_dataslot_t_array$_t_struct$_Card_$786_memory_ptr_$dyn_memory_ptr(ptr) -> data {\n        data := ptr\n\n        data := add(ptr, 0x20)\n\n    }\n\n    function array_length_t_string_memory_ptr(value) -> length {\n\n        length := mload(value)\n\n    }\n\n    function array_storeLengthForEncoding_t_string_memory_ptr(pos, length) -> updated_pos {\n        mstore(pos, length)\n        updated_pos := add(pos, 0x20)\n    }\n\n    function copy_memory_to_memory_with_cleanup(src, dst, length) {\n        let i := 0\n        for { } lt(i, length) { i := add(i, 32) }\n        {\n            mstore(add(dst, i), mload(add(src, i)))\n        }\n        mstore(add(dst, length), 0)\n    }\n\n    function round_up_to_mul_of_32(value) -> result {\n        result := and(add(value, 31), not(31))\n    }\n\n    function abi_encode_t_string_memory_ptr_to_t_string_memory_ptr(value, pos) -> end {\n        let length := array_length_t_string_memory_ptr(value)\n        pos := array_storeLengthForEncoding_t_string_memory_ptr(pos, length)\n        copy_memory_to_memory_with_cleanup(add(value, 0x20), pos, length)\n        end := add(pos, round_up_to_mul_of_32(length))\n    }\n\n    function cleanup_t_uint256(value) -> cleaned {\n        cleaned := value\n    }\n\n    function abi_encode_t_uint256_to_t_uint256(value, pos) {\n        mstore(pos, cleanup_t_uint256(value))\n    }\n\n    // struct Authenticator.Card -> struct Authenticator.Card\n    function abi_encode_t_struct$_Card_$786_memory_ptr_to_t_struct$_Card_$786_memory_ptr(value, pos)  -> end  {\n        let tail := add(pos, 0x60)\n\n        {\n            // name\n\n            let memberValue0 := mload(add(value, 0x00))\n\n            mstore(add(pos, 0x00), sub(tail, pos))\n            tail := abi_encode_t_string_memory_ptr_to_t_string_memory_ptr(memberValue0, tail)\n\n        }\n\n        {\n            // grade\n\n            let memberValue0 := mload(add(value, 0x20))\n            abi_encode_t_uint256_to_t_uint256(memberValue0, add(pos, 0x20))\n        }\n\n        {\n            // condition\n\n            let memberValue0 := mload(add(value, 0x40))\n\n            mstore(add(pos, 0x40), sub(tail, pos))\n            tail := abi_encode_t_string_memory_ptr_to_t_string_memory_ptr(memberValue0, tail)\n\n        }\n\n        end := tail\n    }\n\n    function abi_encodeUpdatedPos_t_struct$_Card_$786_memory_ptr_to_t_struct$_Card_$786_memory_ptr(value0, pos) -> updatedPos {\n        updatedPos := abi_encode_t_struct$_Card_$786_memory_ptr_to_t_struct$_Card_$786_memory_ptr(value0, pos)\n    }\n\n    function array_nextElement_t_array$_t_struct$_Card_$786_memory_ptr_$dyn_memory_ptr(ptr) -> next {\n        next := add(ptr, 0x20)\n    }\n\n    // struct Authenticator.Card[] -> struct Authenticator.Card[]\n    function abi_encode_t_array$_t_struct$_Card_$786_memory_ptr_$dyn_memory_ptr_to_t_array$_t_struct$_Card_$786_memory_ptr_$dyn_memory_ptr_fromStack(value, pos)  -> end  {\n        let length := array_length_t_array$_t_struct$_Card_$786_memory_ptr_$dyn_memory_ptr(value)\n        pos := array_storeLengthForEncoding_t_array$_t_struct$_Card_$786_memory_ptr_$dyn_memory_ptr_fromStack(pos, length)\n        let headStart := pos\n        let tail := add(pos, mul(length, 0x20))\n        let baseRef := array_dataslot_t_array$_t_struct$_Card_$786_memory_ptr_$dyn_memory_ptr(value)\n        let srcPtr := baseRef\n        for { let i := 0 } lt(i, length) { i := add(i, 1) }\n        {\n            mstore(pos, sub(tail, headStart))\n            let elementValue0 := mload(srcPtr)\n            tail := abi_encodeUpdatedPos_t_struct$_Card_$786_memory_ptr_to_t_struct$_Card_$786_memory_ptr(elementValue0, tail)\n            srcPtr := array_nextElement_t_array$_t_struct$_Card_$786_memory_ptr_$dyn_memory_ptr(srcPtr)\n            pos := add(pos, 0x20)\n        }\n        pos := tail\n        end := pos\n    }\n\n    function abi_encode_tuple_t_array$_t_struct$_Card_$786_memory_ptr_$dyn_memory_ptr__to_t_array$_t_struct$_Card_$786_memory_ptr_$dyn_memory_ptr__fromStack_reversed(headStart , value0) -> tail {\n        tail := add(headStart, 32)\n\n        mstore(add(headStart, 0), sub(tail, headStart))\n        tail := abi_encode_t_array$_t_struct$_Card_$786_memory_ptr_$dyn_memory_ptr_to_t_array$_t_struct$_Card_$786_memory_ptr_$dyn_memory_ptr_fromStack(value0,  tail)\n\n    }\n\n    function validator_revert_t_uint256(value) {\n        if iszero(eq(value, cleanup_t_uint256(value))) { revert(0, 0) }\n    }\n\n    function abi_decode_t_uint256(offset, end) -> value {\n        value := calldataload(offset)\n        validator_revert_t_uint256(value)\n    }\n\n    function abi_decode_tuple_t_addresst_uint256(headStart, dataEnd) -> value0, value1 {\n        if slt(sub(dataEnd, headStart), 64) { revert_error_dbdddcbe895c83990c08b3492a0e83918d802a52331272ac6fdb6a7c4aea3b1b() }\n\n        {\n\n            let offset := 0\n\n            value0 := abi_decode_t_address(add(headStart, offset), dataEnd)\n        }\n\n        {\n\n            let offset := 32\n\n            value1 := abi_decode_t_uint256(add(headStart, offset), dataEnd)\n        }\n\n    }\n\n    function revert_error_1b9f4a0a5773e33b91aa01db23bf8c55fce1411167c872835e7fa00a4f17d46d() {\n        revert(0, 0)\n    }\n\n    function revert_error_987264b3b1d58a9c7f8255e93e81c77d86d6299019c33110a076957a3e06e2ae() {\n        revert(0, 0)\n    }\n\n    function panic_error_0x41() {\n        mstore(0, 35408467139433450592217433187231851964531694900788300625387963629091585785856)\n        mstore(4, 0x41)\n        revert(0, 0x24)\n    }\n\n    function finalize_allocation(memPtr, size) {\n        let newFreePtr := add(memPtr, round_up_to_mul_of_32(size))\n        // protect against overflow\n        if or(gt(newFreePtr, 0xffffffffffffffff), lt(newFreePtr, memPtr)) { panic_error_0x41() }\n        mstore(64, newFreePtr)\n    }\n\n    function allocate_memory(size) -> memPtr {\n        memPtr := allocate_unbounded()\n        finalize_allocation(memPtr, size)\n    }\n\n    function array_allocation_size_t_string_memory_ptr(length) -> size {\n        // Make sure we can allocate memory without overflow\n        if gt(length, 0xffffffffffffffff) { panic_error_0x41() }\n\n        size := round_up_to_mul_of_32(length)\n\n        // add length slot\n        size := add(size, 0x20)\n\n    }\n\n    function copy_calldata_to_memory_with_cleanup(src, dst, length) {\n        calldatacopy(dst, src, length)\n        mstore(add(dst, length), 0)\n    }\n\n    function abi_decode_available_length_t_string_memory_ptr(src, length, end) -> array {\n        array := allocate_memory(array_allocation_size_t_string_memory_ptr(length))\n        mstore(array, length)\n        let dst := add(array, 0x20)\n        if gt(add(src, length), end) { revert_error_987264b3b1d58a9c7f8255e93e81c77d86d6299019c33110a076957a3e06e2ae() }\n        copy_calldata_to_memory_with_cleanup(src, dst, length)\n    }\n\n    // string\n    function abi_decode_t_string_memory_ptr(offset, end) -> array {\n        if iszero(slt(add(offset, 0x1f), end)) { revert_error_1b9f4a0a5773e33b91aa01db23bf8c55fce1411167c872835e7fa00a4f17d46d() }\n        let length := calldataload(offset)\n        array := abi_decode_available_length_t_string_memory_ptr(add(offset, 0x20), length, end)\n    }\n\n    function abi_decode_tuple_t_string_memory_ptrt_uint256t_string_memory_ptr(headStart, dataEnd) -> value0, value1, value2 {\n        if slt(sub(dataEnd, headStart), 96) { revert_error_dbdddcbe895c83990c08b3492a0e83918d802a52331272ac6fdb6a7c4aea3b1b() }\n\n        {\n\n            let offset := calldataload(add(headStart, 0))\n            if gt(offset, 0xffffffffffffffff) { revert_error_c1322bf8034eace5e0b5c7295db60986aa89aae5e0ea0873e4689e076861a5db() }\n\n            value0 := abi_decode_t_string_memory_ptr(add(headStart, offset), dataEnd)\n        }\n\n        {\n\n            let offset := 32\n\n            value1 := abi_decode_t_uint256(add(headStart, offset), dataEnd)\n        }\n\n        {\n\n            let offset := calldataload(add(headStart, 64))\n            if gt(offset, 0xffffffffffffffff) { revert_error_c1322bf8034eace5e0b5c7295db60986aa89aae5e0ea0873e4689e076861a5db() }\n\n            value2 := abi_decode_t_string_memory_ptr(add(headStart, offset), dataEnd)\n        }\n\n    }\n\n    function abi_encode_t_uint256_to_t_uint256_fromStack(value, pos) {\n        mstore(pos, cleanup_t_uint256(value))\n    }\n\n    function abi_encode_tuple_t_uint256__to_t_uint256__fromStack_reversed(headStart , value0) -> tail {\n        tail := add(headStart, 32)\n\n        abi_encode_t_uint256_to_t_uint256_fromStack(value0,  add(headStart, 0))\n\n    }\n\n    function panic_error_0x22() {\n        mstore(0, 35408467139433450592217433187231851964531694900788300625387963629091585785856)\n        mstore(4, 0x22)\n        revert(0, 0x24)\n    }\n\n    function extract_byte_array_length(data) -> length {\n        length := div(data, 2)\n        let outOfPlaceEncoding := and(data, 1)\n        if iszero(outOfPlaceEncoding) {\n            length := and(length, 0x7f)\n        }\n\n        if eq(outOfPlaceEncoding, lt(length, 32)) {\n            panic_error_0x22()\n        }\n    }\n\n    function array_storeLengthForEncoding_t_string_memory_ptr_fromStack(pos, length) -> updated_pos {\n        mstore(pos, length)\n        updated_pos := add(pos, 0x20)\n    }\n\n    function store_literal_in_memory_77033d22a9df979ff64b7c690a116e78c401d772e72cb46fdb1891ca6623a0c2(memPtr) {\n\n        mstore(add(memPtr, 0), \"Invalid card index\")\n\n    }\n\n    function abi_encode_t_stringliteral_77033d22a9df979ff64b7c690a116e78c401d772e72cb46fdb1891ca6623a0c2_to_t_string_memory_ptr_fromStack(pos) -> end {\n        pos := array_storeLengthForEncoding_t_string_memory_ptr_fromStack(pos, 18)\n        store_literal_in_memory_77033d22a9df979ff64b7c690a116e78c401d772e72cb46fdb1891ca6623a0c2(pos)\n        end := add(pos, 32)\n    }\n\n    function abi_encode_tuple_t_stringliteral_77033d22a9df979ff64b7c690a116e78c401d772e72cb46fdb1891ca6623a0c2__to_t_string_memory_ptr__fromStack_reversed(headStart ) -> tail {\n        tail := add(headStart, 32)\n\n        mstore(add(headStart, 0), sub(tail, headStart))\n        tail := abi_encode_t_stringliteral_77033d22a9df979ff64b7c690a116e78c401d772e72cb46fdb1891ca6623a0c2_to_t_string_memory_ptr_fromStack( tail)\n\n    }\n\n    function panic_error_0x32() {\n        mstore(0, 35408467139433450592217433187231851964531694900788300625387963629091585785856)\n        mstore(4, 0x32)\n        revert(0, 0x24)\n    }\n\n    function array_dataslot_t_string_storage(ptr) -> data {\n        data := ptr\n\n        mstore(0, ptr)\n        data := keccak256(0, 0x20)\n\n    }\n\n    function divide_by_32_ceil(value) -> result {\n        result := div(add(value, 31), 32)\n    }\n\n    function shift_left_dynamic(bits, value) -> newValue {\n        newValue :=\n\n        shl(bits, value)\n\n    }\n\n    function update_byte_slice_dynamic32(value, shiftBytes, toInsert) -> result {\n        let shiftBits := mul(shiftBytes, 8)\n        let mask := shift_left_dynamic(shiftBits, 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff)\n        toInsert := shift_left_dynamic(shiftBits, toInsert)\n        value := and(value, not(mask))\n        result := or(value, and(toInsert, mask))\n    }\n\n    function identity(value) -> ret {\n        ret := value\n    }\n\n    function convert_t_uint256_to_t_uint256(value) -> converted {\n        converted := cleanup_t_uint256(identity(cleanup_t_uint256(value)))\n    }\n\n    function prepare_store_t_uint256(value) -> ret {\n        ret := value\n    }\n\n    function update_storage_value_t_uint256_to_t_uint256(slot, offset, value_0) {\n        let convertedValue_0 := convert_t_uint256_to_t_uint256(value_0)\n        sstore(slot, update_byte_slice_dynamic32(sload(slot), offset, prepare_store_t_uint256(convertedValue_0)))\n    }\n\n    function zero_value_for_split_t_uint256() -> ret {\n        ret := 0\n    }\n\n    function storage_set_to_zero_t_uint256(slot, offset) {\n        let zero_0 := zero_value_for_split_t_uint256()\n        update_storage_value_t_uint256_to_t_uint256(slot, offset, zero_0)\n    }\n\n    function clear_storage_range_t_bytes1(start, end) {\n        for {} lt(start, end) { start := add(start, 1) }\n        {\n            storage_set_to_zero_t_uint256(start, 0)\n        }\n    }\n\n    function clean_up_bytearray_end_slots_t_string_storage(array, len, startIndex) {\n\n        if gt(len, 31) {\n            let dataArea := array_dataslot_t_string_storage(array)\n            let deleteStart := add(dataArea, divide_by_32_ceil(startIndex))\n            // If we are clearing array to be short byte array, we want to clear only data starting from array data area.\n            if lt(startIndex, 32) { deleteStart := dataArea }\n            clear_storage_range_t_bytes1(deleteStart, add(dataArea, divide_by_32_ceil(len)))\n        }\n\n    }\n\n    function shift_right_unsigned_dynamic(bits, value) -> newValue {\n        newValue :=\n\n        shr(bits, value)\n\n    }\n\n    function mask_bytes_dynamic(data, bytes) -> result {\n        let mask := not(shift_right_unsigned_dynamic(mul(8, bytes), not(0)))\n        result := and(data, mask)\n    }\n    function extract_used_part_and_set_length_of_short_byte_array(data, len) -> used {\n        // we want to save only elements that are part of the array after resizing\n        // others should be set to zero\n        data := mask_bytes_dynamic(data, len)\n        used := or(data, mul(2, len))\n    }\n    function copy_byte_array_to_storage_from_t_string_memory_ptr_to_t_string_storage(slot, src) {\n\n        let newLen := array_length_t_string_memory_ptr(src)\n        // Make sure array length is sane\n        if gt(newLen, 0xffffffffffffffff) { panic_error_0x41() }\n\n        let oldLen := extract_byte_array_length(sload(slot))\n\n        // potentially truncate data\n        clean_up_bytearray_end_slots_t_string_storage(slot, oldLen, newLen)\n\n        let srcOffset := 0\n\n        srcOffset := 0x20\n\n        switch gt(newLen, 31)\n        case 1 {\n            let loopEnd := and(newLen, not(0x1f))\n\n            let dstPtr := array_dataslot_t_string_storage(slot)\n            let i := 0\n            for { } lt(i, loopEnd) { i := add(i, 0x20) } {\n                sstore(dstPtr, mload(add(src, srcOffset)))\n                dstPtr := add(dstPtr, 1)\n                srcOffset := add(srcOffset, 32)\n            }\n            if lt(loopEnd, newLen) {\n                let lastValue := mload(add(src, srcOffset))\n                sstore(dstPtr, mask_bytes_dynamic(lastValue, and(newLen, 0x1f)))\n            }\n            sstore(slot, add(mul(newLen, 2), 1))\n        }\n        default {\n            let value := 0\n            if newLen {\n                value := mload(add(src, srcOffset))\n            }\n            sstore(slot, extract_used_part_and_set_length_of_short_byte_array(value, newLen))\n        }\n    }\n\n    function panic_error_0x11() {\n        mstore(0, 35408467139433450592217433187231851964531694900788300625387963629091585785856)\n        mstore(4, 0x11)\n        revert(0, 0x24)\n    }\n\n    function decrement_t_uint256(value) -> ret {\n        value := cleanup_t_uint256(value)\n        if eq(value, 0x00) { panic_error_0x11() }\n        ret := sub(value, 1)\n    }\n\n    function increment_t_uint256(value) -> ret {\n        value := cleanup_t_uint256(value)\n        if eq(value, 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff) { panic_error_0x11() }\n        ret := add(value, 1)\n    }\n\n    function abi_encode_t_string_memory_ptr_to_t_string_memory_ptr_fromStack(value, pos) -> end {\n        let length := array_length_t_string_memory_ptr(value)\n        pos := array_storeLengthForEncoding_t_string_memory_ptr_fromStack(pos, length)\n        copy_memory_to_memory_with_cleanup(add(value, 0x20), pos, length)\n        end := add(pos, round_up_to_mul_of_32(length))\n    }\n\n    function abi_encode_tuple_t_string_memory_ptr_t_uint256_t_string_memory_ptr__to_t_string_memory_ptr_t_uint256_t_string_memory_ptr__fromStack_reversed(headStart , value2, value1, value0) -> tail {\n        tail := add(headStart, 96)\n\n        mstore(add(headStart, 0), sub(tail, headStart))\n        tail := abi_encode_t_string_memory_ptr_to_t_string_memory_ptr_fromStack(value0,  tail)\n\n        abi_encode_t_uint256_to_t_uint256_fromStack(value1,  add(headStart, 32))\n\n        mstore(add(headStart, 64), sub(tail, headStart))\n        tail := abi_encode_t_string_memory_ptr_to_t_string_memory_ptr_fromStack(value2,  tail)\n\n    }\n\n    function store_literal_in_memory_dd00b67a545791a54dd99d9c09eb42099756ea4ee2bd47188784c22234589367(memPtr) {\n\n        mstore(add(memPtr, 0), \"Index out of bounds\")\n\n    }\n\n    function abi_encode_t_stringliteral_dd00b67a545791a54dd99d9c09eb42099756ea4ee2bd47188784c22234589367_to_t_string_memory_ptr_fromStack(pos) -> end {\n        pos := array_storeLengthForEncoding_t_string_memory_ptr_fromStack(pos, 19)\n        store_literal_in_memory_dd00b67a545791a54dd99d9c09eb42099756ea4ee2bd47188784c22234589367(pos)\n        end := add(pos, 32)\n    }\n\n    function abi_encode_tuple_t_stringliteral_dd00b67a545791a54dd99d9c09eb42099756ea4ee2bd47188784c22234589367__to_t_string_memory_ptr__fromStack_reversed(headStart ) -> tail {\n        tail := add(headStart, 32)\n\n        mstore(add(headStart, 0), sub(tail, headStart))\n        tail := abi_encode_t_stringliteral_dd00b67a545791a54dd99d9c09eb42099756ea4ee2bd47188784c22234589367_to_t_string_memory_ptr_fromStack( tail)\n\n    }\n\n    function checked_sub_t_uint256(x, y) -> diff {\n        x := cleanup_t_uint256(x)\n        y := cleanup_t_uint256(y)\n        diff := sub(x, y)\n\n        if gt(diff, x) { panic_error_0x11() }\n\n    }\n\n    function checked_add_t_uint256(x, y) -> sum {\n        x := cleanup_t_uint256(x)\n        y := cleanup_t_uint256(y)\n        sum := add(x, y)\n\n        if gt(x, sum) { panic_error_0x11() }\n\n    }\n\n    function array_length_t_string_storage(value) -> length {\n\n        length := sload(value)\n\n        length := extract_byte_array_length(length)\n\n    }\n\n    function copy_byte_array_to_storage_from_t_string_storage_to_t_string_storage(slot, src) {\n        if eq(slot, src) { leave }\n\n        let newLen := array_length_t_string_storage(src)\n        // Make sure array length is sane\n        if gt(newLen, 0xffffffffffffffff) { panic_error_0x41() }\n\n        let oldLen := extract_byte_array_length(sload(slot))\n\n        // potentially truncate data\n        clean_up_bytearray_end_slots_t_string_storage(slot, oldLen, newLen)\n\n        let srcOffset := 0\n\n        switch gt(newLen, 31)\n        case 1 {\n            let loopEnd := and(newLen, not(0x1f))\n            src := array_dataslot_t_string_storage(src)\n            let dstPtr := array_dataslot_t_string_storage(slot)\n            let i := 0\n            for { } lt(i, loopEnd) { i := add(i, 0x20) } {\n                sstore(dstPtr, sload(add(src, srcOffset)))\n                dstPtr := add(dstPtr, 1)\n                srcOffset := add(srcOffset, 1)\n            }\n            if lt(loopEnd, newLen) {\n                let lastValue := sload(add(src, srcOffset))\n                sstore(dstPtr, mask_bytes_dynamic(lastValue, and(newLen, 0x1f)))\n            }\n            sstore(slot, add(mul(newLen, 2), 1))\n        }\n        default {\n            let value := 0\n            if newLen {\n                value := sload(add(src, srcOffset))\n            }\n            sstore(slot, extract_used_part_and_set_length_of_short_byte_array(value, newLen))\n        }\n    }\n\n    function panic_error_0x31() {\n        mstore(0, 35408467139433450592217433187231851964531694900788300625387963629091585785856)\n        mstore(4, 0x31)\n        revert(0, 0x24)\n    }\n\n}\n",
       "id": 18,
       "language": "Yul",
       "name": "#utility.yul"
@@ -11026,20 +11026,20 @@
   "sourceMap": "69:3555:1:-:0;;;;;;;;;;;;;;;;;;;",
   "deployedSourceMap": "69:3555:1:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;2700:201;;;;;;;;;;;;;:::i;:::-;;:::i;:::-;;;;;;;:::i;:::-;;;;;;;;1708:929;;;;;;;;;;;;;:::i;:::-;;:::i;:::-;;1289:350;;;;;;;;;;;;;:::i;:::-;;:::i;:::-;;2965:112;;;;;;;;;;;;;:::i;:::-;;:::i;:::-;;;;;;;:::i;:::-;;;;;;;;2700:201;2760:13;2877:9;:16;2887:5;2877:16;;;;;;;;;;;;;;;2870:23;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;2700:201;;;:::o;1708:929::-;1920:9;:21;1930:10;1920:21;;;;;;;;;;;;;;;:28;;;;1907:10;:41;1783:211;;;;;;;;;;;;:::i;:::-;;;;;;;;;2005:26;2034:9;:21;2044:10;2034:21;;;;;;;;;;;;;;;2056:10;2034:33;;;;;;;;:::i;:::-;;;;;;;;;;;;2005:62;;;;;;;;;;;;;;;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;2106:9;:14;2116:3;2106:14;;;;;;;;;;;;;;;2126;2106:35;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;;;2213:10;:22;2224:10;2213:22;;;;;;;;;;;;;;;;:24;;;;;;;;;:::i;:::-;;;;;;2325:10;:15;2336:3;2325:15;;;;;;;;;;;;;;;;:17;;;;;;;;;:::i;:::-;;;;;;2430:25;2444:10;2430:13;:25::i;:::-;2572:3;2544:44;;2560:10;2544:44;;;2577:10;2544:44;;;;;;:::i;:::-;;;;;;;;1772:865;1708:929;;:::o;1289:350::-;1428:19;1450:31;;;;;;;;1455:5;1450:31;;;;1462:6;1450:31;;;;1470:10;1450:31;;;1428:53;;1492:9;:21;1502:10;1492:21;;;;;;;;;;;;;;;1519:7;1492:35;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;;;1538:10;:22;1549:10;1538:22;;;;;;;;;;;;;;;;:24;;;;;;;;;:::i;:::-;;;;;;1593:10;1578:53;;;1605:5;1612:6;1620:10;1578:53;;;;;;;;:::i;:::-;;;;;;;;1417:222;1289:350;;;:::o;2965:112::-;3025:7;3052:10;:17;3063:5;3052:17;;;;;;;;;;;;;;;;3045:24;;2965:112;;;:::o;3085:536::-;3169:9;:21;3179:10;3169:21;;;;;;;;;;;;;;;:28;;;;3156:10;:41;3148:73;;;;;;;;;;;;:::i;:::-;;;;;;;;;3318:6;3327:10;3318:19;;3313:203;3374:1;3343:9;:21;3353:10;3343:21;;;;;;;;;;;;;;;:28;;;;:32;;;;:::i;:::-;3339:1;:36;3313:203;;;3476:9;:21;3486:10;3476:21;;;;;;;;;;;;;;;3502:1;3498;:5;;;;:::i;:::-;3476:28;;;;;;;;:::i;:::-;;;;;;;;;;;;3449:9;:21;3459:10;3449:21;;;;;;;;;;;;;;;3471:1;3449:24;;;;;;;;:::i;:::-;;;;;;;;;;;;:55;;;;;;;;;;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;;;;3377:3;;;;;:::i;:::-;;;;3313:203;;;;3586:9;:21;3596:10;3586:21;;;;;;;;;;;;;;;:27;;;;;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;;;;;;;;;;;;;;:::i;:::-;;;;;3085:536;:::o;-1:-1:-1:-;;;;;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;;:::o;:::-;;;;;;;;;;;;;;;;;;;;;:::o;7:75:18:-;40:6;73:2;67:9;57:19;;7:75;:::o;88:117::-;197:1;194;187:12;211:117;320:1;317;310:12;334:126;371:7;411:42;404:5;400:54;389:65;;334:126;;;:::o;466:96::-;503:7;532:24;550:5;532:24;:::i;:::-;521:35;;466:96;;;:::o;568:122::-;641:24;659:5;641:24;:::i;:::-;634:5;631:35;621:63;;680:1;677;670:12;621:63;568:122;:::o;696:139::-;742:5;780:6;767:20;758:29;;796:33;823:5;796:33;:::i;:::-;696:139;;;;:::o;841:329::-;900:6;949:2;937:9;928:7;924:23;920:32;917:119;;;955:79;;:::i;:::-;917:119;1075:1;1100:53;1145:7;1136:6;1125:9;1121:22;1100:53;:::i;:::-;1090:63;;1046:117;841:329;;;;:::o;1176:135::-;1264:6;1298:5;1292:12;1282:22;;1176:135;;;:::o;1317:205::-;1437:11;1471:6;1466:3;1459:19;1511:4;1506:3;1502:14;1487:29;;1317:205;;;;:::o;1528:153::-;1616:4;1639:3;1631:11;;1669:4;1664:3;1660:14;1652:22;;1528:153;;;:::o;1687:99::-;1739:6;1773:5;1767:12;1757:22;;1687:99;;;:::o;1792:159::-;1866:11;1900:6;1895:3;1888:19;1940:4;1935:3;1931:14;1916:29;;1792:159;;;;:::o;1957:246::-;2038:1;2048:113;2062:6;2059:1;2056:13;2048:113;;;2147:1;2142:3;2138:11;2132:18;2128:1;2123:3;2119:11;2112:39;2084:2;2081:1;2077:10;2072:15;;2048:113;;;2195:1;2186:6;2181:3;2177:16;2170:27;2019:184;1957:246;;;:::o;2209:102::-;2250:6;2301:2;2297:7;2292:2;2285:5;2281:14;2277:28;2267:38;;2209:102;;;:::o;2317:357::-;2395:3;2423:39;2456:5;2423:39;:::i;:::-;2478:61;2532:6;2527:3;2478:61;:::i;:::-;2471:68;;2548:65;2606:6;2601:3;2594:4;2587:5;2583:16;2548:65;:::i;:::-;2638:29;2660:6;2638:29;:::i;:::-;2633:3;2629:39;2622:46;;2399:275;2317:357;;;;:::o;2680:77::-;2717:7;2746:5;2735:16;;2680:77;;;:::o;2763:108::-;2840:24;2858:5;2840:24;:::i;:::-;2835:3;2828:37;2763:108;;:::o;2939:839::-;3040:3;3076:4;3071:3;3067:14;3163:4;3156:5;3152:16;3146:23;3216:3;3210:4;3206:14;3199:4;3194:3;3190:14;3183:38;3242:73;3310:4;3296:12;3242:73;:::i;:::-;3234:81;;3091:235;3409:4;3402:5;3398:16;3392:23;3428:63;3485:4;3480:3;3476:14;3462:12;3428:63;:::i;:::-;3336:165;3588:4;3581:5;3577:16;3571:23;3641:3;3635:4;3631:14;3624:4;3619:3;3615:14;3608:38;3667:73;3735:4;3721:12;3667:73;:::i;:::-;3659:81;;3511:240;3768:4;3761:11;;3045:733;2939:839;;;;:::o;3784:240::-;3895:10;3930:88;4014:3;4006:6;3930:88;:::i;:::-;3916:102;;3784:240;;;;:::o;4030:134::-;4121:4;4153;4148:3;4144:14;4136:22;;4030:134;;;:::o;4236:1079::-;4397:3;4426:75;4495:5;4426:75;:::i;:::-;4517:107;4617:6;4612:3;4517:107;:::i;:::-;4510:114;;4650:3;4695:4;4687:6;4683:17;4678:3;4674:27;4725:77;4796:5;4725:77;:::i;:::-;4825:7;4856:1;4841:429;4866:6;4863:1;4860:13;4841:429;;;4937:9;4931:4;4927:20;4922:3;4915:33;4988:6;4982:13;5016:106;5117:4;5102:13;5016:106;:::i;:::-;5008:114;;5145:81;5219:6;5145:81;:::i;:::-;5135:91;;5255:4;5250:3;5246:14;5239:21;;4901:369;4888:1;4885;4881:9;4876:14;;4841:429;;;4845:14;5286:4;5279:11;;5306:3;5299:10;;4402:913;;;;;4236:1079;;;;:::o;5321:457::-;5506:4;5544:2;5533:9;5529:18;5521:26;;5593:9;5587:4;5583:20;5579:1;5568:9;5564:17;5557:47;5621:150;5766:4;5757:6;5621:150;:::i;:::-;5613:158;;5321:457;;;;:::o;5784:122::-;5857:24;5875:5;5857:24;:::i;:::-;5850:5;5847:35;5837:63;;5896:1;5893;5886:12;5837:63;5784:122;:::o;5912:139::-;5958:5;5996:6;5983:20;5974:29;;6012:33;6039:5;6012:33;:::i;:::-;5912:139;;;;:::o;6057:474::-;6125:6;6133;6182:2;6170:9;6161:7;6157:23;6153:32;6150:119;;;6188:79;;:::i;:::-;6150:119;6308:1;6333:53;6378:7;6369:6;6358:9;6354:22;6333:53;:::i;:::-;6323:63;;6279:117;6435:2;6461:53;6506:7;6497:6;6486:9;6482:22;6461:53;:::i;:::-;6451:63;;6406:118;6057:474;;;;;:::o;6537:117::-;6646:1;6643;6636:12;6660:117;6769:1;6766;6759:12;6783:180;6831:77;6828:1;6821:88;6928:4;6925:1;6918:15;6952:4;6949:1;6942:15;6969:281;7052:27;7074:4;7052:27;:::i;:::-;7044:6;7040:40;7182:6;7170:10;7167:22;7146:18;7134:10;7131:34;7128:62;7125:88;;;7193:18;;:::i;:::-;7125:88;7233:10;7229:2;7222:22;7012:238;6969:281;;:::o;7256:129::-;7290:6;7317:20;;:::i;:::-;7307:30;;7346:33;7374:4;7366:6;7346:33;:::i;:::-;7256:129;;;:::o;7391:308::-;7453:4;7543:18;7535:6;7532:30;7529:56;;;7565:18;;:::i;:::-;7529:56;7603:29;7625:6;7603:29;:::i;:::-;7595:37;;7687:4;7681;7677:15;7669:23;;7391:308;;;:::o;7705:146::-;7802:6;7797:3;7792;7779:30;7843:1;7834:6;7829:3;7825:16;7818:27;7705:146;;;:::o;7857:425::-;7935:5;7960:66;7976:49;8018:6;7976:49;:::i;:::-;7960:66;:::i;:::-;7951:75;;8049:6;8042:5;8035:21;8087:4;8080:5;8076:16;8125:3;8116:6;8111:3;8107:16;8104:25;8101:112;;;8132:79;;:::i;:::-;8101:112;8222:54;8269:6;8264:3;8259;8222:54;:::i;:::-;7941:341;7857:425;;;;;:::o;8302:340::-;8358:5;8407:3;8400:4;8392:6;8388:17;8384:27;8374:122;;8415:79;;:::i;:::-;8374:122;8532:6;8519:20;8557:79;8632:3;8624:6;8617:4;8609:6;8605:17;8557:79;:::i;:::-;8548:88;;8364:278;8302:340;;;;:::o;8648:979::-;8745:6;8753;8761;8810:2;8798:9;8789:7;8785:23;8781:32;8778:119;;;8816:79;;:::i;:::-;8778:119;8964:1;8953:9;8949:17;8936:31;8994:18;8986:6;8983:30;8980:117;;;9016:79;;:::i;:::-;8980:117;9121:63;9176:7;9167:6;9156:9;9152:22;9121:63;:::i;:::-;9111:73;;8907:287;9233:2;9259:53;9304:7;9295:6;9284:9;9280:22;9259:53;:::i;:::-;9249:63;;9204:118;9389:2;9378:9;9374:18;9361:32;9420:18;9412:6;9409:30;9406:117;;;9442:79;;:::i;:::-;9406:117;9547:63;9602:7;9593:6;9582:9;9578:22;9547:63;:::i;:::-;9537:73;;9332:288;8648:979;;;;;:::o;9633:118::-;9720:24;9738:5;9720:24;:::i;:::-;9715:3;9708:37;9633:118;;:::o;9757:222::-;9850:4;9888:2;9877:9;9873:18;9865:26;;9901:71;9969:1;9958:9;9954:17;9945:6;9901:71;:::i;:::-;9757:222;;;;:::o;9985:180::-;10033:77;10030:1;10023:88;10130:4;10127:1;10120:15;10154:4;10151:1;10144:15;10171:320;10215:6;10252:1;10246:4;10242:12;10232:22;;10299:1;10293:4;10289:12;10320:18;10310:81;;10376:4;10368:6;10364:17;10354:27;;10310:81;10438:2;10430:6;10427:14;10407:18;10404:38;10401:84;;10457:18;;:::i;:::-;10401:84;10222:269;10171:320;;;:::o;10497:169::-;10581:11;10615:6;10610:3;10603:19;10655:4;10650:3;10646:14;10631:29;;10497:169;;;;:::o;10672:168::-;10812:20;10808:1;10800:6;10796:14;10789:44;10672:168;:::o;10846:366::-;10988:3;11009:67;11073:2;11068:3;11009:67;:::i;:::-;11002:74;;11085:93;11174:3;11085:93;:::i;:::-;11203:2;11198:3;11194:12;11187:19;;10846:366;;;:::o;11218:419::-;11384:4;11422:2;11411:9;11407:18;11399:26;;11471:9;11465:4;11461:20;11457:1;11446:9;11442:17;11435:47;11499:131;11625:4;11499:131;:::i;:::-;11491:139;;11218:419;;;:::o;11643:180::-;11691:77;11688:1;11681:88;11788:4;11785:1;11778:15;11812:4;11809:1;11802:15;11829:141;11878:4;11901:3;11893:11;;11924:3;11921:1;11914:14;11958:4;11955:1;11945:18;11937:26;;11829:141;;;:::o;11976:93::-;12013:6;12060:2;12055;12048:5;12044:14;12040:23;12030:33;;11976:93;;;:::o;12075:107::-;12119:8;12169:5;12163:4;12159:16;12138:37;;12075:107;;;;:::o;12188:393::-;12257:6;12307:1;12295:10;12291:18;12330:97;12360:66;12349:9;12330:97;:::i;:::-;12448:39;12478:8;12467:9;12448:39;:::i;:::-;12436:51;;12520:4;12516:9;12509:5;12505:21;12496:30;;12569:4;12559:8;12555:19;12548:5;12545:30;12535:40;;12264:317;;12188:393;;;;;:::o;12587:60::-;12615:3;12636:5;12629:12;;12587:60;;;:::o;12653:142::-;12703:9;12736:53;12754:34;12763:24;12781:5;12763:24;:::i;:::-;12754:34;:::i;:::-;12736:53;:::i;:::-;12723:66;;12653:142;;;:::o;12801:75::-;12844:3;12865:5;12858:12;;12801:75;;;:::o;12882:269::-;12992:39;13023:7;12992:39;:::i;:::-;13053:91;13102:41;13126:16;13102:41;:::i;:::-;13094:6;13087:4;13081:11;13053:91;:::i;:::-;13047:4;13040:105;12958:193;12882:269;;;:::o;13157:73::-;13202:3;13157:73;:::o;13236:189::-;13313:32;;:::i;:::-;13354:65;13412:6;13404;13398:4;13354:65;:::i;:::-;13289:136;13236:189;;:::o;13431:186::-;13491:120;13508:3;13501:5;13498:14;13491:120;;;13562:39;13599:1;13592:5;13562:39;:::i;:::-;13535:1;13528:5;13524:13;13515:22;;13491:120;;;13431:186;;:::o;13623:543::-;13724:2;13719:3;13716:11;13713:446;;;13758:38;13790:5;13758:38;:::i;:::-;13842:29;13860:10;13842:29;:::i;:::-;13832:8;13828:44;14025:2;14013:10;14010:18;14007:49;;;14046:8;14031:23;;14007:49;14069:80;14125:22;14143:3;14125:22;:::i;:::-;14115:8;14111:37;14098:11;14069:80;:::i;:::-;13728:431;;13713:446;13623:543;;;:::o;14172:117::-;14226:8;14276:5;14270:4;14266:16;14245:37;;14172:117;;;;:::o;14295:169::-;14339:6;14372:51;14420:1;14416:6;14408:5;14405:1;14401:13;14372:51;:::i;:::-;14368:56;14453:4;14447;14443:15;14433:25;;14346:118;14295:169;;;;:::o;14469:295::-;14545:4;14691:29;14716:3;14710:4;14691:29;:::i;:::-;14683:37;;14753:3;14750:1;14746:11;14740:4;14737:21;14729:29;;14469:295;;;;:::o;14769:1395::-;14886:37;14919:3;14886:37;:::i;:::-;14988:18;14980:6;14977:30;14974:56;;;15010:18;;:::i;:::-;14974:56;15054:38;15086:4;15080:11;15054:38;:::i;:::-;15139:67;15199:6;15191;15185:4;15139:67;:::i;:::-;15233:1;15257:4;15244:17;;15289:2;15281:6;15278:14;15306:1;15301:618;;;;15963:1;15980:6;15977:77;;;16029:9;16024:3;16020:19;16014:26;16005:35;;15977:77;16080:67;16140:6;16133:5;16080:67;:::i;:::-;16074:4;16067:81;15936:222;15271:887;;15301:618;15353:4;15349:9;15341:6;15337:22;15387:37;15419:4;15387:37;:::i;:::-;15446:1;15460:208;15474:7;15471:1;15468:14;15460:208;;;15553:9;15548:3;15544:19;15538:26;15530:6;15523:42;15604:1;15596:6;15592:14;15582:24;;15651:2;15640:9;15636:18;15623:31;;15497:4;15494:1;15490:12;15485:17;;15460:208;;;15696:6;15687:7;15684:19;15681:179;;;15754:9;15749:3;15745:19;15739:26;15797:48;15839:4;15831:6;15827:17;15816:9;15797:48;:::i;:::-;15789:6;15782:64;15704:156;15681:179;15906:1;15902;15894:6;15890:14;15886:22;15880:4;15873:36;15308:611;;;15271:887;;14861:1303;;;14769:1395;;:::o;16170:180::-;16218:77;16215:1;16208:88;16315:4;16312:1;16305:15;16339:4;16336:1;16329:15;16356:171;16395:3;16418:24;16436:5;16418:24;:::i;:::-;16409:33;;16464:4;16457:5;16454:15;16451:41;;16472:18;;:::i;:::-;16451:41;16519:1;16512:5;16508:13;16501:20;;16356:171;;;:::o;16533:233::-;16572:3;16595:24;16613:5;16595:24;:::i;:::-;16586:33;;16641:66;16634:5;16631:77;16628:103;;16711:18;;:::i;:::-;16628:103;16758:1;16751:5;16747:13;16740:20;;16533:233;;;:::o;16772:377::-;16860:3;16888:39;16921:5;16888:39;:::i;:::-;16943:71;17007:6;17002:3;16943:71;:::i;:::-;16936:78;;17023:65;17081:6;17076:3;17069:4;17062:5;17058:16;17023:65;:::i;:::-;17113:29;17135:6;17113:29;:::i;:::-;17108:3;17104:39;17097:46;;16864:285;16772:377;;;;:::o;17155:624::-;17344:4;17382:2;17371:9;17367:18;17359:26;;17431:9;17425:4;17421:20;17417:1;17406:9;17402:17;17395:47;17459:78;17532:4;17523:6;17459:78;:::i;:::-;17451:86;;17547:72;17615:2;17604:9;17600:18;17591:6;17547:72;:::i;:::-;17666:9;17660:4;17656:20;17651:2;17640:9;17636:18;17629:48;17694:78;17767:4;17758:6;17694:78;:::i;:::-;17686:86;;17155:624;;;;;;:::o;17785:169::-;17925:21;17921:1;17913:6;17909:14;17902:45;17785:169;:::o;17960:366::-;18102:3;18123:67;18187:2;18182:3;18123:67;:::i;:::-;18116:74;;18199:93;18288:3;18199:93;:::i;:::-;18317:2;18312:3;18308:12;18301:19;;17960:366;;;:::o;18332:419::-;18498:4;18536:2;18525:9;18521:18;18513:26;;18585:9;18579:4;18575:20;18571:1;18560:9;18556:17;18549:47;18613:131;18739:4;18613:131;:::i;:::-;18605:139;;18332:419;;;:::o;18757:194::-;18797:4;18817:20;18835:1;18817:20;:::i;:::-;18812:25;;18851:20;18869:1;18851:20;:::i;:::-;18846:25;;18895:1;18892;18888:9;18880:17;;18919:1;18913:4;18910:11;18907:37;;;18924:18;;:::i;:::-;18907:37;18757:194;;;;:::o;18957:191::-;18997:3;19016:20;19034:1;19016:20;:::i;:::-;19011:25;;19050:20;19068:1;19050:20;:::i;:::-;19045:25;;19093:1;19090;19086:9;19079:16;;19114:3;19111:1;19108:10;19105:36;;;19121:18;;:::i;:::-;19105:36;18957:191;;;;:::o;19154:149::-;19203:6;19237:5;19231:12;19221:22;;19263:33;19289:6;19263:33;:::i;:::-;19253:43;;19154:149;;;:::o;19309:1451::-;19420:3;19414:4;19411:13;19408:26;;19427:5;;;;19408:26;19458:34;19488:3;19458:34;:::i;:::-;19557:18;19549:6;19546:30;19543:56;;;19579:18;;:::i;:::-;19543:56;19623:38;19655:4;19649:11;19623:38;:::i;:::-;19708:67;19768:6;19760;19754:4;19708:67;:::i;:::-;19802:1;19831:2;19823:6;19820:14;19848:1;19843:672;;;;20559:1;20576:6;20573:77;;;20625:9;20620:3;20616:19;20610:26;20601:35;;20573:77;20676:67;20736:6;20729:5;20676:67;:::i;:::-;20670:4;20663:81;20532:222;19813:941;;19843:672;19895:4;19891:9;19883:6;19879:22;19921:36;19953:3;19921:36;:::i;:::-;19914:43;;19984:37;20016:4;19984:37;:::i;:::-;20043:1;20057:207;20071:7;20068:1;20065:14;20057:207;;;20150:9;20145:3;20141:19;20135:26;20127:6;20120:42;20201:1;20193:6;20189:14;20179:24;;20248:1;20237:9;20233:17;20220:30;;20094:4;20091:1;20087:12;20082:17;;20057:207;;;20292:6;20283:7;20280:19;20277:179;;;20350:9;20345:3;20341:19;20335:26;20393:48;20435:4;20427:6;20423:17;20412:9;20393:48;:::i;:::-;20385:6;20378:64;20300:156;20277:179;20502:1;20498;20490:6;20486:14;20482:22;20476:4;20469:36;19850:665;;;19813:941;;19398:1362;;;19309:1451;;;:::o;20766:180::-;20814:77;20811:1;20804:88;20911:4;20908:1;20901:15;20935:4;20932:1;20925:15",
   "source": "// SPDX-License-Identifier: MIT\r\npragma solidity >=0.4.22 <0.9.0;\r\n\r\ncontract Authenticator {\r\n    struct Card {\r\n        string name;\r\n        uint256 grade;\r\n        string condition;\r\n        // Other variables\r\n    }\r\n\r\n    mapping(address => Card[]) private userCards; // Mapping to register cards for each user\r\n    mapping(address => uint256) private cardCounts; // Mapping to keep track of card counts for each user\r\n\r\n    // Event works as a log to keep track of all the transactions that happened in the contract\r\n    // These logs are stored on blockchain and are accessible using address of the contract till the contract\r\n    // is present on the blockchain. An event generated is not accessible from within contracts,\r\n    // not even the one which have created and emitted them.\r\n\r\n    // Event to notify when a card is registered\r\n    event CardRegistered(\r\n        address indexed user,\r\n        string name,\r\n        uint256 grade,\r\n        string condition\r\n    );\r\n\r\n    // Event to notify when a card is transferred\r\n    event CardTransferred(\r\n        address indexed from,\r\n        address indexed to,\r\n        uint256 cardIndex\r\n    );\r\n\r\n    // Function to register a card for a user, external means that this function can be called from outside the contract\r\n    function registerCard(\r\n        string memory _name,\r\n        uint256 _grade,\r\n        string memory _condition\r\n    ) external {\r\n        Card memory newCard = Card(_name, _grade, _condition);\r\n        userCards[msg.sender].push(newCard);\r\n        cardCounts[msg.sender]++;\r\n        emit CardRegistered(msg.sender, _name, _grade, _condition);\r\n    }\r\n\r\n    // Function to transfer a card from one user to another\r\n    function transferCard(address _to, uint256 _cardIndex) external {\r\n        require( // require is used to validate the inputs to the function and throw error if the condition is not met\r\n            _cardIndex < userCards[msg.sender].length,\r\n            \"Invalid card index\"\r\n        );\r\n        Card memory cardToTransfer = userCards[msg.sender][_cardIndex]; // Get the card to transfer\r\n        userCards[_to].push(cardToTransfer); // Push the card to the user to whom it is being transferred\r\n        cardCounts[msg.sender]--; // Reduce the card count of the user from whom the card is being transferred\r\n        cardCounts[_to]++; // Increase the card count of the user to whom the card is being transferred\r\n        removeElement(_cardIndex); // Delete the card from the user from whom the card is being transferred\r\n        emit CardTransferred(msg.sender, _to, _cardIndex); // Emit the event to notify the transfer\r\n    }\r\n\r\n    // Function to get all cards of a user by address\r\n    function getUserCards(address _user) external view returns (Card[] memory) {\r\n        // view means that this function will not modify the state of the contract\r\n        return userCards[_user];\r\n    }\r\n\r\n    // Function to get card count of a user by address\r\n    function getCardCount(address _user) external view returns (uint256) {\r\n        return cardCounts[_user];\r\n    }\r\n\r\n    function removeElement(uint256 _cardIndex) internal {\r\n        require(_cardIndex < userCards[msg.sender].length, \"Index out of bounds\");\r\n\r\n        // Shift elements to the left starting from the element to be removed\r\n        for (uint i = _cardIndex; i < userCards[msg.sender].length - 1; i++) {          //FORSE USA TROPPO GAS --> da approfondire\r\n            userCards[msg.sender][i] = userCards[msg.sender][i + 1];\r\n        }\r\n\r\n        // Resize the array by deleting the last element\r\n        userCards[msg.sender].pop();\r\n    }\r\n}\r\n",
-  "sourcePath": "C:\\Users\\Giacomo\\Desktop\\Blockchain\\blockchain-authenticator\\project\\truffle\\contracts\\authenticator.sol",
+  "sourcePath": "C:\\Users\\Alessandro\\Desktop\\Universita\\Blockchain\\blockchain-authenticator\\project\\truffle\\contracts\\authenticator.sol",
   "ast": {
     "absolutePath": "project:/contracts/authenticator.sol",
     "exportedSymbols": {
       "Authenticator": [
-        965
+        998
       ]
     },
-    "id": 966,
+    "id": 999,
     "license": "MIT",
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 746,
+        "id": 779,
         "literals": [
           "solidity",
           ">=",
@@ -11059,9 +11059,9 @@
         "contractDependencies": [],
         "contractKind": "contract",
         "fullyImplemented": true,
-        "id": 965,
+        "id": 998,
         "linearizedBaseContracts": [
-          965
+          998
         ],
         "name": "Authenticator",
         "nameLocation": "78:13:1",
@@ -11069,16 +11069,16 @@
         "nodes": [
           {
             "canonicalName": "Authenticator.Card",
-            "id": 753,
+            "id": 786,
             "members": [
               {
                 "constant": false,
-                "id": 748,
+                "id": 781,
                 "mutability": "mutable",
                 "name": "name",
                 "nameLocation": "129:4:1",
                 "nodeType": "VariableDeclaration",
-                "scope": 753,
+                "scope": 786,
                 "src": "122:11:1",
                 "stateVariable": false,
                 "storageLocation": "default",
@@ -11087,7 +11087,7 @@
                   "typeString": "string"
                 },
                 "typeName": {
-                  "id": 747,
+                  "id": 780,
                   "name": "string",
                   "nodeType": "ElementaryTypeName",
                   "src": "122:6:1",
@@ -11100,12 +11100,12 @@
               },
               {
                 "constant": false,
-                "id": 750,
+                "id": 783,
                 "mutability": "mutable",
                 "name": "grade",
                 "nameLocation": "152:5:1",
                 "nodeType": "VariableDeclaration",
-                "scope": 753,
+                "scope": 786,
                 "src": "144:13:1",
                 "stateVariable": false,
                 "storageLocation": "default",
@@ -11114,7 +11114,7 @@
                   "typeString": "uint256"
                 },
                 "typeName": {
-                  "id": 749,
+                  "id": 782,
                   "name": "uint256",
                   "nodeType": "ElementaryTypeName",
                   "src": "144:7:1",
@@ -11127,12 +11127,12 @@
               },
               {
                 "constant": false,
-                "id": 752,
+                "id": 785,
                 "mutability": "mutable",
                 "name": "condition",
                 "nameLocation": "175:9:1",
                 "nodeType": "VariableDeclaration",
-                "scope": 753,
+                "scope": 786,
                 "src": "168:16:1",
                 "stateVariable": false,
                 "storageLocation": "default",
@@ -11141,7 +11141,7 @@
                   "typeString": "string"
                 },
                 "typeName": {
-                  "id": 751,
+                  "id": 784,
                   "name": "string",
                   "nodeType": "ElementaryTypeName",
                   "src": "168:6:1",
@@ -11156,31 +11156,31 @@
             "name": "Card",
             "nameLocation": "106:4:1",
             "nodeType": "StructDefinition",
-            "scope": 965,
+            "scope": 998,
             "src": "99:121:1",
             "visibility": "public"
           },
           {
             "constant": false,
-            "id": 759,
+            "id": 792,
             "mutability": "mutable",
             "name": "userCards",
             "nameLocation": "263:9:1",
             "nodeType": "VariableDeclaration",
-            "scope": 965,
+            "scope": 998,
             "src": "228:44:1",
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
-              "typeIdentifier": "t_mapping$_t_address_$_t_array$_t_struct$_Card_$753_storage_$dyn_storage_$",
+              "typeIdentifier": "t_mapping$_t_address_$_t_array$_t_struct$_Card_$786_storage_$dyn_storage_$",
               "typeString": "mapping(address => struct Authenticator.Card[])"
             },
             "typeName": {
-              "id": 758,
+              "id": 791,
               "keyName": "",
               "keyNameLocation": "-1:-1:-1",
               "keyType": {
-                "id": 754,
+                "id": 787,
                 "name": "address",
                 "nodeType": "ElementaryTypeName",
                 "src": "236:7:1",
@@ -11192,37 +11192,37 @@
               "nodeType": "Mapping",
               "src": "228:26:1",
               "typeDescriptions": {
-                "typeIdentifier": "t_mapping$_t_address_$_t_array$_t_struct$_Card_$753_storage_$dyn_storage_$",
+                "typeIdentifier": "t_mapping$_t_address_$_t_array$_t_struct$_Card_$786_storage_$dyn_storage_$",
                 "typeString": "mapping(address => struct Authenticator.Card[])"
               },
               "valueName": "",
               "valueNameLocation": "-1:-1:-1",
               "valueType": {
                 "baseType": {
-                  "id": 756,
+                  "id": 789,
                   "nodeType": "UserDefinedTypeName",
                   "pathNode": {
-                    "id": 755,
+                    "id": 788,
                     "name": "Card",
                     "nameLocations": [
                       "247:4:1"
                     ],
                     "nodeType": "IdentifierPath",
-                    "referencedDeclaration": 753,
+                    "referencedDeclaration": 786,
                     "src": "247:4:1"
                   },
-                  "referencedDeclaration": 753,
+                  "referencedDeclaration": 786,
                   "src": "247:4:1",
                   "typeDescriptions": {
-                    "typeIdentifier": "t_struct$_Card_$753_storage_ptr",
+                    "typeIdentifier": "t_struct$_Card_$786_storage_ptr",
                     "typeString": "struct Authenticator.Card"
                   }
                 },
-                "id": 757,
+                "id": 790,
                 "nodeType": "ArrayTypeName",
                 "src": "247:6:1",
                 "typeDescriptions": {
-                  "typeIdentifier": "t_array$_t_struct$_Card_$753_storage_$dyn_storage_ptr",
+                  "typeIdentifier": "t_array$_t_struct$_Card_$786_storage_$dyn_storage_ptr",
                   "typeString": "struct Authenticator.Card[]"
                 }
               }
@@ -11231,12 +11231,12 @@
           },
           {
             "constant": false,
-            "id": 763,
+            "id": 796,
             "mutability": "mutable",
             "name": "cardCounts",
             "nameLocation": "358:10:1",
             "nodeType": "VariableDeclaration",
-            "scope": 965,
+            "scope": 998,
             "src": "322:46:1",
             "stateVariable": true,
             "storageLocation": "default",
@@ -11245,11 +11245,11 @@
               "typeString": "mapping(address => uint256)"
             },
             "typeName": {
-              "id": 762,
+              "id": 795,
               "keyName": "",
               "keyNameLocation": "-1:-1:-1",
               "keyType": {
-                "id": 760,
+                "id": 793,
                 "name": "address",
                 "nodeType": "ElementaryTypeName",
                 "src": "330:7:1",
@@ -11267,7 +11267,7 @@
               "valueName": "",
               "valueNameLocation": "-1:-1:-1",
               "valueType": {
-                "id": 761,
+                "id": 794,
                 "name": "uint256",
                 "nodeType": "ElementaryTypeName",
                 "src": "341:7:1",
@@ -11282,23 +11282,23 @@
           {
             "anonymous": false,
             "eventSelector": "d5ed51683b2822693297735ede880846194bea029d405788e45a05e66b6d9696",
-            "id": 773,
+            "id": 806,
             "name": "CardRegistered",
             "nameLocation": "857:14:1",
             "nodeType": "EventDefinition",
             "parameters": {
-              "id": 772,
+              "id": 805,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 765,
+                  "id": 798,
                   "indexed": true,
                   "mutability": "mutable",
                   "name": "user",
                   "nameLocation": "898:4:1",
                   "nodeType": "VariableDeclaration",
-                  "scope": 773,
+                  "scope": 806,
                   "src": "882:20:1",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -11307,7 +11307,7 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 764,
+                    "id": 797,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
                     "src": "882:7:1",
@@ -11321,13 +11321,13 @@
                 },
                 {
                   "constant": false,
-                  "id": 767,
+                  "id": 800,
                   "indexed": false,
                   "mutability": "mutable",
                   "name": "name",
                   "nameLocation": "920:4:1",
                   "nodeType": "VariableDeclaration",
-                  "scope": 773,
+                  "scope": 806,
                   "src": "913:11:1",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -11336,7 +11336,7 @@
                     "typeString": "string"
                   },
                   "typeName": {
-                    "id": 766,
+                    "id": 799,
                     "name": "string",
                     "nodeType": "ElementaryTypeName",
                     "src": "913:6:1",
@@ -11349,13 +11349,13 @@
                 },
                 {
                   "constant": false,
-                  "id": 769,
+                  "id": 802,
                   "indexed": false,
                   "mutability": "mutable",
                   "name": "grade",
                   "nameLocation": "943:5:1",
                   "nodeType": "VariableDeclaration",
-                  "scope": 773,
+                  "scope": 806,
                   "src": "935:13:1",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -11364,7 +11364,7 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 768,
+                    "id": 801,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
                     "src": "935:7:1",
@@ -11377,13 +11377,13 @@
                 },
                 {
                   "constant": false,
-                  "id": 771,
+                  "id": 804,
                   "indexed": false,
                   "mutability": "mutable",
                   "name": "condition",
                   "nameLocation": "966:9:1",
                   "nodeType": "VariableDeclaration",
-                  "scope": 773,
+                  "scope": 806,
                   "src": "959:16:1",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -11392,7 +11392,7 @@
                     "typeString": "string"
                   },
                   "typeName": {
-                    "id": 770,
+                    "id": 803,
                     "name": "string",
                     "nodeType": "ElementaryTypeName",
                     "src": "959:6:1",
@@ -11411,23 +11411,23 @@
           {
             "anonymous": false,
             "eventSelector": "08c7dc9c65cfe0a446c6b662ec2e35c1966d49c8c50f8a4b78a7e2e0c68217c4",
-            "id": 781,
+            "id": 814,
             "name": "CardTransferred",
             "nameLocation": "1048:15:1",
             "nodeType": "EventDefinition",
             "parameters": {
-              "id": 780,
+              "id": 813,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 775,
+                  "id": 808,
                   "indexed": true,
                   "mutability": "mutable",
                   "name": "from",
                   "nameLocation": "1090:4:1",
                   "nodeType": "VariableDeclaration",
-                  "scope": 781,
+                  "scope": 814,
                   "src": "1074:20:1",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -11436,7 +11436,7 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 774,
+                    "id": 807,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
                     "src": "1074:7:1",
@@ -11450,13 +11450,13 @@
                 },
                 {
                   "constant": false,
-                  "id": 777,
+                  "id": 810,
                   "indexed": true,
                   "mutability": "mutable",
                   "name": "to",
                   "nameLocation": "1121:2:1",
                   "nodeType": "VariableDeclaration",
-                  "scope": 781,
+                  "scope": 814,
                   "src": "1105:18:1",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -11465,7 +11465,7 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 776,
+                    "id": 809,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
                     "src": "1105:7:1",
@@ -11479,13 +11479,13 @@
                 },
                 {
                   "constant": false,
-                  "id": 779,
+                  "id": 812,
                   "indexed": false,
                   "mutability": "mutable",
                   "name": "cardIndex",
                   "nameLocation": "1142:9:1",
                   "nodeType": "VariableDeclaration",
-                  "scope": 781,
+                  "scope": 814,
                   "src": "1134:17:1",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -11494,7 +11494,7 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 778,
+                    "id": 811,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
                     "src": "1134:7:1",
@@ -11512,62 +11512,62 @@
           },
           {
             "body": {
-              "id": 821,
+              "id": 854,
               "nodeType": "Block",
               "src": "1417:222:1",
               "statements": [
                 {
                   "assignments": [
-                    792
+                    825
                   ],
                   "declarations": [
                     {
                       "constant": false,
-                      "id": 792,
+                      "id": 825,
                       "mutability": "mutable",
                       "name": "newCard",
                       "nameLocation": "1440:7:1",
                       "nodeType": "VariableDeclaration",
-                      "scope": 821,
+                      "scope": 854,
                       "src": "1428:19:1",
                       "stateVariable": false,
                       "storageLocation": "memory",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_struct$_Card_$753_memory_ptr",
+                        "typeIdentifier": "t_struct$_Card_$786_memory_ptr",
                         "typeString": "struct Authenticator.Card"
                       },
                       "typeName": {
-                        "id": 791,
+                        "id": 824,
                         "nodeType": "UserDefinedTypeName",
                         "pathNode": {
-                          "id": 790,
+                          "id": 823,
                           "name": "Card",
                           "nameLocations": [
                             "1428:4:1"
                           ],
                           "nodeType": "IdentifierPath",
-                          "referencedDeclaration": 753,
+                          "referencedDeclaration": 786,
                           "src": "1428:4:1"
                         },
-                        "referencedDeclaration": 753,
+                        "referencedDeclaration": 786,
                         "src": "1428:4:1",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_struct$_Card_$753_storage_ptr",
+                          "typeIdentifier": "t_struct$_Card_$786_storage_ptr",
                           "typeString": "struct Authenticator.Card"
                         }
                       },
                       "visibility": "internal"
                     }
                   ],
-                  "id": 798,
+                  "id": 831,
                   "initialValue": {
                     "arguments": [
                       {
-                        "id": 794,
+                        "id": 827,
                         "name": "_name",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 783,
+                        "referencedDeclaration": 816,
                         "src": "1455:5:1",
                         "typeDescriptions": {
                           "typeIdentifier": "t_string_memory_ptr",
@@ -11575,11 +11575,11 @@
                         }
                       },
                       {
-                        "id": 795,
+                        "id": 828,
                         "name": "_grade",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 785,
+                        "referencedDeclaration": 818,
                         "src": "1462:6:1",
                         "typeDescriptions": {
                           "typeIdentifier": "t_uint256",
@@ -11587,11 +11587,11 @@
                         }
                       },
                       {
-                        "id": 796,
+                        "id": 829,
                         "name": "_condition",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 787,
+                        "referencedDeclaration": 820,
                         "src": "1470:10:1",
                         "typeDescriptions": {
                           "typeIdentifier": "t_string_memory_ptr",
@@ -11614,18 +11614,18 @@
                           "typeString": "string memory"
                         }
                       ],
-                      "id": 793,
+                      "id": 826,
                       "name": "Card",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 753,
+                      "referencedDeclaration": 786,
                       "src": "1450:4:1",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_type$_t_struct$_Card_$753_storage_ptr_$",
+                        "typeIdentifier": "t_type$_t_struct$_Card_$786_storage_ptr_$",
                         "typeString": "type(struct Authenticator.Card storage pointer)"
                       }
                     },
-                    "id": 797,
+                    "id": 830,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -11637,7 +11637,7 @@
                     "src": "1450:31:1",
                     "tryCall": false,
                     "typeDescriptions": {
-                      "typeIdentifier": "t_struct$_Card_$753_memory_ptr",
+                      "typeIdentifier": "t_struct$_Card_$786_memory_ptr",
                       "typeString": "struct Authenticator.Card memory"
                     }
                   },
@@ -11648,14 +11648,14 @@
                   "expression": {
                     "arguments": [
                       {
-                        "id": 804,
+                        "id": 837,
                         "name": "newCard",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 792,
+                        "referencedDeclaration": 825,
                         "src": "1519:7:1",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_struct$_Card_$753_memory_ptr",
+                          "typeIdentifier": "t_struct$_Card_$786_memory_ptr",
                           "typeString": "struct Authenticator.Card memory"
                         }
                       }
@@ -11663,27 +11663,27 @@
                     "expression": {
                       "argumentTypes": [
                         {
-                          "typeIdentifier": "t_struct$_Card_$753_memory_ptr",
+                          "typeIdentifier": "t_struct$_Card_$786_memory_ptr",
                           "typeString": "struct Authenticator.Card memory"
                         }
                       ],
                       "expression": {
                         "baseExpression": {
-                          "id": 799,
+                          "id": 832,
                           "name": "userCards",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 759,
+                          "referencedDeclaration": 792,
                           "src": "1492:9:1",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_mapping$_t_address_$_t_array$_t_struct$_Card_$753_storage_$dyn_storage_$",
+                            "typeIdentifier": "t_mapping$_t_address_$_t_array$_t_struct$_Card_$786_storage_$dyn_storage_$",
                             "typeString": "mapping(address => struct Authenticator.Card storage ref[] storage ref)"
                           }
                         },
-                        "id": 802,
+                        "id": 835,
                         "indexExpression": {
                           "expression": {
-                            "id": 800,
+                            "id": 833,
                             "name": "msg",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
@@ -11694,7 +11694,7 @@
                               "typeString": "msg"
                             }
                           },
-                          "id": 801,
+                          "id": 834,
                           "isConstant": false,
                           "isLValue": false,
                           "isPure": false,
@@ -11715,11 +11715,11 @@
                         "nodeType": "IndexAccess",
                         "src": "1492:21:1",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_array$_t_struct$_Card_$753_storage_$dyn_storage",
+                          "typeIdentifier": "t_array$_t_struct$_Card_$786_storage_$dyn_storage",
                           "typeString": "struct Authenticator.Card storage ref[] storage ref"
                         }
                       },
-                      "id": 803,
+                      "id": 836,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": false,
@@ -11729,11 +11729,11 @@
                       "nodeType": "MemberAccess",
                       "src": "1492:26:1",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_function_arraypush_nonpayable$_t_array$_t_struct$_Card_$753_storage_$dyn_storage_ptr_$_t_struct$_Card_$753_storage_$returns$__$attached_to$_t_array$_t_struct$_Card_$753_storage_$dyn_storage_ptr_$",
+                        "typeIdentifier": "t_function_arraypush_nonpayable$_t_array$_t_struct$_Card_$786_storage_$dyn_storage_ptr_$_t_struct$_Card_$786_storage_$returns$__$attached_to$_t_array$_t_struct$_Card_$786_storage_$dyn_storage_ptr_$",
                         "typeString": "function (struct Authenticator.Card storage ref[] storage pointer,struct Authenticator.Card storage ref)"
                       }
                     },
-                    "id": 805,
+                    "id": 838,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -11749,13 +11749,13 @@
                       "typeString": "tuple()"
                     }
                   },
-                  "id": 806,
+                  "id": 839,
                   "nodeType": "ExpressionStatement",
                   "src": "1492:35:1"
                 },
                 {
                   "expression": {
-                    "id": 811,
+                    "id": 844,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -11766,21 +11766,21 @@
                     "src": "1538:24:1",
                     "subExpression": {
                       "baseExpression": {
-                        "id": 807,
+                        "id": 840,
                         "name": "cardCounts",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 763,
+                        "referencedDeclaration": 796,
                         "src": "1538:10:1",
                         "typeDescriptions": {
                           "typeIdentifier": "t_mapping$_t_address_$_t_uint256_$",
                           "typeString": "mapping(address => uint256)"
                         }
                       },
-                      "id": 810,
+                      "id": 843,
                       "indexExpression": {
                         "expression": {
-                          "id": 808,
+                          "id": 841,
                           "name": "msg",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
@@ -11791,7 +11791,7 @@
                             "typeString": "msg"
                           }
                         },
-                        "id": 809,
+                        "id": 842,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": false,
@@ -11821,7 +11821,7 @@
                       "typeString": "uint256"
                     }
                   },
-                  "id": 812,
+                  "id": 845,
                   "nodeType": "ExpressionStatement",
                   "src": "1538:24:1"
                 },
@@ -11830,7 +11830,7 @@
                     "arguments": [
                       {
                         "expression": {
-                          "id": 814,
+                          "id": 847,
                           "name": "msg",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
@@ -11841,7 +11841,7 @@
                             "typeString": "msg"
                           }
                         },
-                        "id": 815,
+                        "id": 848,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": false,
@@ -11856,11 +11856,11 @@
                         }
                       },
                       {
-                        "id": 816,
+                        "id": 849,
                         "name": "_name",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 783,
+                        "referencedDeclaration": 816,
                         "src": "1605:5:1",
                         "typeDescriptions": {
                           "typeIdentifier": "t_string_memory_ptr",
@@ -11868,11 +11868,11 @@
                         }
                       },
                       {
-                        "id": 817,
+                        "id": 850,
                         "name": "_grade",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 785,
+                        "referencedDeclaration": 818,
                         "src": "1612:6:1",
                         "typeDescriptions": {
                           "typeIdentifier": "t_uint256",
@@ -11880,11 +11880,11 @@
                         }
                       },
                       {
-                        "id": 818,
+                        "id": 851,
                         "name": "_condition",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 787,
+                        "referencedDeclaration": 820,
                         "src": "1620:10:1",
                         "typeDescriptions": {
                           "typeIdentifier": "t_string_memory_ptr",
@@ -11911,18 +11911,18 @@
                           "typeString": "string memory"
                         }
                       ],
-                      "id": 813,
+                      "id": 846,
                       "name": "CardRegistered",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 773,
+                      "referencedDeclaration": 806,
                       "src": "1578:14:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_event_nonpayable$_t_address_$_t_string_memory_ptr_$_t_uint256_$_t_string_memory_ptr_$returns$__$",
                         "typeString": "function (address,string memory,uint256,string memory)"
                       }
                     },
-                    "id": 819,
+                    "id": 852,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -11938,14 +11938,14 @@
                       "typeString": "tuple()"
                     }
                   },
-                  "id": 820,
+                  "id": 853,
                   "nodeType": "EmitStatement",
                   "src": "1573:58:1"
                 }
               ]
             },
             "functionSelector": "b931f047",
-            "id": 822,
+            "id": 855,
             "implemented": true,
             "kind": "function",
             "modifiers": [],
@@ -11953,17 +11953,17 @@
             "nameLocation": "1298:12:1",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 788,
+              "id": 821,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 783,
+                  "id": 816,
                   "mutability": "mutable",
                   "name": "_name",
                   "nameLocation": "1335:5:1",
                   "nodeType": "VariableDeclaration",
-                  "scope": 822,
+                  "scope": 855,
                   "src": "1321:19:1",
                   "stateVariable": false,
                   "storageLocation": "memory",
@@ -11972,7 +11972,7 @@
                     "typeString": "string"
                   },
                   "typeName": {
-                    "id": 782,
+                    "id": 815,
                     "name": "string",
                     "nodeType": "ElementaryTypeName",
                     "src": "1321:6:1",
@@ -11985,12 +11985,12 @@
                 },
                 {
                   "constant": false,
-                  "id": 785,
+                  "id": 818,
                   "mutability": "mutable",
                   "name": "_grade",
                   "nameLocation": "1359:6:1",
                   "nodeType": "VariableDeclaration",
-                  "scope": 822,
+                  "scope": 855,
                   "src": "1351:14:1",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -11999,7 +11999,7 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 784,
+                    "id": 817,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
                     "src": "1351:7:1",
@@ -12012,12 +12012,12 @@
                 },
                 {
                   "constant": false,
-                  "id": 787,
+                  "id": 820,
                   "mutability": "mutable",
                   "name": "_condition",
                   "nameLocation": "1390:10:1",
                   "nodeType": "VariableDeclaration",
-                  "scope": 822,
+                  "scope": 855,
                   "src": "1376:24:1",
                   "stateVariable": false,
                   "storageLocation": "memory",
@@ -12026,7 +12026,7 @@
                     "typeString": "string"
                   },
                   "typeName": {
-                    "id": 786,
+                    "id": 819,
                     "name": "string",
                     "nodeType": "ElementaryTypeName",
                     "src": "1376:6:1",
@@ -12041,12 +12041,12 @@
               "src": "1310:97:1"
             },
             "returnParameters": {
-              "id": 789,
+              "id": 822,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "1417:0:1"
             },
-            "scope": 965,
+            "scope": 998,
             "src": "1289:350:1",
             "stateMutability": "nonpayable",
             "virtual": false,
@@ -12054,7 +12054,7 @@
           },
           {
             "body": {
-              "id": 879,
+              "id": 912,
               "nodeType": "Block",
               "src": "1772:865:1",
               "statements": [
@@ -12066,17 +12066,17 @@
                           "typeIdentifier": "t_uint256",
                           "typeString": "uint256"
                         },
-                        "id": 836,
+                        "id": 869,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": false,
                         "lValueRequested": false,
                         "leftExpression": {
-                          "id": 830,
+                          "id": 863,
                           "name": "_cardIndex",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 826,
+                          "referencedDeclaration": 859,
                           "src": "1907:10:1",
                           "typeDescriptions": {
                             "typeIdentifier": "t_uint256",
@@ -12088,21 +12088,21 @@
                         "rightExpression": {
                           "expression": {
                             "baseExpression": {
-                              "id": 831,
+                              "id": 864,
                               "name": "userCards",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 759,
+                              "referencedDeclaration": 792,
                               "src": "1920:9:1",
                               "typeDescriptions": {
-                                "typeIdentifier": "t_mapping$_t_address_$_t_array$_t_struct$_Card_$753_storage_$dyn_storage_$",
+                                "typeIdentifier": "t_mapping$_t_address_$_t_array$_t_struct$_Card_$786_storage_$dyn_storage_$",
                                 "typeString": "mapping(address => struct Authenticator.Card storage ref[] storage ref)"
                               }
                             },
-                            "id": 834,
+                            "id": 867,
                             "indexExpression": {
                               "expression": {
-                                "id": 832,
+                                "id": 865,
                                 "name": "msg",
                                 "nodeType": "Identifier",
                                 "overloadedDeclarations": [],
@@ -12113,7 +12113,7 @@
                                   "typeString": "msg"
                                 }
                               },
-                              "id": 833,
+                              "id": 866,
                               "isConstant": false,
                               "isLValue": false,
                               "isPure": false,
@@ -12134,11 +12134,11 @@
                             "nodeType": "IndexAccess",
                             "src": "1920:21:1",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_array$_t_struct$_Card_$753_storage_$dyn_storage",
+                              "typeIdentifier": "t_array$_t_struct$_Card_$786_storage_$dyn_storage",
                               "typeString": "struct Authenticator.Card storage ref[] storage ref"
                             }
                           },
-                          "id": 835,
+                          "id": 868,
                           "isConstant": false,
                           "isLValue": false,
                           "isPure": false,
@@ -12160,7 +12160,7 @@
                       },
                       {
                         "hexValue": "496e76616c6964206361726420696e646578",
-                        "id": 837,
+                        "id": 870,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": true,
@@ -12186,7 +12186,7 @@
                           "typeString": "literal_string \"Invalid card index\""
                         }
                       ],
-                      "id": 829,
+                      "id": 862,
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
@@ -12200,7 +12200,7 @@
                         "typeString": "function (bool,string memory) pure"
                       }
                     },
-                    "id": 838,
+                    "id": 871,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -12216,72 +12216,72 @@
                       "typeString": "tuple()"
                     }
                   },
-                  "id": 839,
+                  "id": 872,
                   "nodeType": "ExpressionStatement",
                   "src": "1783:211:1"
                 },
                 {
                   "assignments": [
-                    842
+                    875
                   ],
                   "declarations": [
                     {
                       "constant": false,
-                      "id": 842,
+                      "id": 875,
                       "mutability": "mutable",
                       "name": "cardToTransfer",
                       "nameLocation": "2017:14:1",
                       "nodeType": "VariableDeclaration",
-                      "scope": 879,
+                      "scope": 912,
                       "src": "2005:26:1",
                       "stateVariable": false,
                       "storageLocation": "memory",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_struct$_Card_$753_memory_ptr",
+                        "typeIdentifier": "t_struct$_Card_$786_memory_ptr",
                         "typeString": "struct Authenticator.Card"
                       },
                       "typeName": {
-                        "id": 841,
+                        "id": 874,
                         "nodeType": "UserDefinedTypeName",
                         "pathNode": {
-                          "id": 840,
+                          "id": 873,
                           "name": "Card",
                           "nameLocations": [
                             "2005:4:1"
                           ],
                           "nodeType": "IdentifierPath",
-                          "referencedDeclaration": 753,
+                          "referencedDeclaration": 786,
                           "src": "2005:4:1"
                         },
-                        "referencedDeclaration": 753,
+                        "referencedDeclaration": 786,
                         "src": "2005:4:1",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_struct$_Card_$753_storage_ptr",
+                          "typeIdentifier": "t_struct$_Card_$786_storage_ptr",
                           "typeString": "struct Authenticator.Card"
                         }
                       },
                       "visibility": "internal"
                     }
                   ],
-                  "id": 849,
+                  "id": 882,
                   "initialValue": {
                     "baseExpression": {
                       "baseExpression": {
-                        "id": 843,
+                        "id": 876,
                         "name": "userCards",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 759,
+                        "referencedDeclaration": 792,
                         "src": "2034:9:1",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_mapping$_t_address_$_t_array$_t_struct$_Card_$753_storage_$dyn_storage_$",
+                          "typeIdentifier": "t_mapping$_t_address_$_t_array$_t_struct$_Card_$786_storage_$dyn_storage_$",
                           "typeString": "mapping(address => struct Authenticator.Card storage ref[] storage ref)"
                         }
                       },
-                      "id": 846,
+                      "id": 879,
                       "indexExpression": {
                         "expression": {
-                          "id": 844,
+                          "id": 877,
                           "name": "msg",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
@@ -12292,7 +12292,7 @@
                             "typeString": "msg"
                           }
                         },
-                        "id": 845,
+                        "id": 878,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": false,
@@ -12313,17 +12313,17 @@
                       "nodeType": "IndexAccess",
                       "src": "2034:21:1",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_array$_t_struct$_Card_$753_storage_$dyn_storage",
+                        "typeIdentifier": "t_array$_t_struct$_Card_$786_storage_$dyn_storage",
                         "typeString": "struct Authenticator.Card storage ref[] storage ref"
                       }
                     },
-                    "id": 848,
+                    "id": 881,
                     "indexExpression": {
-                      "id": 847,
+                      "id": 880,
                       "name": "_cardIndex",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 826,
+                      "referencedDeclaration": 859,
                       "src": "2056:10:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_uint256",
@@ -12337,7 +12337,7 @@
                     "nodeType": "IndexAccess",
                     "src": "2034:33:1",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_struct$_Card_$753_storage",
+                      "typeIdentifier": "t_struct$_Card_$786_storage",
                       "typeString": "struct Authenticator.Card storage ref"
                     }
                   },
@@ -12348,14 +12348,14 @@
                   "expression": {
                     "arguments": [
                       {
-                        "id": 854,
+                        "id": 887,
                         "name": "cardToTransfer",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 842,
+                        "referencedDeclaration": 875,
                         "src": "2126:14:1",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_struct$_Card_$753_memory_ptr",
+                          "typeIdentifier": "t_struct$_Card_$786_memory_ptr",
                           "typeString": "struct Authenticator.Card memory"
                         }
                       }
@@ -12363,30 +12363,30 @@
                     "expression": {
                       "argumentTypes": [
                         {
-                          "typeIdentifier": "t_struct$_Card_$753_memory_ptr",
+                          "typeIdentifier": "t_struct$_Card_$786_memory_ptr",
                           "typeString": "struct Authenticator.Card memory"
                         }
                       ],
                       "expression": {
                         "baseExpression": {
-                          "id": 850,
+                          "id": 883,
                           "name": "userCards",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 759,
+                          "referencedDeclaration": 792,
                           "src": "2106:9:1",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_mapping$_t_address_$_t_array$_t_struct$_Card_$753_storage_$dyn_storage_$",
+                            "typeIdentifier": "t_mapping$_t_address_$_t_array$_t_struct$_Card_$786_storage_$dyn_storage_$",
                             "typeString": "mapping(address => struct Authenticator.Card storage ref[] storage ref)"
                           }
                         },
-                        "id": 852,
+                        "id": 885,
                         "indexExpression": {
-                          "id": 851,
+                          "id": 884,
                           "name": "_to",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 824,
+                          "referencedDeclaration": 857,
                           "src": "2116:3:1",
                           "typeDescriptions": {
                             "typeIdentifier": "t_address",
@@ -12400,11 +12400,11 @@
                         "nodeType": "IndexAccess",
                         "src": "2106:14:1",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_array$_t_struct$_Card_$753_storage_$dyn_storage",
+                          "typeIdentifier": "t_array$_t_struct$_Card_$786_storage_$dyn_storage",
                           "typeString": "struct Authenticator.Card storage ref[] storage ref"
                         }
                       },
-                      "id": 853,
+                      "id": 886,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": false,
@@ -12414,11 +12414,11 @@
                       "nodeType": "MemberAccess",
                       "src": "2106:19:1",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_function_arraypush_nonpayable$_t_array$_t_struct$_Card_$753_storage_$dyn_storage_ptr_$_t_struct$_Card_$753_storage_$returns$__$attached_to$_t_array$_t_struct$_Card_$753_storage_$dyn_storage_ptr_$",
+                        "typeIdentifier": "t_function_arraypush_nonpayable$_t_array$_t_struct$_Card_$786_storage_$dyn_storage_ptr_$_t_struct$_Card_$786_storage_$returns$__$attached_to$_t_array$_t_struct$_Card_$786_storage_$dyn_storage_ptr_$",
                         "typeString": "function (struct Authenticator.Card storage ref[] storage pointer,struct Authenticator.Card storage ref)"
                       }
                     },
-                    "id": 855,
+                    "id": 888,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -12434,13 +12434,13 @@
                       "typeString": "tuple()"
                     }
                   },
-                  "id": 856,
+                  "id": 889,
                   "nodeType": "ExpressionStatement",
                   "src": "2106:35:1"
                 },
                 {
                   "expression": {
-                    "id": 861,
+                    "id": 894,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -12451,21 +12451,21 @@
                     "src": "2213:24:1",
                     "subExpression": {
                       "baseExpression": {
-                        "id": 857,
+                        "id": 890,
                         "name": "cardCounts",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 763,
+                        "referencedDeclaration": 796,
                         "src": "2213:10:1",
                         "typeDescriptions": {
                           "typeIdentifier": "t_mapping$_t_address_$_t_uint256_$",
                           "typeString": "mapping(address => uint256)"
                         }
                       },
-                      "id": 860,
+                      "id": 893,
                       "indexExpression": {
                         "expression": {
-                          "id": 858,
+                          "id": 891,
                           "name": "msg",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
@@ -12476,7 +12476,7 @@
                             "typeString": "msg"
                           }
                         },
-                        "id": 859,
+                        "id": 892,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": false,
@@ -12506,13 +12506,13 @@
                       "typeString": "uint256"
                     }
                   },
-                  "id": 862,
+                  "id": 895,
                   "nodeType": "ExpressionStatement",
                   "src": "2213:24:1"
                 },
                 {
                   "expression": {
-                    "id": 866,
+                    "id": 899,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -12523,24 +12523,24 @@
                     "src": "2325:17:1",
                     "subExpression": {
                       "baseExpression": {
-                        "id": 863,
+                        "id": 896,
                         "name": "cardCounts",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 763,
+                        "referencedDeclaration": 796,
                         "src": "2325:10:1",
                         "typeDescriptions": {
                           "typeIdentifier": "t_mapping$_t_address_$_t_uint256_$",
                           "typeString": "mapping(address => uint256)"
                         }
                       },
-                      "id": 865,
+                      "id": 898,
                       "indexExpression": {
-                        "id": 864,
+                        "id": 897,
                         "name": "_to",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 824,
+                        "referencedDeclaration": 857,
                         "src": "2336:3:1",
                         "typeDescriptions": {
                           "typeIdentifier": "t_address",
@@ -12563,7 +12563,7 @@
                       "typeString": "uint256"
                     }
                   },
-                  "id": 867,
+                  "id": 900,
                   "nodeType": "ExpressionStatement",
                   "src": "2325:17:1"
                 },
@@ -12571,11 +12571,11 @@
                   "expression": {
                     "arguments": [
                       {
-                        "id": 869,
+                        "id": 902,
                         "name": "_cardIndex",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 826,
+                        "referencedDeclaration": 859,
                         "src": "2444:10:1",
                         "typeDescriptions": {
                           "typeIdentifier": "t_uint256",
@@ -12590,18 +12590,18 @@
                           "typeString": "uint256"
                         }
                       ],
-                      "id": 868,
+                      "id": 901,
                       "name": "removeElement",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 964,
+                      "referencedDeclaration": 997,
                       "src": "2430:13:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_nonpayable$_t_uint256_$returns$__$",
                         "typeString": "function (uint256)"
                       }
                     },
-                    "id": 870,
+                    "id": 903,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -12617,7 +12617,7 @@
                       "typeString": "tuple()"
                     }
                   },
-                  "id": 871,
+                  "id": 904,
                   "nodeType": "ExpressionStatement",
                   "src": "2430:25:1"
                 },
@@ -12626,7 +12626,7 @@
                     "arguments": [
                       {
                         "expression": {
-                          "id": 873,
+                          "id": 906,
                           "name": "msg",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
@@ -12637,7 +12637,7 @@
                             "typeString": "msg"
                           }
                         },
-                        "id": 874,
+                        "id": 907,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": false,
@@ -12652,11 +12652,11 @@
                         }
                       },
                       {
-                        "id": 875,
+                        "id": 908,
                         "name": "_to",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 824,
+                        "referencedDeclaration": 857,
                         "src": "2572:3:1",
                         "typeDescriptions": {
                           "typeIdentifier": "t_address",
@@ -12664,11 +12664,11 @@
                         }
                       },
                       {
-                        "id": 876,
+                        "id": 909,
                         "name": "_cardIndex",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 826,
+                        "referencedDeclaration": 859,
                         "src": "2577:10:1",
                         "typeDescriptions": {
                           "typeIdentifier": "t_uint256",
@@ -12691,18 +12691,18 @@
                           "typeString": "uint256"
                         }
                       ],
-                      "id": 872,
+                      "id": 905,
                       "name": "CardTransferred",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 781,
+                      "referencedDeclaration": 814,
                       "src": "2544:15:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_event_nonpayable$_t_address_$_t_address_$_t_uint256_$returns$__$",
                         "typeString": "function (address,address,uint256)"
                       }
                     },
-                    "id": 877,
+                    "id": 910,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -12718,14 +12718,14 @@
                       "typeString": "tuple()"
                     }
                   },
-                  "id": 878,
+                  "id": 911,
                   "nodeType": "EmitStatement",
                   "src": "2539:49:1"
                 }
               ]
             },
             "functionSelector": "9b81a359",
-            "id": 880,
+            "id": 913,
             "implemented": true,
             "kind": "function",
             "modifiers": [],
@@ -12733,17 +12733,17 @@
             "nameLocation": "1717:12:1",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 827,
+              "id": 860,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 824,
+                  "id": 857,
                   "mutability": "mutable",
                   "name": "_to",
                   "nameLocation": "1738:3:1",
                   "nodeType": "VariableDeclaration",
-                  "scope": 880,
+                  "scope": 913,
                   "src": "1730:11:1",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -12752,7 +12752,7 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 823,
+                    "id": 856,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
                     "src": "1730:7:1",
@@ -12766,12 +12766,12 @@
                 },
                 {
                   "constant": false,
-                  "id": 826,
+                  "id": 859,
                   "mutability": "mutable",
                   "name": "_cardIndex",
                   "nameLocation": "1751:10:1",
                   "nodeType": "VariableDeclaration",
-                  "scope": 880,
+                  "scope": 913,
                   "src": "1743:18:1",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -12780,7 +12780,7 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 825,
+                    "id": 858,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
                     "src": "1743:7:1",
@@ -12795,12 +12795,12 @@
               "src": "1729:33:1"
             },
             "returnParameters": {
-              "id": 828,
+              "id": 861,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "1772:0:1"
             },
-            "scope": 965,
+            "scope": 998,
             "src": "1708:929:1",
             "stateMutability": "nonpayable",
             "virtual": false,
@@ -12808,31 +12808,31 @@
           },
           {
             "body": {
-              "id": 893,
+              "id": 926,
               "nodeType": "Block",
               "src": "2775:126:1",
               "statements": [
                 {
                   "expression": {
                     "baseExpression": {
-                      "id": 889,
+                      "id": 922,
                       "name": "userCards",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 759,
+                      "referencedDeclaration": 792,
                       "src": "2877:9:1",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_mapping$_t_address_$_t_array$_t_struct$_Card_$753_storage_$dyn_storage_$",
+                        "typeIdentifier": "t_mapping$_t_address_$_t_array$_t_struct$_Card_$786_storage_$dyn_storage_$",
                         "typeString": "mapping(address => struct Authenticator.Card storage ref[] storage ref)"
                       }
                     },
-                    "id": 891,
+                    "id": 924,
                     "indexExpression": {
-                      "id": 890,
+                      "id": 923,
                       "name": "_user",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 882,
+                      "referencedDeclaration": 915,
                       "src": "2887:5:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_address",
@@ -12846,19 +12846,19 @@
                     "nodeType": "IndexAccess",
                     "src": "2877:16:1",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_array$_t_struct$_Card_$753_storage_$dyn_storage",
+                      "typeIdentifier": "t_array$_t_struct$_Card_$786_storage_$dyn_storage",
                       "typeString": "struct Authenticator.Card storage ref[] storage ref"
                     }
                   },
-                  "functionReturnParameters": 888,
-                  "id": 892,
+                  "functionReturnParameters": 921,
+                  "id": 925,
                   "nodeType": "Return",
                   "src": "2870:23:1"
                 }
               ]
             },
             "functionSelector": "88d9f40d",
-            "id": 894,
+            "id": 927,
             "implemented": true,
             "kind": "function",
             "modifiers": [],
@@ -12866,17 +12866,17 @@
             "nameLocation": "2709:12:1",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 883,
+              "id": 916,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 882,
+                  "id": 915,
                   "mutability": "mutable",
                   "name": "_user",
                   "nameLocation": "2730:5:1",
                   "nodeType": "VariableDeclaration",
-                  "scope": 894,
+                  "scope": 927,
                   "src": "2722:13:1",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -12885,7 +12885,7 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 881,
+                    "id": 914,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
                     "src": "2722:7:1",
@@ -12901,50 +12901,50 @@
               "src": "2721:15:1"
             },
             "returnParameters": {
-              "id": 888,
+              "id": 921,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 887,
+                  "id": 920,
                   "mutability": "mutable",
                   "name": "",
                   "nameLocation": "-1:-1:-1",
                   "nodeType": "VariableDeclaration",
-                  "scope": 894,
+                  "scope": 927,
                   "src": "2760:13:1",
                   "stateVariable": false,
                   "storageLocation": "memory",
                   "typeDescriptions": {
-                    "typeIdentifier": "t_array$_t_struct$_Card_$753_memory_ptr_$dyn_memory_ptr",
+                    "typeIdentifier": "t_array$_t_struct$_Card_$786_memory_ptr_$dyn_memory_ptr",
                     "typeString": "struct Authenticator.Card[]"
                   },
                   "typeName": {
                     "baseType": {
-                      "id": 885,
+                      "id": 918,
                       "nodeType": "UserDefinedTypeName",
                       "pathNode": {
-                        "id": 884,
+                        "id": 917,
                         "name": "Card",
                         "nameLocations": [
                           "2760:4:1"
                         ],
                         "nodeType": "IdentifierPath",
-                        "referencedDeclaration": 753,
+                        "referencedDeclaration": 786,
                         "src": "2760:4:1"
                       },
-                      "referencedDeclaration": 753,
+                      "referencedDeclaration": 786,
                       "src": "2760:4:1",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_struct$_Card_$753_storage_ptr",
+                        "typeIdentifier": "t_struct$_Card_$786_storage_ptr",
                         "typeString": "struct Authenticator.Card"
                       }
                     },
-                    "id": 886,
+                    "id": 919,
                     "nodeType": "ArrayTypeName",
                     "src": "2760:6:1",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_array$_t_struct$_Card_$753_storage_$dyn_storage_ptr",
+                      "typeIdentifier": "t_array$_t_struct$_Card_$786_storage_$dyn_storage_ptr",
                       "typeString": "struct Authenticator.Card[]"
                     }
                   },
@@ -12953,7 +12953,7 @@
               ],
               "src": "2759:15:1"
             },
-            "scope": 965,
+            "scope": 998,
             "src": "2700:201:1",
             "stateMutability": "view",
             "virtual": false,
@@ -12961,31 +12961,31 @@
           },
           {
             "body": {
-              "id": 905,
+              "id": 938,
               "nodeType": "Block",
               "src": "3034:43:1",
               "statements": [
                 {
                   "expression": {
                     "baseExpression": {
-                      "id": 901,
+                      "id": 934,
                       "name": "cardCounts",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 763,
+                      "referencedDeclaration": 796,
                       "src": "3052:10:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_mapping$_t_address_$_t_uint256_$",
                         "typeString": "mapping(address => uint256)"
                       }
                     },
-                    "id": 903,
+                    "id": 936,
                     "indexExpression": {
-                      "id": 902,
+                      "id": 935,
                       "name": "_user",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 896,
+                      "referencedDeclaration": 929,
                       "src": "3063:5:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_address",
@@ -13003,15 +13003,15 @@
                       "typeString": "uint256"
                     }
                   },
-                  "functionReturnParameters": 900,
-                  "id": 904,
+                  "functionReturnParameters": 933,
+                  "id": 937,
                   "nodeType": "Return",
                   "src": "3045:24:1"
                 }
               ]
             },
             "functionSelector": "dce0b586",
-            "id": 906,
+            "id": 939,
             "implemented": true,
             "kind": "function",
             "modifiers": [],
@@ -13019,17 +13019,17 @@
             "nameLocation": "2974:12:1",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 897,
+              "id": 930,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 896,
+                  "id": 929,
                   "mutability": "mutable",
                   "name": "_user",
                   "nameLocation": "2995:5:1",
                   "nodeType": "VariableDeclaration",
-                  "scope": 906,
+                  "scope": 939,
                   "src": "2987:13:1",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -13038,7 +13038,7 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 895,
+                    "id": 928,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
                     "src": "2987:7:1",
@@ -13054,17 +13054,17 @@
               "src": "2986:15:1"
             },
             "returnParameters": {
-              "id": 900,
+              "id": 933,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 899,
+                  "id": 932,
                   "mutability": "mutable",
                   "name": "",
                   "nameLocation": "-1:-1:-1",
                   "nodeType": "VariableDeclaration",
-                  "scope": 906,
+                  "scope": 939,
                   "src": "3025:7:1",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -13073,7 +13073,7 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 898,
+                    "id": 931,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
                     "src": "3025:7:1",
@@ -13087,7 +13087,7 @@
               ],
               "src": "3024:9:1"
             },
-            "scope": 965,
+            "scope": 998,
             "src": "2965:112:1",
             "stateMutability": "view",
             "virtual": false,
@@ -13095,7 +13095,7 @@
           },
           {
             "body": {
-              "id": 963,
+              "id": 996,
               "nodeType": "Block",
               "src": "3137:484:1",
               "statements": [
@@ -13107,17 +13107,17 @@
                           "typeIdentifier": "t_uint256",
                           "typeString": "uint256"
                         },
-                        "id": 918,
+                        "id": 951,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": false,
                         "lValueRequested": false,
                         "leftExpression": {
-                          "id": 912,
+                          "id": 945,
                           "name": "_cardIndex",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 908,
+                          "referencedDeclaration": 941,
                           "src": "3156:10:1",
                           "typeDescriptions": {
                             "typeIdentifier": "t_uint256",
@@ -13129,21 +13129,21 @@
                         "rightExpression": {
                           "expression": {
                             "baseExpression": {
-                              "id": 913,
+                              "id": 946,
                               "name": "userCards",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 759,
+                              "referencedDeclaration": 792,
                               "src": "3169:9:1",
                               "typeDescriptions": {
-                                "typeIdentifier": "t_mapping$_t_address_$_t_array$_t_struct$_Card_$753_storage_$dyn_storage_$",
+                                "typeIdentifier": "t_mapping$_t_address_$_t_array$_t_struct$_Card_$786_storage_$dyn_storage_$",
                                 "typeString": "mapping(address => struct Authenticator.Card storage ref[] storage ref)"
                               }
                             },
-                            "id": 916,
+                            "id": 949,
                             "indexExpression": {
                               "expression": {
-                                "id": 914,
+                                "id": 947,
                                 "name": "msg",
                                 "nodeType": "Identifier",
                                 "overloadedDeclarations": [],
@@ -13154,7 +13154,7 @@
                                   "typeString": "msg"
                                 }
                               },
-                              "id": 915,
+                              "id": 948,
                               "isConstant": false,
                               "isLValue": false,
                               "isPure": false,
@@ -13175,11 +13175,11 @@
                             "nodeType": "IndexAccess",
                             "src": "3169:21:1",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_array$_t_struct$_Card_$753_storage_$dyn_storage",
+                              "typeIdentifier": "t_array$_t_struct$_Card_$786_storage_$dyn_storage",
                               "typeString": "struct Authenticator.Card storage ref[] storage ref"
                             }
                           },
-                          "id": 917,
+                          "id": 950,
                           "isConstant": false,
                           "isLValue": false,
                           "isPure": false,
@@ -13201,7 +13201,7 @@
                       },
                       {
                         "hexValue": "496e646578206f7574206f6620626f756e6473",
-                        "id": 919,
+                        "id": 952,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": true,
@@ -13227,7 +13227,7 @@
                           "typeString": "literal_string \"Index out of bounds\""
                         }
                       ],
-                      "id": 911,
+                      "id": 944,
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
@@ -13241,7 +13241,7 @@
                         "typeString": "function (bool,string memory) pure"
                       }
                     },
-                    "id": 920,
+                    "id": 953,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -13257,19 +13257,19 @@
                       "typeString": "tuple()"
                     }
                   },
-                  "id": 921,
+                  "id": 954,
                   "nodeType": "ExpressionStatement",
                   "src": "3148:73:1"
                 },
                 {
                   "body": {
-                    "id": 954,
+                    "id": 987,
                     "nodeType": "Block",
                     "src": "3382:134:1",
                     "statements": [
                       {
                         "expression": {
-                          "id": 952,
+                          "id": 985,
                           "isConstant": false,
                           "isLValue": false,
                           "isPure": false,
@@ -13277,21 +13277,21 @@
                           "leftHandSide": {
                             "baseExpression": {
                               "baseExpression": {
-                                "id": 938,
+                                "id": 971,
                                 "name": "userCards",
                                 "nodeType": "Identifier",
                                 "overloadedDeclarations": [],
-                                "referencedDeclaration": 759,
+                                "referencedDeclaration": 792,
                                 "src": "3449:9:1",
                                 "typeDescriptions": {
-                                  "typeIdentifier": "t_mapping$_t_address_$_t_array$_t_struct$_Card_$753_storage_$dyn_storage_$",
+                                  "typeIdentifier": "t_mapping$_t_address_$_t_array$_t_struct$_Card_$786_storage_$dyn_storage_$",
                                   "typeString": "mapping(address => struct Authenticator.Card storage ref[] storage ref)"
                                 }
                               },
-                              "id": 942,
+                              "id": 975,
                               "indexExpression": {
                                 "expression": {
-                                  "id": 939,
+                                  "id": 972,
                                   "name": "msg",
                                   "nodeType": "Identifier",
                                   "overloadedDeclarations": [],
@@ -13302,7 +13302,7 @@
                                     "typeString": "msg"
                                   }
                                 },
-                                "id": 940,
+                                "id": 973,
                                 "isConstant": false,
                                 "isLValue": false,
                                 "isPure": false,
@@ -13323,17 +13323,17 @@
                               "nodeType": "IndexAccess",
                               "src": "3449:21:1",
                               "typeDescriptions": {
-                                "typeIdentifier": "t_array$_t_struct$_Card_$753_storage_$dyn_storage",
+                                "typeIdentifier": "t_array$_t_struct$_Card_$786_storage_$dyn_storage",
                                 "typeString": "struct Authenticator.Card storage ref[] storage ref"
                               }
                             },
-                            "id": 943,
+                            "id": 976,
                             "indexExpression": {
-                              "id": 941,
+                              "id": 974,
                               "name": "i",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 923,
+                              "referencedDeclaration": 956,
                               "src": "3471:1:1",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_uint256",
@@ -13347,7 +13347,7 @@
                             "nodeType": "IndexAccess",
                             "src": "3449:24:1",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_struct$_Card_$753_storage",
+                              "typeIdentifier": "t_struct$_Card_$786_storage",
                               "typeString": "struct Authenticator.Card storage ref"
                             }
                           },
@@ -13356,21 +13356,21 @@
                           "rightHandSide": {
                             "baseExpression": {
                               "baseExpression": {
-                                "id": 944,
+                                "id": 977,
                                 "name": "userCards",
                                 "nodeType": "Identifier",
                                 "overloadedDeclarations": [],
-                                "referencedDeclaration": 759,
+                                "referencedDeclaration": 792,
                                 "src": "3476:9:1",
                                 "typeDescriptions": {
-                                  "typeIdentifier": "t_mapping$_t_address_$_t_array$_t_struct$_Card_$753_storage_$dyn_storage_$",
+                                  "typeIdentifier": "t_mapping$_t_address_$_t_array$_t_struct$_Card_$786_storage_$dyn_storage_$",
                                   "typeString": "mapping(address => struct Authenticator.Card storage ref[] storage ref)"
                                 }
                               },
-                              "id": 947,
+                              "id": 980,
                               "indexExpression": {
                                 "expression": {
-                                  "id": 945,
+                                  "id": 978,
                                   "name": "msg",
                                   "nodeType": "Identifier",
                                   "overloadedDeclarations": [],
@@ -13381,7 +13381,7 @@
                                     "typeString": "msg"
                                   }
                                 },
-                                "id": 946,
+                                "id": 979,
                                 "isConstant": false,
                                 "isLValue": false,
                                 "isPure": false,
@@ -13402,27 +13402,27 @@
                               "nodeType": "IndexAccess",
                               "src": "3476:21:1",
                               "typeDescriptions": {
-                                "typeIdentifier": "t_array$_t_struct$_Card_$753_storage_$dyn_storage",
+                                "typeIdentifier": "t_array$_t_struct$_Card_$786_storage_$dyn_storage",
                                 "typeString": "struct Authenticator.Card storage ref[] storage ref"
                               }
                             },
-                            "id": 951,
+                            "id": 984,
                             "indexExpression": {
                               "commonType": {
                                 "typeIdentifier": "t_uint256",
                                 "typeString": "uint256"
                               },
-                              "id": 950,
+                              "id": 983,
                               "isConstant": false,
                               "isLValue": false,
                               "isPure": false,
                               "lValueRequested": false,
                               "leftExpression": {
-                                "id": 948,
+                                "id": 981,
                                 "name": "i",
                                 "nodeType": "Identifier",
                                 "overloadedDeclarations": [],
-                                "referencedDeclaration": 923,
+                                "referencedDeclaration": 956,
                                 "src": "3498:1:1",
                                 "typeDescriptions": {
                                   "typeIdentifier": "t_uint256",
@@ -13433,7 +13433,7 @@
                               "operator": "+",
                               "rightExpression": {
                                 "hexValue": "31",
-                                "id": 949,
+                                "id": 982,
                                 "isConstant": false,
                                 "isLValue": false,
                                 "isPure": true,
@@ -13460,17 +13460,17 @@
                             "nodeType": "IndexAccess",
                             "src": "3476:28:1",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_struct$_Card_$753_storage",
+                              "typeIdentifier": "t_struct$_Card_$786_storage",
                               "typeString": "struct Authenticator.Card storage ref"
                             }
                           },
                           "src": "3449:55:1",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_struct$_Card_$753_storage",
+                            "typeIdentifier": "t_struct$_Card_$786_storage",
                             "typeString": "struct Authenticator.Card storage ref"
                           }
                         },
-                        "id": 953,
+                        "id": 986,
                         "nodeType": "ExpressionStatement",
                         "src": "3449:55:1"
                       }
@@ -13481,17 +13481,17 @@
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
                     },
-                    "id": 934,
+                    "id": 967,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
                     "lValueRequested": false,
                     "leftExpression": {
-                      "id": 926,
+                      "id": 959,
                       "name": "i",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 923,
+                      "referencedDeclaration": 956,
                       "src": "3339:1:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_uint256",
@@ -13505,7 +13505,7 @@
                         "typeIdentifier": "t_uint256",
                         "typeString": "uint256"
                       },
-                      "id": 933,
+                      "id": 966,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": false,
@@ -13513,21 +13513,21 @@
                       "leftExpression": {
                         "expression": {
                           "baseExpression": {
-                            "id": 927,
+                            "id": 960,
                             "name": "userCards",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 759,
+                            "referencedDeclaration": 792,
                             "src": "3343:9:1",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_mapping$_t_address_$_t_array$_t_struct$_Card_$753_storage_$dyn_storage_$",
+                              "typeIdentifier": "t_mapping$_t_address_$_t_array$_t_struct$_Card_$786_storage_$dyn_storage_$",
                               "typeString": "mapping(address => struct Authenticator.Card storage ref[] storage ref)"
                             }
                           },
-                          "id": 930,
+                          "id": 963,
                           "indexExpression": {
                             "expression": {
-                              "id": 928,
+                              "id": 961,
                               "name": "msg",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
@@ -13538,7 +13538,7 @@
                                 "typeString": "msg"
                               }
                             },
-                            "id": 929,
+                            "id": 962,
                             "isConstant": false,
                             "isLValue": false,
                             "isPure": false,
@@ -13559,11 +13559,11 @@
                           "nodeType": "IndexAccess",
                           "src": "3343:21:1",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_array$_t_struct$_Card_$753_storage_$dyn_storage",
+                            "typeIdentifier": "t_array$_t_struct$_Card_$786_storage_$dyn_storage",
                             "typeString": "struct Authenticator.Card storage ref[] storage ref"
                           }
                         },
-                        "id": 931,
+                        "id": 964,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": false,
@@ -13581,7 +13581,7 @@
                       "operator": "-",
                       "rightExpression": {
                         "hexValue": "31",
-                        "id": 932,
+                        "id": 965,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": true,
@@ -13607,20 +13607,20 @@
                       "typeString": "bool"
                     }
                   },
-                  "id": 955,
+                  "id": 988,
                   "initializationExpression": {
                     "assignments": [
-                      923
+                      956
                     ],
                     "declarations": [
                       {
                         "constant": false,
-                        "id": 923,
+                        "id": 956,
                         "mutability": "mutable",
                         "name": "i",
                         "nameLocation": "3323:1:1",
                         "nodeType": "VariableDeclaration",
-                        "scope": 955,
+                        "scope": 988,
                         "src": "3318:6:1",
                         "stateVariable": false,
                         "storageLocation": "default",
@@ -13629,7 +13629,7 @@
                           "typeString": "uint256"
                         },
                         "typeName": {
-                          "id": 922,
+                          "id": 955,
                           "name": "uint",
                           "nodeType": "ElementaryTypeName",
                           "src": "3318:4:1",
@@ -13641,13 +13641,13 @@
                         "visibility": "internal"
                       }
                     ],
-                    "id": 925,
+                    "id": 958,
                     "initialValue": {
-                      "id": 924,
+                      "id": 957,
                       "name": "_cardIndex",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 908,
+                      "referencedDeclaration": 941,
                       "src": "3327:10:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_uint256",
@@ -13659,7 +13659,7 @@
                   },
                   "loopExpression": {
                     "expression": {
-                      "id": 936,
+                      "id": 969,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": false,
@@ -13669,11 +13669,11 @@
                       "prefix": false,
                       "src": "3377:3:1",
                       "subExpression": {
-                        "id": 935,
+                        "id": 968,
                         "name": "i",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 923,
+                        "referencedDeclaration": 956,
                         "src": "3377:1:1",
                         "typeDescriptions": {
                           "typeIdentifier": "t_uint256",
@@ -13685,7 +13685,7 @@
                         "typeString": "uint256"
                       }
                     },
-                    "id": 937,
+                    "id": 970,
                     "nodeType": "ExpressionStatement",
                     "src": "3377:3:1"
                   },
@@ -13699,21 +13699,21 @@
                       "argumentTypes": [],
                       "expression": {
                         "baseExpression": {
-                          "id": 956,
+                          "id": 989,
                           "name": "userCards",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 759,
+                          "referencedDeclaration": 792,
                           "src": "3586:9:1",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_mapping$_t_address_$_t_array$_t_struct$_Card_$753_storage_$dyn_storage_$",
+                            "typeIdentifier": "t_mapping$_t_address_$_t_array$_t_struct$_Card_$786_storage_$dyn_storage_$",
                             "typeString": "mapping(address => struct Authenticator.Card storage ref[] storage ref)"
                           }
                         },
-                        "id": 959,
+                        "id": 992,
                         "indexExpression": {
                           "expression": {
-                            "id": 957,
+                            "id": 990,
                             "name": "msg",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
@@ -13724,7 +13724,7 @@
                               "typeString": "msg"
                             }
                           },
-                          "id": 958,
+                          "id": 991,
                           "isConstant": false,
                           "isLValue": false,
                           "isPure": false,
@@ -13745,11 +13745,11 @@
                         "nodeType": "IndexAccess",
                         "src": "3586:21:1",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_array$_t_struct$_Card_$753_storage_$dyn_storage",
+                          "typeIdentifier": "t_array$_t_struct$_Card_$786_storage_$dyn_storage",
                           "typeString": "struct Authenticator.Card storage ref[] storage ref"
                         }
                       },
-                      "id": 960,
+                      "id": 993,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": false,
@@ -13759,11 +13759,11 @@
                       "nodeType": "MemberAccess",
                       "src": "3586:25:1",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_function_arraypop_nonpayable$_t_array$_t_struct$_Card_$753_storage_$dyn_storage_ptr_$returns$__$attached_to$_t_array$_t_struct$_Card_$753_storage_$dyn_storage_ptr_$",
+                        "typeIdentifier": "t_function_arraypop_nonpayable$_t_array$_t_struct$_Card_$786_storage_$dyn_storage_ptr_$returns$__$attached_to$_t_array$_t_struct$_Card_$786_storage_$dyn_storage_ptr_$",
                         "typeString": "function (struct Authenticator.Card storage ref[] storage pointer)"
                       }
                     },
-                    "id": 961,
+                    "id": 994,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -13779,13 +13779,13 @@
                       "typeString": "tuple()"
                     }
                   },
-                  "id": 962,
+                  "id": 995,
                   "nodeType": "ExpressionStatement",
                   "src": "3586:27:1"
                 }
               ]
             },
-            "id": 964,
+            "id": 997,
             "implemented": true,
             "kind": "function",
             "modifiers": [],
@@ -13793,17 +13793,17 @@
             "nameLocation": "3094:13:1",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 909,
+              "id": 942,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 908,
+                  "id": 941,
                   "mutability": "mutable",
                   "name": "_cardIndex",
                   "nameLocation": "3116:10:1",
                   "nodeType": "VariableDeclaration",
-                  "scope": 964,
+                  "scope": 997,
                   "src": "3108:18:1",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -13812,7 +13812,7 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 907,
+                    "id": 940,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
                     "src": "3108:7:1",
@@ -13827,19 +13827,19 @@
               "src": "3107:20:1"
             },
             "returnParameters": {
-              "id": 910,
+              "id": 943,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "3137:0:1"
             },
-            "scope": 965,
+            "scope": 998,
             "src": "3085:536:1",
             "stateMutability": "nonpayable",
             "virtual": false,
             "visibility": "internal"
           }
         ],
-        "scope": 966,
+        "scope": 999,
         "src": "69:3555:1",
         "usedErrors": []
       }
@@ -14126,10 +14126,22 @@
       "links": {},
       "address": "0x8CdaF0CD259887258Bc13a92C0a6dA92698644C0",
       "transactionHash": "0x9fa14ea5a5e5f59c73dd8995ec6f881ddc231f64a064e8d4a4e89909cf83ab96"
+    },
+    "1688734464288": {
+      "events": {},
+      "links": {},
+      "address": "0x8CdaF0CD259887258Bc13a92C0a6dA92698644C0",
+      "transactionHash": "0x9fa14ea5a5e5f59c73dd8995ec6f881ddc231f64a064e8d4a4e89909cf83ab96"
+    },
+    "1688736804033": {
+      "events": {},
+      "links": {},
+      "address": "0x8CdaF0CD259887258Bc13a92C0a6dA92698644C0",
+      "transactionHash": "0x9fa14ea5a5e5f59c73dd8995ec6f881ddc231f64a064e8d4a4e89909cf83ab96"
     }
   },
   "schemaVersion": "3.4.14",
-  "updatedAt": "2023-07-07T07:59:51.230Z",
+  "updatedAt": "2023-07-07T13:33:29.439Z",
   "networkType": "ethereum",
   "devdoc": {
     "kind": "dev",

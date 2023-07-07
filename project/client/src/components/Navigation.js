@@ -39,8 +39,8 @@ const Navigation = (props) => {
               <Link to="/collection" style={{ textDecoration: "none" }}>
                 <Nav.Link href="#Collection">Your Collection</Nav.Link>
               </Link>
-              <Link to="/project" style={{ textDecoration: "none" }}>
-                <Nav.Link href="#Project">The Project</Nav.Link>
+              <Link to="/login" style={{ textDecoration: "none" }}>
+                <Nav.Link href="#Project">Grading Area</Nav.Link>
               </Link>
               <Link to="/Info" style={{ textDecoration: "none" }}>
                 <Nav.Link href="#Info">Info</Nav.Link>

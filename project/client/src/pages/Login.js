@@ -9,7 +9,6 @@ const Info = () => {
       <Navigation />
 
       <Container style={{ paddingTop: "10px" }}>
-        <Row>Login</Row>
         <div>
           <Login />
         </div>

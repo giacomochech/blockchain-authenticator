@@ -27,24 +27,18 @@ function Contract({ value }) {
       .call({ from: accounts[0] });
     setItems(cards);
     console.log("Items", items);
-    if (items[0].cardCode === searchTerm) {
-      setSearchResult("Found");
-    } else {
-      setSearchResult("Not Found");
+    for (let i = 0; i < items.length; i++) {
+      if (items[i].cardCode === searchTerm) {
+        setSearchResult("Found");
+      } else {
+        setSearchResult("Not Found");
+      }
     }
-
-    // let foundItem = "";
-    // for (let i = 0; i < 3; i++) {
-    //   if (items[i] === searchTerm) {
-    //     foundItem = items[i];
-    //   } else {
-    //     setSearchResult("Not Found");
-    //   }
-    // }
-    // setSearchResult(foundItem);
-    // if (foundItem) {
+    // if (items[0].cardCode === searchTerm) {
     //   setSearchResult("Found");
-    //}
+    // } else {
+    //   setSearchResult("Not Found");
+    // }
   };
 
   const transferCard = async (e) => {
@@ -79,7 +73,7 @@ function Contract({ value }) {
           <li>Card Name: {items[1]}</li>
         </ul> */}
       </div>
-      <div>
+      {/* <div>
         <input
           type="text"
           placeholder="Search"
@@ -88,7 +82,7 @@ function Contract({ value }) {
         />
         <button onClick={searchItems}>Search</button>
         <p>Result: {searchResult}</p>
-      </div>
+      </div> */}
 
       <form onSubmit={transferCard}>
         <div>
