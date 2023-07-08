@@ -9,7 +9,7 @@ const Info = () => {
       <Navigation />
 
       <Container style={{ paddingTop: "10px" }}>
-        <Row>NFTMarketplace</Row>
+        {/* <Row>NFTMarketplace</Row> */}
         <div>
           <Marketplace />
         </div>

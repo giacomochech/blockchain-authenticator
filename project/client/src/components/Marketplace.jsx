@@ -2,8 +2,8 @@ import Navbar from "./Navigation";
 import NFTTile from "./NFTTile";
 import axios from "axios";
 import { useState } from "react";
+import { GetIpfsUrlFromPinata } from "../pinata";
 import useEth from "./../contexts/EthContext/useEth";
-import { GetIpfsUrlFromPinata } from "../pinata.js";
 
 export default function Marketplace() {
   const sampleData = [];
@@ -14,6 +14,11 @@ export default function Marketplace() {
   } = useEth();
   async function getAllNFTs() {
     const ethers = require("ethers");
+    // //After adding your Hardhat network to your metamask, this code will get providers and signers
+    // const provider = new ethers.providers.Web3Provider(window.ethereum);
+    // const signer = provider.getSigner();
+    // //Pull the deployed contract instance
+    // let contract = new ethers.Contract(MarketplaceJSON.address, MarketplaceJSON.abi, signer)
 
     let transaction = await contract.methods
       .getAllNFTs()
@@ -53,7 +58,6 @@ export default function Marketplace() {
   return (
     <div>
       <div className="flex flex-col place-items-center mt-20">
-        <div className="md:text-xl font-bold text-white">Top NFTs</div>
         <div className="flex mt-5 justify-between flex-wrap max-w-screen-xl text-center">
           {data.map((value, index) => {
             return <NFTTile data={value} key={index}></NFTTile>;
