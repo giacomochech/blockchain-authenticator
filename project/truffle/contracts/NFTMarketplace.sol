@@ -11,7 +11,8 @@ contract NFTMarketplace is ERC721URIStorage {
         uint256 grade;
         string condition;
         uint256 cardCode;
-        // Other variables
+        string[] owners_history;
+        uint256 owners_count;
     }
 
     mapping(address => Card[]) private userCards; // Mapping to register cards for each user
@@ -25,7 +26,9 @@ contract NFTMarketplace is ERC721URIStorage {
         string name,
         uint256 grade,
         string condition,
-        uint256 cardCode
+        uint256 cardCode,
+        string[] owners_history,
+        uint256 owners_count
     );
 
     event CardTransferred(
@@ -117,6 +120,20 @@ contract NFTMarketplace is ERC721URIStorage {
             _cardIndex < userCards[msg.sender].length,
             "Invalid card index"
         );
+        
+        userCards[msg.sender][_cardIndex].owners_history.push(addressToString(_to)); //TOO MUCH GAS
+        userCards[msg.sender][_cardIndex].owners_count++;
+
+        uint256 cardCode_tmp = userCards[msg.sender][_cardIndex].cardCode;
+
+        // Update the owners history of the card in allCards array
+        for (uint i = 0; i < allCardsCount ; i++) {
+            if (allCards[i].cardCode == cardCode_tmp) {
+                allCards[i].owners_history.push(addressToString(_to));
+                allCards[i].owners_count++;
+            }
+        }
+
         Card memory cardToTransfer = userCards[msg.sender][_cardIndex]; // Get the card to transfer
         userCards[_to].push(cardToTransfer); // Push the card to the user to whom it is being transferred
         cardCounts[msg.sender]--; // Reduce the card count of the user from whom the card is being transferred
@@ -142,14 +159,29 @@ contract NFTMarketplace is ERC721URIStorage {
             "Index out of bounds"
         );
 
+
         // Shift elements to the left starting from the element to be removed
         for (uint i = _cardIndex; i < userCards[msg.sender].length - 1; i++) {
-            //FORSE USA TROPPO GAS --> da approfondire
+            
             userCards[msg.sender][i] = userCards[msg.sender][i + 1];
         }
 
         // Resize the array by deleting the last element
         userCards[msg.sender].pop();
+    }
+
+    function addressToString(address _address) internal pure returns (string memory) {       //pure means that this function will not modify the state of the contract
+        bytes32 value = bytes32(uint256(uint160(_address)));                                //internal function to convert an address to a string
+        bytes memory alphabet = "0123456789abcdef";
+
+        bytes memory str = new bytes(42);
+        str[0] = '0';
+        str[1] = 'x';
+        for (uint256 i = 0; i < 20; i++) {
+            str[2 + i * 2] = alphabet[uint8(value[i + 12] >> 4)];
+            str[3 + i * 2] = alphabet[uint8(value[i + 12] & 0x0f)];
+        }
+        return string(str);
     }
 
     //Top level function when creating a token for the first time
@@ -173,13 +205,18 @@ contract NFTMarketplace is ERC721URIStorage {
         string memory _condition,
         uint256 _cardCode
     ) external {
-        Card memory newCard = Card(_name, _grade, _condition, _cardCode);
+        
+        string[] memory _owners_history = new string[](1);
+        _owners_history[0] = addressToString(msg.sender);  //TOO MUCH GAS?
+        
+        Card memory newCard = Card(_name, _grade, _condition, _cardCode, _owners_history,1);
+        
         userCards[msg.sender].push(newCard);
+        cardCounts[msg.sender]++;
+
         allCards.push(newCard);
         allCardsCount++;
-
-        cardCounts[msg.sender]++;
-        emit CardRegistered(msg.sender, _name, _grade, _condition, _cardCode);
+        emit CardRegistered(msg.sender, _name, _grade, _condition, _cardCode, _owners_history, 1);
     }
 
     //Helps create the object of type ListedToken for the NFT and update the idToListedToken mapping
@@ -207,30 +244,29 @@ contract NFTMarketplace is ERC721URIStorage {
 
     //Get all the NFTs currently listed for sale on the marketplace --> DA MODIFICARE
     function getAllNFTs() public view returns (ListedToken[] memory) {
-        uint256 nftCount = _tokenIDs.current();
+        uint nftCount = _tokenIDs.current();
         ListedToken[] memory tokens = new ListedToken[](nftCount);
-        uint256 currentIndex = 0;
-        uint256 currentId;
-        //at the moment currentlyListed is true for all, if it becomes false in the future we will
-        //filter out currentlyListed == false over here
-        for (uint256 i = 0; i < nftCount; i++) {
-            currentId = i + 1;
+
+        uint currentIndex = 0;
+
+        for (uint i = 0; i < nftCount; i++) {
+            uint currentId = i + 1;
             ListedToken storage currentItem = idToListedToken[currentId];
             tokens[currentIndex] = currentItem;
             currentIndex += 1;
         }
-        //the array 'tokens' has the list of all NFTs in the marketplace
+
         return tokens;
     }
 
-    //Returns all the NFTs that the current user is owner or seller in
-    function getMyNFTs() public view returns (ListedToken[] memory) {
-        uint256 totalItemCount = _tokenIDs.current();
-        uint256 itemCount = 0;
-        uint256 currentIndex = 0;
-        uint256 currentId;
+    //Get all the NFTs of the user on the marketplace --> DA MODIFICARE
+    function getAllMyNFTs() public view returns (ListedToken[] memory) {
+        uint totalItemCount = _tokenIDs.current();
+        uint itemCount = 0;
+        uint currentIndex = 0;
+        uint currentId;
         //Important to get a count of all the NFTs that belong to the user before we can make an array for them
-        for (uint256 i = 0; i < totalItemCount; i++) {
+        for (uint i = 0; i < totalItemCount; i++) {
             if (
                 idToListedToken[i + 1].owner == msg.sender ||
                 idToListedToken[i + 1].seller == msg.sender
@@ -241,7 +277,7 @@ contract NFTMarketplace is ERC721URIStorage {
 
         //Once you have the count of relevant NFTs, create an array then store all the NFTs in it
         ListedToken[] memory items = new ListedToken[](itemCount);
-        for (uint256 i = 0; i < totalItemCount; i++) {
+        for (uint i = 0; i < totalItemCount; i++) {
             if (
                 idToListedToken[i + 1].owner == msg.sender ||
                 idToListedToken[i + 1].seller == msg.sender
@@ -255,9 +291,9 @@ contract NFTMarketplace is ERC721URIStorage {
         return items;
     }
 
-    //Sell NFT to other address
+    //The function that executes the sale on the marketplace --> DA MODIFICARE
     function executeSale(uint256 tokenId) public payable {
-        uint256 price = idToListedToken[tokenId].price;
+        uint price = idToListedToken[tokenId].price;
         address seller = idToListedToken[tokenId].seller;
         require(
             msg.value == price,
@@ -267,7 +303,7 @@ contract NFTMarketplace is ERC721URIStorage {
         //update the details of the token
         idToListedToken[tokenId].currentlyListed = true;
         idToListedToken[tokenId].seller = payable(msg.sender);
-        _itemsSold.increment();
+        //_itemsSold.increment();
 
         //Actually transfer the token to the new owner
         _transfer(address(this), msg.sender, tokenId);

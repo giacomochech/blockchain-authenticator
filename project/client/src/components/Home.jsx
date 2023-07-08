@@ -111,6 +111,15 @@ function Contract({ value }) {
           <ul>
             <li>Name: {items[cardIndex].name}</li>
             <li>Description: {items[cardIndex].condition}</li>
+            <li>Grade: {items[cardIndex].grade}</li>
+            <li>History of owners:
+              <ol>
+                {items[cardIndex].owners_history.map((owner, index) => (
+                  <li key={index}>{owner}</li>
+                ))}
+              </ol>
+            </li>
+            <li>Owners count: {items[cardIndex].owners_count}</li>
             {/* <li>Numero: {items[cardIndex].cardCode}</li> */}
           </ul>
         </div>
