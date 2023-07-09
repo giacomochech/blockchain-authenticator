@@ -1,7 +1,7 @@
 import Navbar from "./Navigation";
 import NFTTile from "./NFTTile";
 import axios from "axios";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { GetIpfsUrlFromPinata } from "../pinata";
 import useEth from "./../contexts/EthContext/useEth";
 
@@ -12,6 +12,7 @@ export default function Marketplace() {
   const {
     state: { contract, accounts },
   } = useEth();
+  
   async function getAllNFTs() {
     const ethers = require("ethers");
     // //After adding your Hardhat network to your metamask, this code will get providers and signers
@@ -20,17 +21,20 @@ export default function Marketplace() {
     // //Pull the deployed contract instance
     // let contract = new ethers.Contract(MarketplaceJSON.address, MarketplaceJSON.abi, signer)
 
+    console.log("WAAAAA", accounts[0]) //LOG
     let transaction = await contract.methods
-      .getAllNFTs()
+      .getAllMyNFTs()
       .call({ from: accounts[0] });
+    console.log("transaction:", transaction); //LOG
 
     //Fetch all the details of every NFT from the contract and display
     const items = await Promise.all(
-      transaction.map(async (i) => {
+      transaction.map(async i => {
+        console.log("getting this tokenId", i.tokenID); //LOG
         var tokenURI = await contract.methods
-          .tokenURI(i.tokenId)
+          .tokenURI(i.tokenID)
           .call({ from: accounts[0] });
-        console.log("getting this tokenUri", tokenURI);
+        console.log("getting this tokenUri", tokenURI); //LOG
         tokenURI = GetIpfsUrlFromPinata(tokenURI);
         let meta = await axios.get(tokenURI);
         meta = meta.data;
@@ -38,7 +42,7 @@ export default function Marketplace() {
         let price = ethers.formatUnits(i.price.toString(), "ether");
         let item = {
           price,
-          tokenId: i.tokenId.toString(),
+          tokenId: i.tokenID.toString(),
           seller: i.seller,
           owner: i.owner,
           image: meta.image,
@@ -46,14 +50,18 @@ export default function Marketplace() {
           description: meta.description,
         };
         return item;
-      })
-    );
+      }))
 
     updateFetched(true);
     updateData(items);
   }
 
-  if (!dataFetched) getAllNFTs();
+  try{
+    if (!dataFetched) getAllNFTs();
+  }
+  catch(e){
+    console.log("error fetching NFTs", e);
+  }
 
   return (
     <div>

@@ -98,8 +98,8 @@ function Contract({ value }) {
       {searchResult === "Found" && cardIndex !== null ? (
         <div
           style={{
-            width: "400px",
-            height: "200px",
+            width: "600px",
+            height: "300px",
             backgroundColor: "green",
             borderRadius: "10px",
             padding: "40px",

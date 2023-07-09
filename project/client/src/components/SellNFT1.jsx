@@ -67,7 +67,7 @@ export default function SellNFT() {
       grade,
       description,
       price,
-      image: fileURL,
+      image: fileURL
     };
 
     try {
@@ -106,7 +106,7 @@ export default function SellNFT() {
             */
 
       //message the params to be sent to the create NFT request
-      const price = ethers.parseUnits(formParams.price, "ether");
+      const price = ethers.parseUnits(formParams.price, 'ether');
       let listingPrice = await contract.methods
         .getListPrice()
         .call({ from: accounts[0] });
