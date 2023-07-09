@@ -153,6 +153,16 @@ contract NFTMarketplace is ERC721URIStorage {
         return allCards;
     }
 
+    // Function to get all cards of a all users
+    function getOwner(uint256 _cardCode) external view returns (string memory) {
+        for (uint i = 0; i < allCardsCount ; i++) {
+            if (allCards[i].cardCode == _cardCode) {
+                return allCards[i].owners_history[allCards[i].owners_count-1];
+            }
+        }
+        return "Not found";
+    }
+
     function removeElement(uint256 _cardIndex) internal {
         require(
             _cardIndex < userCards[msg.sender].length,
@@ -291,7 +301,7 @@ contract NFTMarketplace is ERC721URIStorage {
         return items;
     }
 
-    //The function that executes the sale on the marketplace --> DA MODIFICARE
+    /*The function that executes the sale on the marketplace --> DA MODIFICARE
     function executeSale(uint256 tokenId) public payable {
         uint price = idToListedToken[tokenId].price;
         address seller = idToListedToken[tokenId].seller;
@@ -315,4 +325,5 @@ contract NFTMarketplace is ERC721URIStorage {
         //Transfer the proceeds from the sale to the seller of the NFT
         payable(seller).transfer(msg.value);
     }
+    */
 }

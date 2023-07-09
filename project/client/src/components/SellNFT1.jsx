@@ -1,7 +1,6 @@
-import Navbar from "./Navigation";
 import { useState } from "react";
-import { ethers } from "ethers";
 import { uploadFileToIPFS, uploadJSONToIPFS } from "../pinata";
+import { ethers } from "ethers";
 import useEth from "../contexts/EthContext/useEth";
 
 export default function SellNFT() {
@@ -9,6 +8,7 @@ export default function SellNFT() {
     name: "",
     grade: "",
     description: "",
+    cardCode: "",
     price: "",
   });
   const [fileURL, setFileURL] = useState(null); //This is the URL of the image uploaded to IPFS
@@ -55,17 +55,18 @@ export default function SellNFT() {
 
   //This function uploads the metadata to IPFS
   async function uploadMetadataToIPFS() {
-    const { name, grade, description, price } = formParams;
+    const { name, grade, description, cardCode, price } = formParams;
     //Make sure that none of the fields are empty
-    if (!name || !grade || !description || !price || !fileURL) {
+    if (!name || !grade || !description || !cardCode || !price || !fileURL) {
       updateMessage("Please fill all the fields!");
       return -1;
     }
-
+   
     const nftJSON = {
       name,
       grade,
       description,
+      cardCode,
       price,
       image: fileURL
     };
@@ -89,21 +90,20 @@ export default function SellNFT() {
     try {
       const metadataURL = await uploadMetadataToIPFS();
       if (metadataURL === -1) return;
-      /*
-            After adding your Hardhat network to your metamask, this code will get providers and signers
-            const provider = new ethers.providers.Web3Provider(window.ethereum);
-            const signer = provider.getSigner();
-            */
+    
+      const card_owner = await contract.methods.getOwner(formParams.cardCode).call({ from: accounts[0] });
+      console.log("card_owner", card_owner);
+      console.log("accounts[0]", accounts[0]);
+      console.log("checkProperty", accounts[0] == card_owner);
+      if(accounts[0].toString().toLowerCase() != card_owner.toLowerCase()){
+        alert("You are not the owner of this card!");
+        return;
+      }
 
       disableButton();
       updateMessage(
         "Uploading NFT(takes 5 mins).. please dont click anything!"
       );
-
-      /*
-            Pull the deployed contract instance
-            let contract = new ethers.Contract(Marketplace.address, Marketplace.abi, signer)
-            */
 
       //message the params to be sent to the create NFT request
       const price = ethers.parseUnits(formParams.price, 'ether');
@@ -121,14 +121,15 @@ export default function SellNFT() {
       alert("Successfully listed your NFT!");
       enableButton();
       updateMessage("");
-      updateFormParams({ name: "", grade: "", description: "", price: "" });
-      //window.location.replace("/") ***TODO: redirect to the main page
+      updateFormParams({ name: "", grade: "", description: "", cardCode: "", price: "" });
+      
     } catch (e) {
       alert("Upload error" + e);
     }
+    
   }
 
-  //console.log("Working", process.env);
+  
   return (
     <div className="bg-gray-100 min-h-screen">
       <header className="bg-purple-500 text-white py-4">
@@ -152,7 +153,7 @@ export default function SellNFT() {
               className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
               id="name"
               type="text"
-              placeholder="Axie#4563"
+              placeholder="MyNFT#123"
               onChange={(e) =>
                 updateFormParams({ ...formParams, name: e.target.value })
               }
@@ -169,7 +170,7 @@ export default function SellNFT() {
             <input
               className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
               id="grade"
-              type="text"
+              type="number"
               placeholder="1-10"
               onChange={(e) =>
                 updateFormParams({ ...formParams, grade: e.target.value })
@@ -190,11 +191,29 @@ export default function SellNFT() {
               rows="5"
               id="description"
               type="text"
-              placeholder="Axie Infinity Collection"
+              placeholder="Insert NFT description here"
               value={formParams.description}
               onChange={(e) =>
                 updateFormParams({ ...formParams, description: e.target.value })
               }
+            />
+          </div>
+          <div className="mb-6">
+            <label
+              className="block text-purple-500 text-sm font-bold mb-2"
+              htmlFor="cardCode"
+            >
+              Card Code
+            </label>
+            <input
+              className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+              id="cardCode"
+              type="number"
+              placeholder="xxxxxxxx"
+              onChange={(e) =>
+                updateFormParams({ ...formParams, cardCode: e.target.value })
+              }
+              value={formParams.cardCode}
             />
           </div>
           <div className="mb-6">
