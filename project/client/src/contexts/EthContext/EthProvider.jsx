@@ -29,7 +29,7 @@ function EthProvider({ children }) {
   useEffect(() => {
     const tryInit = async () => {
       try {
-        const artifact = require("../../contracts/NFTMarketplace.json"); // artifact is the ABI of the contract, the ABI is the interface of the contract that allows us to interact with it
+        const artifact = require("../../contracts/CardAuthenticator.json"); // artifact is the ABI of the contract, the ABI is the interface of the contract that allows us to interact with it
         init(artifact); // init is the function that we defined above
       } catch (err) {
         console.error(err);

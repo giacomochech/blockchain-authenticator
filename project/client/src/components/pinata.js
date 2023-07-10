@@ -1,5 +1,5 @@
 //require('dotenv').config();
-const key = "67c0395155edd9627030";             //TODO: DA SISTEMARE PER EVITARE LE CHIAVI IN CHIARO
+const key = "67c0395155edd9627030";             //TODO: The keys are in clear, we now that is a terrible practice but we had problmes setting the .env file
 const secret = "269534cdc7891567c49e1112254074a2d3e83fde13f3278524c94eb826a6123a";
 
 const axios = require('axios');

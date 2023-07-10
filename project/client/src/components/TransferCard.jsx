@@ -34,16 +34,11 @@ function TransferCard({ value }) {
         setSearchResult("Not Found");
       }
     }
-    // if (items[0].cardCode === searchTerm) {
-    //   setSearchResult("Found");
-    // } else {
-    //   setSearchResult("Not Found");
-    // }
+    
   };
 
   const transferCard = async (e) => {
     e.preventDefault();
-    // Handle form submission logic here
 
     console.log("Card Index:", cardIndex);
     console.log("Card Receiver:", cardReceiver);
@@ -51,8 +46,6 @@ function TransferCard({ value }) {
     if (e.target.tagName === "INPUT") {
       return;
     }
-
-    //Aggiungi controlli input
 
     await contract.methods
       .transferCard(cardReceiver, cardIndex)

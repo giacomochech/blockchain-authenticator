@@ -4,7 +4,7 @@ import { Link, useParams } from "react-router-dom";
 import Select from "react-select";
 import { useHistory } from "react-router-dom";
 import logo from "../media/logo.png";
-//import logo from "../media/logo.png";
+
 
 const Navigation = (props) => {
   const options = [];

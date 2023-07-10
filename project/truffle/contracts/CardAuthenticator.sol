@@ -1,11 +1,11 @@
 //SPDX-License-Identifier: Unlicensed
 pragma solidity ^0.8.0;
 
-import "./../node_modules/@openzeppelin/contracts/token/ERC721/ERC721.sol"; //TODO: magari si può chiamare in maniera più carina
-import "./../node_modules/@openzeppelin/contracts/token/ERC721//extensions/ERC721URIStorage.sol"; //TODO: magari si può chiamare in maniera più carina
+import "./../node_modules/@openzeppelin/contracts/token/ERC721/ERC721.sol"; 
+import "./../node_modules/@openzeppelin/contracts/token/ERC721//extensions/ERC721URIStorage.sol"; 
 import "./../node_modules/@openzeppelin/contracts/utils/Counters.sol";
 
-contract NFTMarketplace is ERC721URIStorage {
+contract CardAuthenticator is ERC721URIStorage {
     struct Card {
         string name;
         uint256 grade;
@@ -71,8 +71,6 @@ contract NFTMarketplace is ERC721URIStorage {
         owner = payable(msg.sender); //only the owner gets a revenue when the marketplace is used, payable means that this address is eligible to receive some eth
     }
 
-    // HELPER FUNCTIONS
-
     function updateListPrice(uint256 _listPrice) public payable {
         require(owner == msg.sender, "Only the owner can perform this action");
         listPrice = _listPrice;
@@ -101,8 +99,6 @@ contract NFTMarketplace is ERC721URIStorage {
     function getCurrentToken() public view returns (uint256) {
         return _tokenIDs.current();
     }
-
-    //CORE FUNCTIONS
 
     // Function to get card count of a user by address
     function getCardCount(address _user) external view returns (uint256) {
@@ -217,7 +213,7 @@ contract NFTMarketplace is ERC721URIStorage {
     ) external {
         
         string[] memory _owners_history = new string[](1);
-        _owners_history[0] = addressToString(msg.sender);  //TOO MUCH GAS?
+        _owners_history[0] = addressToString(msg.sender);
         
         Card memory newCard = Card(_name, _grade, _condition, _cardCode, _owners_history,1);
         
@@ -252,7 +248,7 @@ contract NFTMarketplace is ERC721URIStorage {
         );
     }
 
-    //Get all the NFTs currently listed for sale on the marketplace --> DA MODIFICARE
+    //Get all the NFTs currently listed for sale on the marketplace
     function getAllNFTs() public view returns (ListedToken[] memory) {
         uint nftCount = _tokenIDs.current();
         ListedToken[] memory tokens = new ListedToken[](nftCount);
@@ -269,7 +265,7 @@ contract NFTMarketplace is ERC721URIStorage {
         return tokens;
     }
 
-    //Get all the NFTs of the user on the marketplace --> DA MODIFICARE
+    //Get all the NFTs of the user on the marketplace
     function getAllMyNFTs() public view returns (ListedToken[] memory) {
         uint totalItemCount = _tokenIDs.current();
         uint itemCount = 0;
@@ -301,7 +297,7 @@ contract NFTMarketplace is ERC721URIStorage {
         return items;
     }
 
-    /*The function that executes the sale on the marketplace --> DA MODIFICARE
+    /*The function that executes the sale on the marketplace 
     function executeSale(uint256 tokenId) public payable {
         uint price = idToListedToken[tokenId].price;
         address seller = idToListedToken[tokenId].seller;

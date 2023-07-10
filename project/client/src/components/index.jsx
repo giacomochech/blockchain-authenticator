@@ -12,8 +12,6 @@ function Demo() {
   const demo = (
     <>
       <div className="contract-container">
-        {/* <Contract  />
-        <ContractBtns  /> */}
         <YourCollection />
         <SellNFT />
       </div>

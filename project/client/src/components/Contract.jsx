@@ -34,11 +34,7 @@ function Contract({ value }) {
         setSearchResult("Not Found");
       }
     }
-    // if (items[0].cardCode === searchTerm) {
-    //   setSearchResult("Found");
-    // } else {
-    //   setSearchResult("Not Found");
-    // }
+    
   };
 
   const transferCard = async (e) => {

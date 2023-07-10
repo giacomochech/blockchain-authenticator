@@ -116,7 +116,7 @@ export default function SellNFT() {
       let transaction = await contract.methods
         .createToken(metadataURL, price)
         .send({ from: accounts[0], value: listingPrice });
-      //await transaction.wait();
+      
 
       alert("Successfully listed your NFT!");
       enableButton();
@@ -134,13 +134,13 @@ export default function SellNFT() {
     <div className="bg-gray-100 min-h-screen">
       <header className="bg-purple-500 text-white py-4">
         <nav className="container mx-auto flex items-center justify-between">
-          <h1 className="text-2xl font-bold">NFT Marketplace</h1>
+          <h1 className="text-2xl font-bold">NFT creation</h1>
         </nav>
       </header>
       <main className="container mx-auto py-10">
         <div className="max-w-md mx-auto bg-white shadow-md rounded px-8 py-6">
           <h3 className=" text-purple-500 text-xl font-bold mb-6">
-            Upload your NFT to the marketplace
+            Upload your NFT 
           </h3>
           <div className="mb-6">
             <label

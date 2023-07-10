@@ -120,7 +120,7 @@ function Contract({ value }) {
               </ol>
             </li>
             <li>Owners count: {items[cardIndex].owners_count}</li>
-            {/* <li>Numero: {items[cardIndex].cardCode}</li> */}
+            {/* <li>Number: {items[cardIndex].cardCode}</li> */}
           </ul>
         </div>
       ) : (

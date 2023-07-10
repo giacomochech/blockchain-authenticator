@@ -16,20 +16,20 @@ export default function Marketplace() {
   async function getAllNFTs() {
     const ethers = require("ethers");
    
-    //console.log("AAAAA", accounts[0]) //LOG
+    
     let transaction = await contract.methods
       .getAllMyNFTs()
       .call({ from: accounts[0] });
-    //console.log("transaction:", transaction); //LOG
+    
 
     //Fetch all the details of every NFT from the contract and display
     const items = await Promise.all(
       transaction.map(async i => {
-        //console.log("getting this tokenId", i.tokenID); //LOG
+        
         var tokenURI = await contract.methods
           .tokenURI(i.tokenID)
           .call({ from: accounts[0] });
-        //console.log("getting this tokenUri", tokenURI); //LOG
+        
         tokenURI = GetIpfsUrlFromPinata(tokenURI);
         let meta = await axios.get(tokenURI);
         meta = meta.data;

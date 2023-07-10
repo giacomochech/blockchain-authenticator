@@ -1,24 +1,24 @@
 const assert = require("assert");
 
-const NFTMarketplace = artifacts.require("NFTMarketplace");
+const CardAuthenticator = artifacts.require("CardAuthenticator");
 
-contract("NFTMarketplace", (accounts) => {
+contract("CardAuthenticator", (accounts) => {
   it("should return all user cards", async () => {
-    const nftMarketplace = await NFTMarketplace.deployed();
+    const cardAuth = await CardAuthenticator.deployed();
   
     // Registra alcune carte per diversi utenti
-    await nftMarketplace.registerCard(
+    await cardAuth.registerCard(
       "Charizard",
       9,
       "Mint",
       1,
       {from: accounts[0]}
       );
-    await nftMarketplace.registerCard("Pikachu", 10, "Mint",2,{from: accounts[1]});
-    await nftMarketplace.registerCard("Bulbasaur", 8, "Near Mint",3,{from: accounts[2]});
+    await cardAuth.registerCard("Pikachu", 10, "Mint",2,{from: accounts[1]});
+    await cardAuth.registerCard("Bulbasaur", 8, "Near Mint",3,{from: accounts[2]});
   
     // Ottieni tutte le carte di tutti gli utenti
-    const allUserCards = await nftMarketplace.getAllUserCards();
+    const allUserCards = await cardAuth.getAllUserCards();
   
     // Verifica che tutte le carte registrate siano presenti nell'array restituito
     assert.equal(allUserCards.length, 3, "Unexpected number of cards");
@@ -56,14 +56,14 @@ contract("NFTMarketplace", (accounts) => {
   });
 });
 
-contract("NFTMarketplace", (accounts) => {
+contract("CardAuthenticator", (accounts) => {
 
   ///////REGISTER FUNCTION//////////7
   it("should register a new card", async () => {
-    const nftMarketplace = await NFTMarketplace.deployed();
+    const cardAuth = await CardAuthenticator.deployed();
 
     // Chiamata alla funzione `registerCard` per registrare una nuova carta
-    await nftMarketplace.registerCard(
+    await cardAuth.registerCard(
       "Charizard",
       9,
       "Mint",
@@ -72,10 +72,10 @@ contract("NFTMarketplace", (accounts) => {
     );
 
     // Verifica che la carta sia stata registrata correttamente
-    const cardCount = await nftMarketplace.getCardCount(accounts[0]);
+    const cardCount = await cardAuth.getCardCount(accounts[0]);
     assert.equal(cardCount, 1, "Unexpected card count");
 
-    const userCards = await nftMarketplace.getUserCards(accounts[0]);
+    const userCards = await cardAuth.getUserCards(accounts[0]);
     assert.equal(userCards.length, 1, "Unexpected number of user cards");
     assert.equal(userCards[0].name, "Charizard", "Unexpected card name");
     assert.equal(userCards[0].grade, 9, "Unexpected card grade");
@@ -88,10 +88,10 @@ contract("NFTMarketplace", (accounts) => {
 
   /////////CARD TRANSFER TEST///////////////////////////////
   it("should transfer a card from one user to another", async () => {
-    const nftMarketplace = await NFTMarketplace.deployed();
+    const cardAuth = await CardAuthenticator.deployed();
 
     // Chiamata alla funzione `registerCard` per registrare una carta per l'account[0]
-    await nftMarketplace.registerCard(
+    await cardAuth.registerCard(
       "Charizard",
       9,
       "Mint",
@@ -100,14 +100,14 @@ contract("NFTMarketplace", (accounts) => {
     );
 
     // Chiamata alla funzione `transferCard` per trasferire la carta dall'account[0] all'account[1]
-    await nftMarketplace.transferCard(
+    await cardAuth.transferCard(
       accounts[1],
       0,
       { from: accounts[0] }
     );
 
     // Ottieni le carte degli account[1]
-    const userCards = await nftMarketplace.getUserCards(accounts[1]);
+    const userCards = await cardAuth.getUserCards(accounts[1]);
 
     // Verifica che la carta sia stata trasferita correttamente
     assert.equal(userCards.length, 1, "Unexpected number of cards");
@@ -124,19 +124,19 @@ contract("NFTMarketplace", (accounts) => {
 
   //////////TRANSFER CARD SBAGLIATO/////////////////////
   it("should revert when transferring a non-existing card", async () => {
-    const nftMarketplace = await NFTMarketplace.deployed();
+    const cardAuth = await CardAuthenticator.deployed();
 
     // Verifica che l'account[2] non abbia ancora nessuna carta
-    const cardCountSender = await nftMarketplace.getUserCards(accounts[2]);
+    const cardCountSender = await cardAuth.getUserCards(accounts[2]);
     assert.equal(cardCountSender.length, 0, "Unexpected card count for sender");
 
     // Verifica che l'account[3] non abbia ancora nessuna carta
-    const cardCountReceiver = await nftMarketplace.getCardCount(accounts[3]);
+    const cardCountReceiver = await cardAuth.getCardCount(accounts[3]);
     assert.equal(cardCountReceiver, 0, "Unexpected card count for receiver");
 
     // Tenta di trasferire una carta inesistente dall'account[2] all'account[3]
     try {
-      await nftMarketplace.transferCard(accounts[3], 0, { from: accounts[2] });
+      await cardAuth.transferCard(accounts[3], 0, { from: accounts[2] });
       assert.fail("Expected revert exception");
     } catch (error) {
       assert(
@@ -146,25 +146,25 @@ contract("NFTMarketplace", (accounts) => {
     }
 
     // Verifica che il conteggio delle carte sia rimasto invariato
-    const finalCardCountSender = await nftMarketplace.getCardCount(accounts[2]);
+    const finalCardCountSender = await cardAuth.getCardCount(accounts[2]);
     assert.equal(finalCardCountSender, 0, "Unexpected card count for sender");
-    const finalCardCountReceiver = await nftMarketplace.getCardCount(accounts[3]);
+    const finalCardCountReceiver = await cardAuth.getCardCount(accounts[3]);
     assert.equal(finalCardCountReceiver, 0, "Unexpected card count for receiver");
   });
   
   ////////////7TEST COUNT /////////////////////////7
   it("should return the correct card count for a user", async () => {
-    const nftMarketplace = await NFTMarketplace.deployed();
+    const cardAuth = await CardAuthenticator.deployed();
 
     // Chiamata alla funzione `registerCard` per registrare due carte per l'account[0]
-    await nftMarketplace.registerCard(
+    await cardAuth.registerCard(
       "Charizard",
       9,
       "Mint",
       6,
       { from: accounts[4] }
     );
-    await nftMarketplace.registerCard(
+    await cardAuth.registerCard(
       "Pikachu",
       10,
       "Mint",
@@ -173,7 +173,7 @@ contract("NFTMarketplace", (accounts) => {
     );
 
     // Ottieni il conteggio delle carte dell'account[0]
-    const cardCount = await nftMarketplace.getCardCount(accounts[4]);
+    const cardCount = await cardAuth.getCardCount(accounts[4]);
 
     // Verifica che il conteggio delle carte sia corretto (2)
     assert.equal(cardCount, 2, "Unexpected card count for user");
@@ -187,13 +187,13 @@ contract("NFTMarketplace", (accounts) => {
 
 });
 
-contract("NFTMarketplace", accounts => {
+contract("CardAuthenticator", accounts => {
   ///////////7CREATE TOKEN/////////////////////////
   it("should create a new token", async () => {
-    const nftMarketplace = await NFTMarketplace.deployed();
+    const cardAuth = await CardAuthenticator.deployed();
 
     // Chiamata alla funzione `createToken` per creare un nuovo token
-    const tokenID = await nftMarketplace.createToken(
+    const tokenID = await cardAuth.createToken(
       "https://gateway.pinata.cloud/ipfs/QmYokg8wYFVLXGGyFXni4GwDeGtPnFwmSMGrGv1rZou4ys",
       web3.utils.toWei("1", "ether"),
       { from: accounts[0], value: web3.utils.toWei("0.01", "ether") }
@@ -203,19 +203,19 @@ contract("NFTMarketplace", accounts => {
     //assert.equal(tokenID.toString(), "1", "Unexpected token ID");
 
     // Verifica che gli eventi siano stati emessi correttamente
-    const tokenListedEvents = await nftMarketplace.getPastEvents("TokenListedSuccess");
+    const tokenListedEvents = await cardAuth.getPastEvents("TokenListedSuccess");
     assert.equal(tokenListedEvents.length, 1, "Unexpected number of TokenListedSuccess events");
 
     const tokenListedEvent = tokenListedEvents[0];
     assert.equal(tokenListedEvent.returnValues.tokenId.toString(), "1", "Unexpected token ID in TokenListedSuccess event");
-    assert.equal(tokenListedEvent.returnValues.owner, nftMarketplace.address, "Unexpected owner address in TokenListedSuccess event");
+    assert.equal(tokenListedEvent.returnValues.owner, cardAuth.address, "Unexpected owner address in TokenListedSuccess event");
     assert.equal(tokenListedEvent.returnValues.seller, accounts[0], "Unexpected seller address in TokenListedSuccess event");
     assert.equal(tokenListedEvent.returnValues.price.toString(), web3.utils.toWei("1", "ether"), "Unexpected token price in TokenListedSuccess event");
     assert.equal(tokenListedEvent.returnValues.currentlyListed, true, "Unexpected currentlyListed value in TokenListedSuccess event");
   });
   //////////////////////////EXECUTE SALE//////////////////////////
   /*it("should execute a sale and transfer the token to the new owner", async () => {
-    const nftMarketplace = await NFTMarketplace.deployed();
+    const cardAuth = await CardAuthenticator.deployed();
   
     const tokenId = 1;
     const seller = accounts[0];
@@ -224,11 +224,11 @@ contract("NFTMarketplace", accounts => {
   
     const sellerBalanceBefore = await web3.eth.getBalance(seller);
     // Eseguire l'acquisto del token da parte dell'acquirente
-    await nftMarketplace.executeSale(tokenId, { from: buyer, value: tokenPrice });
+    await cardAuth.executeSale(tokenId, { from: buyer, value: tokenPrice });
   
     const sellerBalanceAfter = await web3.eth.getBalance(seller);
     // Verificare che il token sia stato trasferito correttamente al nuovo proprietario
-    const owner = await nftMarketplace.ownerOf(tokenId);
+    const owner = await cardAuth.ownerOf(tokenId);
     assert.equal(owner, buyer, "Unexpected owner after sale");
     // Verifica saldo
     const expectedSellerBalance = web3.utils.fromWei(sellerBalanceBefore + tokenPrice, "ether");
@@ -237,50 +237,50 @@ contract("NFTMarketplace", accounts => {
   
   //////////////GET ALL THE TOKEN/////////////////////////////////////
   it("should get all the tokens", async () => {
-    const nftMarketplace = await NFTMarketplace.deployed();
+    const cardAuth = await CardAuthenticator.deployed();
 
     //Create new token for account[0] with tokenID 2
-    const tokenID = await nftMarketplace.createToken(
+    const tokenID = await cardAuth.createToken(
       "https://gateway.pinata.cloud/ipfs/QmYokg8wYFVLXGGyFXni4GwDeGtPnFwmSMGrGv1rZou4ys",
       web3.utils.toWei("1", "ether"),
       { from: accounts[1], value: web3.utils.toWei("0.01", "ether") }
     );
     // Call getAllNFTs() to retrieve all tokens
-    const tokens = await nftMarketplace.getAllNFTs();
+    const tokens = await cardAuth.getAllNFTs();
     // Verify the returned tokens
     assert.equal(tokens.length, 2, "Unexpected number of tokens");
 
     assert.equal(tokens[0].tokenID, 1, "Unexpected token ID");
-    assert.equal(tokens[0].owner, nftMarketplace.address, "Unexpected owner address");
+    assert.equal(tokens[0].owner, cardAuth.address, "Unexpected owner address");
     assert.equal(tokens[0].seller, accounts[0], "Unexpected seller address");
     assert.equal(tokens[0].price, web3.utils.toWei("1", "ether"), "Unexpected token price");
     assert.equal(tokens[0].currentlyListed, true, "Token should be currently listed");
 
     assert.equal(tokens[1].tokenID, 2, "Unexpected token ID");
-    assert.equal(tokens[1].owner, nftMarketplace.address, "Unexpected owner address");
+    assert.equal(tokens[1].owner, cardAuth.address, "Unexpected owner address");
     assert.equal(tokens[1].seller, accounts[1], "Unexpected seller address");
     assert.equal(tokens[1].price, web3.utils.toWei("1", "ether"), "Unexpected token price");
     assert.equal(tokens[1].currentlyListed, true, "Token should be currently listed");
   });
   ////////7GET ALL TOKEN OF A USER//////////////////////////
   it("should get all the tokens of a user", async () => {
-    const nftMarketplace = await NFTMarketplace.deployed();
+    const cardAuth = await CardAuthenticator.deployed();
 
     //Create new token for account[0] with tokenID 3
-    const tokenID = await nftMarketplace.createToken(
+    const tokenID = await cardAuth.createToken(
       "https://gateway.pinata.cloud/ipfs/QmYokg8wYFVLXGGyFXni4GwDeGtPnFwmSMGrGv1rZou4ys",
       web3.utils.toWei("0.5", "ether"),
       { from: accounts[0], value: web3.utils.toWei("0.01", "ether") }
     );
-    const tokens = await nftMarketplace.getAllMyNFTs({ from: accounts[0] });
+    const tokens = await cardAuth.getAllMyNFTs({ from: accounts[0] });
     assert.equal(tokens[0].tokenID, 1, "Unexpected token ID");
-    assert.equal(tokens[0].owner, nftMarketplace.address, "Unexpected owner address");
+    assert.equal(tokens[0].owner, cardAuth.address, "Unexpected owner address");
     assert.equal(tokens[0].seller, accounts[0], "Unexpected seller address");
     assert.equal(tokens[0].price, web3.utils.toWei("1", "ether"), "Unexpected token price");
     assert.equal(tokens[0].currentlyListed, true, "Token should be currently listed");
 
     assert.equal(tokens[1].tokenID, 3, "Unexpected token ID");
-    assert.equal(tokens[1].owner, nftMarketplace.address, "Unexpected owner address");
+    assert.equal(tokens[1].owner, cardAuth.address, "Unexpected owner address");
     assert.equal(tokens[1].seller, accounts[0], "Unexpected seller address");
     assert.equal(tokens[1].price, web3.utils.toWei("0.5", "ether"), "Unexpected token price");
     assert.equal(tokens[1].currentlyListed, true, "Token should be currently listed");
@@ -288,7 +288,7 @@ contract("NFTMarketplace", accounts => {
   });
   //////////////////////////NOT EXECUTE SALE//////////////////////////
   /*it("should not execute a sale and transfer the token to the new owner", async () => {
-    const nftMarketplace = await NFTMarketplace.deployed();
+    const cardAuth = await CardAuthenticator.deployed();
 
     const tokenId = 2;
     const seller = accounts[1];
@@ -298,12 +298,12 @@ contract("NFTMarketplace", accounts => {
     const sellerBalanceBefore = await web3.eth.getBalance(seller);
     // Eseguire l'acquisto del token da parte dell'acquirente
     
-    await nftMarketplace.executeSale(tokenId, { from: buyer, value: tokenPrice });
+    await cardAuth.executeSale(tokenId, { from: buyer, value: tokenPrice });
      
   
     const sellerBalanceAfter = await web3.eth.getBalance(seller);
     // Verifica che il token non sia stato trasferito al nuovo proprietario
-    const owner = await nftMarketplace.ownerOf(tokenId);
+    const owner = await cardAuth.ownerOf(tokenId);
     assert.equal(owner, accounts[0], "Unexpected owner after sale");
     // Verifica che il saldo del venditore sia rimasto lo stesso
     assert.equal(sellerBalanceBefore.toString(), sellerBalanceAfter.toString(), "Unexpected seller balance after sale");*/
